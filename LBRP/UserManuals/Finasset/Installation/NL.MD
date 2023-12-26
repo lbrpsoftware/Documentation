@@ -1,4 +1,6 @@
-# 1. Download Finasset
+# Installatie Finasset
+
+## 1. Download Finasset
 
 Het bestand FinassetSetup.exe kan gedownload worden van de website:
 
