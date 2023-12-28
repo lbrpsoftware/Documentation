@@ -145,7 +145,7 @@ FinassetCmd.exe /host:localhost /db:Finasset /BackupXml /BackupPdf /BackupPath:C
 
 8. De optie '**Geavanceerde eigenschappen voor deze taak openen wanneer ik op Voltooien klik**' aanvinken. Op **Voltooien** klikken.
 
-   ![image 8a](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003339841/original/BCnLZ8BDrTZgXYXbqXUxFrGFZWCIZ1-nZg.png?1643376955)
+   ![image 9](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003339841/original/BCnLZ8BDrTZgXYXbqXUxFrGFZWCIZ1-nZg.png?1643376955)
 
 9. De waarde naast **Uitvoeren** moet aangepast worden. De command line parameters voor de backup moeten er namelijk aan toegevoegd worden zoals wat er moet gebackupped worden, naar waar, ... Meer uitleg over welke parameters kunt u vinden hierboven bij 3 Manueel Backup via command line parameters.
 
@@ -154,7 +154,7 @@ FinassetCmd.exe /host:localhost /db:Finasset /BackupXml /BackupPdf /BackupPath:C
    C:\\LBRP\\Clients\\Finasset\\FinassetCmd.exe /host:localhost /db:Finasset /BackupPath:C:\\LBRP\\Clients\\Finasset\\\_Backup
    ```
 
-   ![image 9](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003339844/original/rTgKw6dFkFi0yAKeYvhkpdG_TnMZfM60tg.png?1643376955)
+   ![image 10](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003339844/original/rTgKw6dFkFi0yAKeYvhkpdG_TnMZfM60tg.png?1643376955)
 
 10. Op **OK** klikken en wachtwoord opnieuw invullen van de windows gebruiker
 
