@@ -1,6 +1,6 @@
 # Finasset - Backup maken database
 
-# 1. Inleiding
+## 1. Inleiding
 
 Er zijn 3 manieren om backups van Finasset te maken:
 
