@@ -1,4 +1,6 @@
-# 1. Inleiding
+# Finasset - Importeren van Data
+
+## 1. Inleiding
 
 Dit document beschrijft welke data en op welke manier deze data kan geïmporteerd worden in Finasset.
 
@@ -8,11 +10,11 @@ Data kan geïmporteerd worden uit een CSV bestand.
 
 Dossiers, boekjaren, algemene rekeningen, investeringen, afschrijvingen en investeringsgroepen kunnen geïmporteerd worden in Finasset.
 
-# 2. Hoe importeren
+## 2. Hoe importeren
 
-## 2.1 Grafisch importeren
+### 2.1 Grafisch importeren
 
-### 2.1.1 Selectie type import
+#### 2.1.1 Selectie type import
 
 Data kan grafisch geïmporteerd worden via Menu ▶️ Parameters ▶️ Import
 
@@ -30,9 +32,7 @@ Algemene instellingen tijdens import zijn:
   - Enkel toevoegen: hierbij worden enkel maar nieuwe data toegevoegd, bestaande data wordt niet overschreven
   - Enkel update: hierbij wordt enkel maar bestaande data geupdate. Nieuwe data wordt niet geimporteerd.
 
-### 2.1.2 Import type specifieke schermen
-
-#### 2.1.2.1 Import CSV bestand
+#### 2.1.2 Import type specifieke schermen
 
 ![Image 2](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003321575/original/xfZQymPdS2ScZwB8p5iVUcDoEpPS4PopfQ.png?1643361899)
 
@@ -40,21 +40,21 @@ Bij aanvinken van vinkje gaat dit type bestand geïmporteerd worden. Indien er d
 
 Bij het drukken op Volgende worden de ingevulde velden bewaard. Op deze manier kan eenvoudig opnieuw getest worden om te importeren zonder telkens opnieuw alle instellingen te moeten ingeven.
 
-### 2.1.3 Start Import
+#### 2.1.3 Start Import
 
 Na het invullen van de import specifieke instellingen afhankelijk van het type import kan de import gestart worden door op de knop Volgende te klikken.
 
 ![Image 3](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003321663/original/vl_5ebT-oDmVENrDampPg1LplrijCOVdjA.png?1643361994)
 
-### 2.1.4 Voortgang import
+#### 2.1.4 Voortgang import
 
 Tijdens de import kan je via een progress bar zien hoe ver de import reeds is en kun je ook zien of er reeds fouten zijn opgetreden tijdens de import en/of er al zaken zijn geïmporteerd.
 
-### 2.1.5 Einde import
+#### 2.1.5 Einde import
 
 Nadat alles is geïmporteerd wordt een overzicht getoond van wat er geïmporteerd is en waar er fouten waren. Als er fouten waren in een record dan wordt deze record niet geïmporteerd.
 
-## 2.2 Via command line
+### 2.2 Via command line
 
 Het command line programma FinassetCmd.exe kan gebruikt worden om CSV bestanden te importeren via de command line.
 
@@ -175,9 +175,9 @@ Parameters specifiek import CSV bestanden:
 
 FinassetCmd.exe /host:LBRPServer /itype:c /dtype:d /iCsvDFile:dossiers.csv
 
-# 3. CSV bestandsstructuur
+## 3. CSV bestandsstructuur
 
-## 3.1 Algemene richtlijnen CSV bestand
+### 3.1 Algemene richtlijnen CSV bestand
 
 De CSV bestanden moeten voldoen aan volgende richtlijnen:
 
@@ -191,9 +191,9 @@ De CSV bestanden moeten voldoen aan volgende richtlijnen:
 - Als in document staat dat type Decimaal(2) is dan wil dit zeggen dat het getal maximum 2 getallen na het decimaal scheidingsteken kan bevatten
 - Als een veld niet het CSV bestand zit dan wordt bij een toevoeging de standaard waarde of blanco geïmporteerd. Bij een update wordt het veld niet aangepast als het niet in het CSV bestand zit.
 
-## 3.2 Standaard codes
+### 3.2 Standaard codes
 
-### 3.2.1 Landen
+#### 3.2.1 Landen
 
 **ISO 3166-1 standaard 2-letters** wordt gebruikt als land codes binnen Finasset.
 
@@ -230,11 +230,11 @@ De CSV bestanden moeten voldoen aan volgende richtlijnen:
   </tbody>
 </table>
 
-## 3.3 Mapping velden
+### 3.3 Mapping velden
 
 Hieronder staat per type import beschreven welke velden er kunnen geïmporteerd worden en wat de headernaam(veldnaam) van elk veld is, ...
 
-### 3.3.1 Dossiers
+#### 3.3.1 Dossiers
 
 <table>
   <thead>
@@ -411,7 +411,7 @@ Hieronder staat per type import beschreven welke velden er kunnen geïmporteerd 
   </tbody>
 </table>
 
-### 3.3.2 Boekjaren
+#### 3.3.2 Boekjaren
 
 Bij toevoegen van een boekjaar gaat systeem de afschrijving voor de bestaande investeringen in dat boekjaar berekenen en invoegen.
 
@@ -476,7 +476,7 @@ Als start en/of einddatum aangepast wordt dan worden de afschrijvingen voor dat 
   </tbody>
 </table>
 
-### 3.3.3 Algemene rekeningen
+#### 3.3.3 Algemene rekeningen
 
 <table>
   <thead>
@@ -534,7 +534,7 @@ Als start en/of einddatum aangepast wordt dan worden de afschrijvingen voor dat 
   </tbody>
 </table>
 
-### 3.3.4 Investeringsgroepen
+#### 3.3.4 Investeringsgroepen
 
 <table>
   <thead>
@@ -571,7 +571,7 @@ Als start en/of einddatum aangepast wordt dan worden de afschrijvingen voor dat 
   </tbody>
 </table>
 
-### 3.3.5 Investeringen
+#### 3.3.5 Investeringen
 
 Bij toevoegen van investering gaat systeem automatisch de afschrijvingen berekeningen en invoegen.
 
@@ -829,11 +829,9 @@ Bij toevoegen van investering gaat systeem automatisch de afschrijvingen bereken
 
 1️⃣ PurchaseYearCode of PurchaseYear moet ingevuld zijn. Beide mogen niet tegelijk ingevuld zijn.
 
-<!-- Added the blue 2 so make a note about that -->
-
 2️⃣ Aankoopdatum moet verplicht ingevuld worden als aankoopboekjaar pro rata is.
 
-### 3.3.6 Afschrijvingen
+#### 3.3.6 Afschrijvingen
 
 <table>
   <thead>
@@ -877,7 +875,7 @@ Bij toevoegen van investering gaat systeem automatisch de afschrijvingen bereken
   </tbody>
 </table>
 
-### 3.3.7 Overboekingen investering naar andere algemen rekening
+#### 3.3.7 Overboekingen investering naar andere algemen rekening
 
 <table>
   <thead>
@@ -964,7 +962,7 @@ De code van de nieuwe <br> investering die zal aangemaakt <br> worden op de ande
   </tbody>
 </table>
 
-### 3.3.8 Uitboeking investering
+#### 3.3.8 Uitboeking investering
 
 Als de uitboeking 100% is dan kan dit onmiddellijk gedaan worden bij importeren van de investering door BookingOutTypeCode en BookingOutYearCode in te vullen.
 
@@ -1098,7 +1096,7 @@ Is de uitboeking NIET 100% dan moet dit gedefinieerd worden in een extra bestand
 
 <!-- https://support.corpgroup.site/nl/support/solutions/articles/101000241366 -->
 
-## 3.4 Voorbeeld Excel bestand
+### 3.4 Voorbeeld Excel bestand
 
 De CSV bestanden kunnen aangemaakt worden via Excel. Hierbij moet het volgende gedaan worden:
 
