@@ -1,12 +1,16 @@
-# 1. Download Belcofin
+# Installatie Belcofin
+
+## 1. Download Belcofin
 
 Het bestand BelcofinSetup.exe kan gedownload worden van de website Download
 
+[Laatste versie Belcofin](https://kutt.ctrl.corpgroup.site/belcofin-latest-setup)
+
 Na downloaden van het bestand BelcofinSetup.exe moet u het bestand uitvoeren.
 
-# 2. BelcofinSetup uitvoeren
+## 2. BelcofinSetup uitvoeren
 
-## 2.1 Selecteer componenten
+### 2.1 Selecteer componenten
 
 Na uitvoeren van BelcofinSetup.exe komt men na enkele schermen op de scherm 'Selecteer componenten'. Dit scherm is belangrijk om te bepalen wat er moet geïnstalleerd worden. Afhankelijk van de manier waarop u Belcofin wil installeren moet hier een andere optie geselecteerd worden.
 
@@ -23,7 +27,7 @@ Mogelijke opties zijn:
 
 De opties 'Enkel client installeren' en 'Enkel server installeren' moeten enkel maar uitgevoerd worden als de file server en de Belcofin server verschillende computers zijn. Indien dit niet het geval is wordt er best gekozen voor de optie 'Client en server installeren op dezelfde machine'. Dit maakt het in de toekomst ook handiger om updates uit te voeren. Namelijk enkel op de server moet dan een installatie gebeuren ipv op elk werkstation.
 
-## 2.2 Selectie van installatie directory
+### 2.2 Selectie van installatie directory
 
 Afhankelijk van de componenten dat u geselecteerd heeft in het voorgaande scherm moet hier 1 directory of meerdere directories ingevuld worden:
 
@@ -36,7 +40,7 @@ Standaard gaat het systeem reeds enkele directories voorstellen die als men niet
 
 ![Image 2](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101031769494/original/UhR5bZrz0cq8wcfohOHEObWnaua9bCCmCg.png?1663164873)
 
-### 2.2.1 Client locatie
+#### 2.2.1 Client locatie
 
 In de client locatie zal de Belcofin client geïnstalleerd worden. Deze locatie (in dit voorbeeld C:\\LBRP\\Clients) zal nadien ook gedeeld worden met andere gebruikers indien men Belcofin wil gebruiken op meerdere computers.
 
@@ -44,7 +48,7 @@ Indien de gebruikers reeds een folder hebben, die gedeeld is op de file server e
 
 **Vergeet dan niet om de juiste directory aan te maken anders wordt Belcofin client geïnstalleerd rechtstreeks in de geselecteerde folder**. Maw kiest u voor de locatie d:\\data dan moet je de folder Belcofin aanmaken onder d:\\data en dan d:\\data\\Belcofin selecteren.
 
-### 2.2.2 Server locatie
+#### 2.2.2 Server locatie
 
 Dit is de locatie waar de Belcofin server wordt geïnstalleerd.
 
@@ -54,23 +58,23 @@ Deze locatie gaat de Belcofin server bevatten en de database van Belcofin. Deze 
 
 Indien u de server locatie zou aanpassen naar een andere locatie dan de standaard locatie vergeet dan niet om de juiste directory aan te maken anders wordt Belcofin server geïnstalleerd rechtstreeks in de geselecteerde folder. Maw kiest u voor de locatie d:\\servers dan moet je de folder LbrpDbServer aanmaken onder d:\\servers en dan d:\\servers\\LbrpDbServer selecteren.
 
-## 2.3 Selecteer menu Start map
+### 2.3 Selecteer menu Start map
 
 Indien u de Belcofin Client gaat installeren dan gaat de setup vragen in welke map in het start menu u de snelkoppeling naar Belcofin wil plaatsen. Standaard gaat het systeem deze plaatsen in de map Belcofin.
 
 ![Image 3](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101031769493/original/m2CwEjsNPpnXXfqTjnWLhzDWpHScWrhC5Q.png?1663164873)
 
-## 2.4 Selecteer extra taken
+### 2.4 Selecteer extra taken
 
 Indien u de Belcofin Client gaat installeren dan gaat de setup vragen of u een snelkoppeling van Belcofin op uw Bureaublad wil zetten. Indien u het vinkje uit zet zal er geen snelkoppeling op het bureaublad gezet worden door de setup.
 
 ![Image 4](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101031769495/original/a4cuq85KqKSmLj90_hPQsneZkVm-DuC8uA.png?1663164873)
 
-## 2.5 Einde installatie
+### 2.5 Einde installatie
 
 Indien de setup de client heeft geïnstalleerd zal hij vragen of de Belcofin client moet opgestart worden na de installatie. Op deze manier kan Belcofin reeds ingesteld worden om te worden gebruikt.
 
-# 3. Configuratie firewall server
+## 3. Configuratie firewall server
 
 Indien uw server een firewall heeft dan moet er een extra firewall regel toegevoegd worden zodat de client computers connectie kunnen maken met uw Belcofin server.
 
@@ -109,13 +113,13 @@ Indien Belcofin client en server op dezelfde machine draaien en er geen andere c
 
 ![Image 11](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101031771619/original/f70ejCFm9SVtYWVN9QFaO3IK6yb0mrAQgQ.png?1663165277)
 
-# 4. Configuratie Belcofin bij eerste gebruik
+## 4. Configuratie Belcofin bij eerste gebruik
 
-## 4.1 Belcofin opstarten
+### 4.1 Belcofin opstarten
 
 Ofwel wordt Belcofin opgestart na installatie als het vinkje is aangevinkt. In het andere geval moet Belcofin manueel opgestart worden door op de snelkoppeling van Belcofin te klikken op het bureaublad.
 
-## 4.2 Type connectie
+### 4.2 Type connectie
 
 Na het opstarten van Belcofin wordt het scherm getoond om te vragen hoe u connectie wil maken:
 
@@ -124,7 +128,7 @@ Na het opstarten van Belcofin wordt het scherm getoond om te vragen hoe u connec
 
 ![Image 12](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101031771621/original/P8c_qpNoaeRWF1oh2oXo0cxUbsqc5CdbBw.png?1663165277)
 
-### 4.2.1 Client/server connectie : Configuratie server
+#### 4.2.1 Client/server connectie : Configuratie server
 
 Het systeem gaat vragen waar de server van Belcofin is geïnstalleerd. Standaard gaat de huidige computernaam ingevuld worden. Indien Belcofin op een andere server staat dan moet hier de naam van de deze server ingevuld worden.
 
@@ -134,13 +138,13 @@ Poort nummer moet normaal niet aangepast worden tenzij dat de Belcofin server op
 
 Als de gegevens ingevuld zijn kan men op Volgende klikken. Bij het drukken op volgende gaat het systeem controleren of hij verbinding kan maken met de server. Indien niet dan wordt een foutmelding getoond.
 
-### 4.2.2 Geen server gebruiken: selectie pad waar database moet geïnstalleerd worden
+#### 4.2.2 Geen server gebruiken: selectie pad waar database moet geïnstalleerd worden
 
 Het systeem gaat standaard als pad voorstelen de locatie waar Belcofin is geïnstalleerd. Indien gewenst kunt u dit aanpassen maar we raden aan om de voorgestelde locatie te laten staan.
 
 Door op **Volgende** te klikken kan men naar het volgende scherm gaan.
 
-## 4.3 Aanmaken database
+### 4.3 Aanmaken database
 
 Nadat het systeem verbinding kon maken met de server gaat het kijken of hij reeds een Belcofin database kan vinden. Omdat dit om een nieuwe installatie gaat, gaat het systeem voorstellen om een nieuwe database met de naam Belcofin aan te maken.
 
@@ -154,7 +158,7 @@ Als de juiste database is geselecteerd of de naam van een nieuwe database is ing
 
 Door op **Volgende** te klikken kan men naar het volgende scherm gaan.
 
-## 4.4 Configuratie bewaren
+### 4.4 Configuratie bewaren
 
 Door de optie te kiezen dat de configuratie mag bewaard worden zal bij de volgende keer dat Belcofin opgestart wordt de geselecteerde server en database gebruikt worden door Belcofin.
 
@@ -164,7 +168,7 @@ Kiest men voor Nee dan zal bij de volgende keer als Belcofin opgestart wordt ter
 
 Na selecteren van de optie kan men op de knop **Volgende** klikken.
 
-## 4.5 Parameters van Belcofin invullen
+### 4.5 Parameters van Belcofin invullen
 
 Nadat de server en de database aangemaakt zijn en de configuratie bewaard gaat het systeem vragen om de parameters van Belcofin in te stellen. Deze parameters zijn de gegevens van het kantoor die Belcofin gaan gebruiken, de locatie waar de belcotax en finprof bestanden worden bewaard, hoe emails moeten verstuurd worden, ...
 
@@ -184,7 +188,7 @@ Hier kan geconfigureerd worden of Belcofin de refertes(code) van nieuwe aangever
 
 Als alles is ingevuld kan men op de knop **Bewaren** klikken.
 
-## 4.6 Einde
+### 4.6 Einde
 
 Na het invullen van de parameters wordt het scherm weergegeven dat alles goed is verlopen.
 
@@ -202,7 +206,7 @@ Als bovenaan het scherm Demo staat dan draait het programma in Demo mode. Hieron
 
 ![Image 20](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101031772669/original/54GPh6QgNx6ZQ7rEG6sy1Vg5DCfYSBNF1w.png?1663165501)
 
-# 5. Aanvraag licentie
+## 5. Aanvraag licentie
 
 De procedure om een licentie aan te vragen is als volgt:
 
@@ -230,9 +234,9 @@ Aanvragen van Licentie worden door ons manueel verwerkt en daarom kan het even d
 
 De Belcofin server moet toegang hebben tot het internet om een Licentie aan te vragen en om een Licentie op te vragen.
 
-# 6. Belcofin client toegankelijk maken voor andere computers (werkstations)
+## 6. Belcofin client toegankelijk maken voor andere computers (werkstations)
 
-## 6.1 Belcofin Client map delen op de server
+### 6.1 Belcofin Client map delen op de server
 
 Indien u Belcofin op meerdere computers(werkstations) wenst te gebruiken moet er een folder gedeeld worden op de file server zodat alle computers de Belcofin client kunnen opstarten. Indien u Belcofin client heeft geïnstalleerd in een bestaande gedeelde folder dan moet er geen nieuwe gedeelde map aangemaakt worden. en kunt u naar de volgende stap gaan.
 
@@ -242,7 +246,7 @@ De Belcofin client moet in een gedeelde map op de file server staan. Is dit nog 
 
 Er moet geen client installatie gedaan worden op een werkstation dat Belcofin wil gebruiken. Enkel onderstaande procedures moeten doorlopen te worden om Belcofin te gebruiken op werkstations.
 
-## 6.2 Netwerk map koppelen op werkstation
+### 6.2 Netwerk map koppelen op werkstation
 
 Indien de server map waar de Belcofin Client staat reeds gekoppeld is op de client dan moet deze procedure niet uitgevoerd te worden en kan naar de volgende stap gegaan worden.
 
@@ -260,7 +264,7 @@ Indien de server map waar de Belcofin Client staat reeds gekoppeld is op de clie
 
 <strong><ins>Opmerking</ins></strong>: Gebruik op alle clients dezelfde gedeelde map letter..
 
-## 6.3 Snelkoppeling naar Belcofin Client
+### 6.3 Snelkoppeling naar Belcofin Client
 
 Snelkoppeling naar de Belcofin client toevoegen aan het bureablad. De handigste manier hiervoor is:
 
@@ -276,7 +280,7 @@ Snelkoppeling naar de Belcofin client toevoegen aan het bureablad. De handigste 
 
 <!-- ![Image 2]() -->
 
-# 7. Backups
+## 7. Backups
 
 Meer informatie over hoe backups van Belcofin moeten genomen worden kan gevonden worden in de handleiding "[**Belcofin Backup NL.pdf**](https://support.corpgroup.site/nl/support/solutions/articles/101000171535)".
 
@@ -286,14 +290,14 @@ Indien u de voorgestelde paden niet aangepast heeft, tijdens de installatie, dan
 
 <strong><ins>Opmerking</ins></strong>: Het is zeer belangrijk om backups te nemen zoals beschreven in de handleiding. Indien u enkel een copy maakt van de harde schijf waar Belcofin op staat dan bestaat de mogelijkheid dat deze copy geen goeie backup is van Belcofin.
 
-# 8. Belcofin overzetten naar nieuwe server
+## 8. Belcofin overzetten naar nieuwe server
 
 Belcofin kan op 2 manieren overgezet worden naar een nieuwe server:
 
 - Dmv back-up en restore Belcofin overzetten (voorkeur manier)
 - Dmv kopie van bestanden
 
-## 8.1 Overzetten dmv backup en restore (voorkeur manier)
+### 8.1 Overzetten dmv backup en restore (voorkeur manier)
 
 De procedure hiervoor is:
 
@@ -301,19 +305,19 @@ De procedure hiervoor is:
 
 2. Dit back-up bestand op een memorystick plaatsen om deze op de nieuwe server te zetten
 
-3. BelcofinSetup.exe downloaden van onze website ([ACCOWIN DOWNLOADEN OF UPDATEN](http://www.belcofin.be/nl/belcofin/download)) op de nieuwe server
+3. BelcofinSetup.exe downloaden van onze website ([Laatste versie Belcofin](https://kutt.ctrl.corpgroup.site/belcofin-latest-setup)) op de nieuwe server
 
 4. De installatie uitvoeren op de nieuwe server van Belcofin (zie hierboven voor meer uitleg)
 
 5. Restore doen van back-up bestand op de nieuwe server
 
-## 8.2 Overzetten dmv kopie van bestanden
+### 8.2 Overzetten dmv kopie van bestanden
 
 Deze procedure wordt afgeraden omdat hierbij zaken kunnen fout lopen waardoor de data beschadigd geraakt. Maar in sommige gevallen is dit de enige manier.
 
 <strong><ins>Procedure</ins></strong>:
 
-1. Belcofin (BelcofinSetup.exe) downloaden van onze website (http://www.belcofin.be/nl/belcofin/download) en te installeren op de nieuwe server. Meer informatie over de installatie kan hierboven gevonden worden.
+1. Belcofin (BelcofinSetup.exe) downloaden van onze website ([Laatste versie Belcofin](https://kutt.ctrl.corpgroup.site/belcofin-latest-setup)) en te installeren op de nieuwe server. Meer informatie over de installatie kan hierboven gevonden worden.
 
 2. Belcofin te installeren in dezelfde locatie als op de oude server.
 
@@ -331,7 +335,7 @@ Deze procedure wordt afgeraden omdat hierbij zaken kunnen fout lopen waardoor de
 
 7. Bij starten van Belcofin zou de oude data terug moeten zichtbaar zijn
 
-# 9. Belcofin overzetten van server naar NAS
+## 9. Belcofin overzetten van server naar NAS
 
 Belcofin kan draaien als een server, maar kan ook werken op een NAS. Het nadeel van werken op een NAS is dat Belcofin trager gaat werken en dat maar 1 persoon tegelijk de data mag aanpassen.
 
@@ -343,7 +347,7 @@ Procedure om Belcofin over te zetten van server naar NAS is:
 
 3. Belcofin de-installeren van de server en clients als deze in de toekomst Belcofin gaan gebruiken vanaf de NAS
 
-4. Belcofin (BelcofinSetup.exe) downloaden van onze website (http://www.belcofin.be/nl/belcofin/download)
+4. Belcofin (BelcofinSetup.exe) downloaden van onze website ([Laatste versie Belcofin](https://kutt.ctrl.corpgroup.site/belcofin-latest-setup))
 
 5. Tijdens de installatie kiezen voor Lokaal (zonder server) (max 1 gebruiker) en als locatie en map op de NAS schijf waar Belcofin moet komen.
 
