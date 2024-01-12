@@ -10,11 +10,81 @@ Na downloaden van het bestand `FinassetSetup.exe` moet u het bestand uitvoeren.
 
 ## 2. FinassetSetup uitvoeren
 
-### 2.1 Selecteer componenten
+### 2.1 Hoe het type van de huidige installatie bepalen?
+
+Kijk in de statusbalk van **Finasset** om het type van de vorige installatie te bepalen:
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a4c1a642-3f58-4e39-822c-78d03ef4cd2f/Untitled.png)
+
+1. Bij persoonlijk gebruik (*lokale installatie*) staat hier een verwijzing naar een map. Voorbeeld:
+**`C:\LBRP\clients\finasset\\\Finaset`** 
+Dit is een lokale installatie. (*Te herkennen aan 3 “*  \ *” na mekaar*)
+
+2. Bij Client-Server staat hier een **`<Servernaam>\Finaset`** (*of andere naam na “*  \ *”*). Voorbeeld:
+**`SERVER\Finaset`** 
+Indien het programma wordt opgestart vanuit een gedeelde map op die server of PC, kan de update gebeuren zoals beschreven in **Situatie 2**.
+
+3. De vermelding in de statusbalk is zoals in situatie 2, maar het programma wordt niet gestart vanop een share op de databaseserver. **In dit geval moet de setup 2x worden uitgevoerd**:
+    - Eerst installatie van de databaseserver,
+    - Daarna de setup uitvoeren om de clients (*Finasset*) te installeren.
+
+#### 2.1.1 Situatie 1; Persoonlijk gebruik (lokale installatie)
+We spreken hier over de meest simpele installatie. U bent de enige werkende boekhouder in uw bedrijf. U gebruikt gewoon Uw eigen laptop om alle dingen te regelen en te registreren.
+Lokaal (zonder server) (max 1 gebruiker)
+
+
+## 2.2 Installatie Proces
+
+### 2.2.1 Nieuwe Installatie
+
+Onderstaande procedure omvat het gehele installatie proces tijdens een **volledig nieuwe installatie**. Indien u reeds een oudere versie van de applicatie hebt geïnstalleerd zullen bepaalde stappen (*zoals het kiezen van het soort installatie en de locatie*) worden overgeslagen.
+
+Wel is het belangrijk om deze stappen even te overlopen, omdat de migratie van een reeds bestaande installatie gebeurd tussen bepaalde stappen (*2-8*).
+
+- Kies uw **Taal**
+    
+    ![Alt text](<NL/Installatie proces/Taal kiezen.png>)
+    
+1. Als eerste ziet u een introductie-scherm. U kunt gewoon op **Volgende** klikken
+    
+   ![Alt text](<NL/Installatie proces/Welkom pagina.png>)
+    
+2. Het is noodzakelijk om de **licentieovereenkomst** te accepteren in stap twee. Daarna kunt u weer op **Volgende** klikken. 
+    
+    ![Alt text](<NL/Installatie proces/Licentie voorwaarden aanvaarden.png>)
+    
+3. U kunt een **Gebruikersnaam** en **Organisatie** invullen tijdens de derde stap. Deze stap (*en de volgende stappen, tot stap 7*) wordt enkel getoond tijdens een nieuwe installatie (***LET OP**: onderstaande gegevens dienen enkel als voorbeeld en zullen bij u anders zijn*). Klik op **Volgende**.
+    
+    ![Alt text](<NL/Installatie proces/Gebruikersnaam + Organisatie.png>)
+    
+4. Tijdens de vierde stap kiest u het **Installatie Type**. Meer informatie over de mogelijkheden vind u op onze helpdesk (***LET OP**: dit is een handleiding van een iets oudere versie, maar de principes blijven dezelfde*).
+https://support.corpgroup.site/nl/support/solutions/articles/101000241233
+    
+   ![05](NL/05.png)
+    
+5. In stap vijf bepaald u de **Installatie Directory**. Lees zeker de opmerking (**OPGELET!**) op uw scherm. Hier kunt u, door middel van de vinkjes, uw keuze verder verfijnen. Wilt u enkel de **Client**, of enkel de **Server** installeren, zet u desbetreffende vinkjes aan of uit. Indien u tijdens de vorige stap voor **Lokaal** hebt gekozen, dient u slechts 1 directory op te geven.
+    
+   ![Alt text](NL/06.png)
+    
+6. In stap zes kunt u opteren voor het **aanmaken van een snelkoppeling** op het bureaublad.
+    
+    ![Alt text](NL/07.png)
+    
+7. Vervolgens (*in stap zeven*) wordt er een **overzicht** getoond van de voorgaande keuzes, en de taken die worden uitgevoerd tijdens de daadwerkelijke installatie.
+    
+    ![Alt text](NL/08.png)
+
+    
+8. Tijdens de voorlaatste stap (🎱) worden de nodige bestanden op uw harde schijf **gekopieerd**.
+    
+    ![Alt text](NL/09.png)
+    
+9. De laatste stap (*negen*) geeft u nog de keuze om het programma meteen na afsluiten van de setup te **starten**.
+    
+    ![Alt text](NL/10.png)
+
 
 Na uitvoeren van `FinassetSetup.exe` komt men na enkele schermen op de scherm 'Selecteer componenten'. Dit scherm is belangrijk om te bepalen wat er moet geïnstalleerd worden. Afhankelijk van de manier waarop u Finasset wil installeren moet hier een andere optie geselecteerd worden.
-
-![IMAGE 1 HERE](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003304335/original/6LTdbCpWb3DXvXSppSDPRK0z3GM5XUmBFw.png?1643311061)
 
 Mogelijke opties zijn:
 
@@ -23,9 +93,10 @@ Mogelijke opties zijn:
 - **Enkel client installeren**: Deze optie moet gekozen worden als men enkel de Finasset client wil installeren en de server op een andere machine is geïnstalleerd of indien men kiest om op elk werkstation apart een lokale installatie te doen van de Finasset client. Deze optie wordt niet aangeraden omdat ook de installatie van updates in de toekomst dan op alle werkstations moet uitgevoerd worden.
 - **Enkel server installeren**: Deze optie moet gekozen worden als men enkel de Finasset server wil installeren op de server.
 
-<strong><ins>Opmerking</ins></strong>:
+<strong><ins>Opmerking</ins></strong>: 
 
 De opties 'Enkel client installeren' en 'Enkel server installeren' moeten enkel maar uitgevoerd worden als de file server en de Finasset server verschillende computers zijn. Indien dit niet het geval is wordt er best gekozen voor de optie 'Lokaal' of 'Client en server installeren op dezelfde machine'. Dit maakt het in de toekomst ook handiger om updates uit te voeren. Namelijk enkel op de server moet dan een installatie gebeuren ipv op elk werkstation.
+
 
 ### 2.2 Selectie van installatie directory
 
