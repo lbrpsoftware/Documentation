@@ -11,11 +11,11 @@ Met deze toepassing kan u
 # 2. Waar kan ik de optie vinden in de menu?
 U kan deze optie vinden onder het menu: Start - **Opruiming gegevens**
 
-![alt text](NL/1.png)
+![Menu item](NL/10.png)
 
 # 3. Uitleg over het scherm
 
-![alt text](NL/2.png)
+![Venster opruimen gegevens](NL/20.png)
 
 * Soort: Hier kan je de opties bedrijfsleiders kiezen om te verwijderen
 
@@ -35,23 +35,23 @@ U kan deze optie vinden onder het menu: Start - **Opruiming gegevens**
 
 ## 4.1 Manuele selectie in Belcofin
 
-Klik op de knop "Slecteeer fiche". U komt op het volgende scherm terecht:
+Klik op de knop **Selecteer fiche**.
 
-![alt text](NL/5.png)
+![Venster opruimen bedrijfsleiders (met pijltje selecteer fiche](NL/30.png)
 
-Hier kan u een bedrijfsleider selecteren (niet in bulk) die u wilt verwijderen uit uw database.
+U komt op het volgende scherm terecht: Hier kan u een bedrijfsleider selecteren (niet in bulk) die u wilt verwijderen uit uw database.
 
 Selecteer de bedrijfsleider die u wilt gaan verwijderen.
 
-![alt text](NL/6.png)
+![Venster bedrijfsleiders via venster opruimen gegevens](NL/40.png)
 
 Als u deze bedrijfsleider wilt verwijderen, klikt u op "Verwijder fiches".
 
-![alt text](NL/7.png)
+![Venster opruimen gegevens met bedrijfsleider](NL/50.png)
 
 Als u deze rode melding krijgt, dan is er nog een link met een Fiche in het verleden bij deze bedrijfsleider.
 
-![alt text](NL/8.png)
+![Venster met bedrijfsleider (fout)](NL/60.png)
 
 ## 4.2 De bedrijfsleiders verwijderen via een excel lijst 
 
@@ -59,17 +59,17 @@ Als u deze rode melding krijgt, dan is er nog een link met een Fiche in het verl
 
 Open Belcofin en ga in het menu naar **bedrijfsleiders**.
 
-![alt text](NL/9.png)
+![Menu balk bovenaan (met pijltje naar bedrijfsleiders)](NL/70.png)
 
 Je komt dan in het venster van de bedrijfsleiders terecht.
 
 Klik hier op het pijltje naar beneden.
 
-![alt text](NL/11.png)
+![Venster bedrijfsleiders](NL/80.png)
 
 Hier krijgt u verschillende opties om uit te kiezen.
 
-![alt text](NL/12.png)
+![Venster bedrijfsleiders met pijltje naar het pijltje om op te slaan](NL/90.png)
 
 Kies hier hoe u de lijst wilt exporteren: Excel (XLS) of een TXT bestand.
 
@@ -90,7 +90,7 @@ Kies een naam voor uw TXT bestand (of behoud de naam van het Excel bestand).
 
 Bij opslaan als kiest u voor een **Tekst (Tab als scheidingsteken) (*.txt)**
 
-![alt text](image.png)
+![Opslaan als .txt](NL/110.png)
 
 Sla het bestand dan op en sluit uw Excel.
 
@@ -98,17 +98,17 @@ Sla het bestand dan op en sluit uw Excel.
 
 Open Belcofin, ga naar start - **Opruiming gegevens**
 
-![Menu item](NL/1.png)
+![Menu item](NL/10.png)
 
-![Venster opruimen gegevens](NL/2.png)
+![Venster opruimen gegevens](NL/20.png)
 
 Klik op **laad fiches**
 
 Ga naar de map waar u het .txt bestand hebt opgeslagen en selecteer dat bestand om te openen.
 
-![alt text](NL/14.png)
+![Bestand selecteren](NL/120.png)
 
-![alt text](NL/15.png)
+![Ingeladen lijst van de te verwijderen bedrijfsleiders](NL/130.png)
 
 U krijgt nu een lijst te zien met de geselecteerde bedrijfsleiders.
 
@@ -117,7 +117,7 @@ U krijgt nu een lijst te zien met de geselecteerde bedrijfsleiders.
 
 Klik op verwijder fiches (het programma gaat nu de fiches van de dubbele bedrijfsleiders verwijderen)
 
-![Verwijderde fiches](NL/16.png)
+![Verwijderde fiches](NL/140.png)
 
 #### 4.2.3.1 Toon enkel de fouten
 
@@ -125,7 +125,7 @@ Nu gaan we kijken welke fiches er niet verwijderd zijn.
 
 Zet het vinkje aan bij **Toon enkel fouten**
 
-![alt text](NL/17.png)
+![Niet te verwijderen bedrijfsleiders](NL/150.png)
 
 Dit wil zeggen dat er fiches zijn ingediend geweest op deze bedrijfsleider.
 
@@ -134,11 +134,11 @@ U kan dit controleren bij de lijst van de fiches 281.20
 Sluit het venster en schrijf eventueel de refertes ergens op.
 (of neem een screenshot met Windows logo + SHIFT + S)
 
-![alt text](NL/19.png)
+![Toon enkel fouten](NL/160.png)
 
 Klik in het menu op **fiches 281.20**
 
-![venster Fiches 281.20](NL/20.png)
+![Venster Fiches 281.20](NL/170.png)
 
 U krijgt nu het venster te zien van de fiches 281.20
 
@@ -150,7 +150,7 @@ Klik dan op **filter gebruiken** of gebruik **F2**
 
 Via de kolom **status** kan je zien dat er een fiche bestaat en dat er een fiche is ingediend.
 
-![alt text](NL/21.png)
+![Kolom status](NL/190.png)
 
 Deze bedrijfsleiders kan u dus **niet** verwijderen uit de database.
 
