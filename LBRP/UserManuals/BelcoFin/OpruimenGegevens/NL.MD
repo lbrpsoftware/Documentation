@@ -5,8 +5,8 @@ Met deze toepassing kan u
 - Dubbel aangemaakte bedrijfsleiders verwijderen via een eigen gemaakt Excel bestand.
 - Het manueel verwijderen van dubbel aangemaakte bedrijfsleiders
 
-⚠ **OPGEPAST**:
-Bedrijfsleiders waar fiches aan verbonden zijn, kunnen / mogen niet verwijderd worden.
+> ⚠ **OPGEPAST**:
+> Bedrijfsleiders waar fiches aan verbonden zijn, kunnen / mogen NIET verwijderd worden.
 
 # 2. Waar kan ik de optie vinden in de menu?
 U kan deze optie vinden onder het menu: Start - **Opruiming gegevens**
@@ -14,6 +14,10 @@ U kan deze optie vinden onder het menu: Start - **Opruiming gegevens**
 ![Menu item](NL/10.png)
 
 # 3. Uitleg over het scherm
+
+❗OPGEPAST: Neem ALTIJD een backup, voor u dit gaat uitvoeren❗
+
+⚠ dit is iets heel belangrijk ⚠
 
 ![Venster opruimen gegevens](NL/20.png)
 
@@ -153,4 +157,3 @@ Via de kolom **status** kan je zien dat er een fiche bestaat en dat er een fiche
 ![Kolom status](NL/190.png)
 
 Deze bedrijfsleiders kan u dus **niet** verwijderen uit de database.
-
