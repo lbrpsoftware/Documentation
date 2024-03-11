@@ -57,7 +57,7 @@ Als u deze rode melding krijgt, dan is er nog een link met een Fiche in het verl
 
 ### 4.2.1 Hoe een lijst van bedrijfsleiders uit Belcofin halen?
 
-Open Belcofin en ga in het menu naar **bedrijfsleiders** en klik op het pijltje
+Open Belcofin en ga in het menu naar **bedrijfsleiders**.
 
 ![alt text](NL/9.png)
 
@@ -75,5 +75,82 @@ Kies hier hoe u de lijst wilt exporteren: Excel (XLS) of een TXT bestand.
 
 Als u voor een Excel bestand kiest, kan u de bedrijfsleiders makkelijker verwijderen uit de lijst.
 
-### 3.2.2
+Sla nu het bestand op als een Excel bestand.
+(later zullen we het Excel bestand dan omzetten naar een TXT bestandje)
+
+Als je dat nu zou doen, dan staat er te veel informatie in het .TXT bestand en gaat u te veel moeten verwijderen.
+
+### 4.2.2 Excel bestand omzetten naar een .TXT bestand.
+
+U heeft uw excel lijst met bedrijfsleiders gemaakt en is klaar. Nu gaan we deze omzetten naar een TXT bestand.
+
+Open uw Excel bestand en ga naar Bestand - Opslaan Als...
+
+Kies een naam voor uw TXT bestand (of behoud de naam van het Excel bestand).
+
+Bij opslaan als kiest u voor een **Tekst (Tab als scheidingsteken) (*.txt)**
+
+![alt text](image.png)
+
+Sla het bestand dan op en sluit uw Excel.
+
+### 4.2.3 Verwijderen van de bedrijfsleiders
+
+Open Belcofin, ga naar start - **Opruiming gegevens**
+
+![Menu item](NL/1.png)
+
+![Venster opruimen gegevens](NL/2.png)
+
+Klik op **laad fiches**
+
+Ga naar de map waar u het .txt bestand hebt opgeslagen en selecteer dat bestand om te openen.
+
+![alt text](NL/14.png)
+
+![alt text](NL/15.png)
+
+U krijgt nu een lijst te zien met de geselecteerde bedrijfsleiders.
+
+> [!WARNING]
+> Maak altijd een backup van uw database voor u dit doet!
+
+Klik op verwijder fiches (het programma gaat nu de fiches van de dubbele bedrijfsleiders verwijderen)
+
+![Verwijderde fiches](NL/16.png)
+
+#### 4.2.3.1 Toon enkel de fouten
+
+Nu gaan we kijken welke fiches er niet verwijderd zijn.
+
+Zet het vinkje aan bij **Toon enkel fouten**
+
+![alt text](NL/17.png)
+
+Dit wil zeggen dat er fiches zijn ingediend geweest op deze bedrijfsleider.
+
+U kan dit controleren bij de lijst van de fiches 281.20
+
+Sluit het venster en schrijf eventueel de refertes ergens op.
+(of neem een screenshot met Windows logo + SHIFT + S)
+
+![alt text](NL/19.png)
+
+Klik in het menu op **fiches 281.20**
+
+![venster Fiches 281.20](NL/20.png)
+
+U krijgt nu het venster te zien van de fiches 281.20
+
+Vul in de zoekbalk de referte van de bedrijfsleider in.
+
+Klik op de kolom **referte** om te sorteren op referte.
+
+Klik dan op **filter gebruiken** of gebruik **F2**
+
+Via de kolom **status** kan je zien dat er een fiche bestaat en dat er een fiche is ingediend.
+
+![alt text](NL/21.png)
+
+Deze bedrijfsleiders kan u dus **niet** verwijderen uit de database.
 
