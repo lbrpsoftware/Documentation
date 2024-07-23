@@ -11,4 +11,4 @@ Onze belangrijkste troef is dat onze software ontwikkeling wordt uit de praktijk
 
 ## Index
 
-- [LBRP](LBRP/README.md)
+- [LBRP](docs/README.md)
