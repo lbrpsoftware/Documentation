@@ -65,7 +65,7 @@ When contributing PRs, please do your best to follow these guidelines:
   - If you're adding a new article, add it to the `sidebar` object in `/docs/.vuepress/config.ts`.
   - If you're adding code examples, please include comments to explain what each function, section of code, etc. is achieving.
   - Keep punctuation to the minimum necessary.
-  - Always capitalize "LBRP".
+  - Always capitalize "LBRP, Accowin, Finasset and Belcofin".
   - Feel free to use **bold text** to emphasize words or phrases, use italic (*in parantheses*), avoid underlines.
   - Use numerals (*e.g. 1, 2, 3*) to represent numbers.
   - If you're making changes, make sure to run `yarn run lint` before committing to ensure your code is formatted correctly.

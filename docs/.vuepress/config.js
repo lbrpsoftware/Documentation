@@ -169,12 +169,24 @@ export default defineUserConfig({
                         link: '/NL/Desktop/UserManuals/Finasset/Installation/',
                       },
                       {
+                        text: 'Licentie',
+                        link: '/NL/Desktop/UserManuals/Finasset/License/',
+                      },
+                      {
+                        text: 'Applicatie Delen',
+                        link: '/NL/Desktop/UserManuals/Finasset/ShareClient/',
+                      },
+                      {
                         text: 'Backup Database',
                         link: '/NL/Desktop/UserManuals/Finasset/BackupDatabase/',
                       },
                       {
                         text: 'Import Data',
                         link: '/NL/Desktop/UserManuals/Finasset/ImportData/',
+                      },
+                      {
+                        text: 'Migreren',
+                        link: '/NL/Desktop/UserManuals/Finasset/Migrate/',
                       },
                     ]
                   },

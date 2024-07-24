@@ -2,33 +2,40 @@
 
 ## 1. Inleiding
 
-Er zijn 3 manieren om backups van Finasset te maken:
+Er zijn drie manieren om back-ups van Finasset te maken:
 
-- Manueel via de grafische user interface
-- Manueel via command line parameters
-- Automatische backup via taakplanner
+- Handmatig via de grafische gebruikersinterface
 
-Het wordt aangeraden om zeker te kiezen voor automatisch backup zodat uw gegevens van Finasset steeds worden gebackupped.
+- Handmatig via opdrachtregelparameters
 
-## 2. Manueel Backup via Grafische User Interface
+- Automatische back-up via de Taakplanner
 
-Op volgende manier kunt u manueel een backup nemen:
+Het wordt aanbevolen om te kiezen voor automatische back-up zodat uw gegevens van Finasset altijd worden geback-upt.
 
-1. Finasset opstarten
-2. Menu ▶️ Start ▶️ Backup
-3. U selecteert de locatie waar de backup moet bewaard worden.
-4. Als u de optie 'Datum invoegen in zip-bestand' aanvinkt dan zal de huidige datum en tijd toegevoegd worden aan de bestandsnaam van de backup. Indien u dat niet doet zal de naam van de backup de naam van de Finasset database zijn wat in de meeste gevallen Finasset zal zijn.
+## 2. Handmatig Back-up via Grafische Gebruikersinterface
 
-   ![image 1](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003339832/original/-hO64DcNWSyk7WxkaxsrFrPZF8_BYpwyqw.png?1643376954)
+Volg de onderstaande stappen om handmatig een back-up te maken via de grafische gebruikersinterface:
+
+1. **Start** Finasset.
+
+2. Menu ▶️ Start ▶️ **Backup**.
+
+   <img src="./2-01.png" alt="2-01.png" style="width:200px;"/>
+
+3. Selecteer de **locatie** waar de back-up moet worden opgeslagen.
+
+4. Als u de optie **Datum invoegen in zip-bestand** aanvinkt, wordt de huidige datum en tijd toegevoegd aan de bestandsnaam van de back-up. Anders wordt de naam van de back-up de naam van de Finasset-database, wat meestal 'Finasset' is.
+
+   <img src="./2-02.png" alt="2-02.png" style="width:600px;"/>
 
 5. Klik op **Start**
 6. De melding Back-up gemaakt onderaan het scherm wordt getoond als alles goed is verlopen
 
-   ![image 2](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003339833/original/DCFo4eNOuaSbXV8CVTPmZTiUB79lyKDzrg.png?1643376954)
+   <img src="./2-03.png" alt="2-03.png" style="width:300px;"/>
 
-## 3. Manueel Backup via command line parameters
+## 3. Handmatig Back-up via Opdrachtregelparameters
 
-Via het programma FinassetCmd.exe, dat u in de Finasset Client directory kunt vinden, kunt u backups maken gebruik makend van command line parameters.
+Gebruik `FinassetCmd.exe`, dat u in de Finasset Client-directory kunt vinden, om back-ups te maken met behulp van opdrachtregelparameters.
 
 Mogelijke command line parameters zijn:
 
@@ -99,7 +106,7 @@ Mogelijke command line parameters zijn:
   </tbody>
 </table>
 
-1️⃣ *Ofwel de naam van de server ofwel IP adres is verplicht. Als beide worden meegeven dan wordt de host naam gebruikt.*
+1️⃣ *Ofwel de naam van de server ofwel het IP-adres is verplicht. Als beide worden opgegeven, wordt de hostnaam gebruikt.*
 
 <strong><ins>Voorbeeld</ins></strong>:
 
@@ -107,115 +114,52 @@ Mogelijke command line parameters zijn:
 FinassetCmd.exe /host:localhost /db:Finasset /BackupXml /BackupPdf /BackupPath:C:\\LBRP\\Clients\\Finasset\\\_Backup
 ```
 
-## 4. Automatische backup via taakplanner
+## 4. Automatische Back-up via Taakplanner
 
 ### 4.1 Inleiding
 
-**Belangrijke opmerkingen** voordat u aan de configuratie van de automatische backup begint:
+**Belangrijke opmerkingen** voordat u begint met het configureren van de automatische back-up:
 
-1. De automatische backup wordt bij voorkeur op de server geconfigureerd en niet op een werkstation
-2. De Finasset Client moet op de server geïnstalleerd zijn
-3. Als u de backup instelt op een tijdstip waarop de computer niet draait dan zullen er **geen backups** genomen worden vandaar dat bij voorkeur automatische backups op een server worden ingesteld omdat deze meestal nooit worden afgezet.
+1. De automatische back-up wordt bij voorkeur op de server geconfigureerd en niet op een werkstation.
+2. De Finasset Client moet op de server geïnstalleerd zijn.
+3. Als u de back-up instelt op een tijdstip waarop de computer niet draait, worden er geen back-ups gemaakt. Daarom is het aan te raden om automatische back-ups op een server in te stellen, omdat deze meestal nooit worden uitgeschakeld.
 
-### 4.2 Windows 2003/Windows XP:
+### 4.1 Taakplanner
 
-1. U opent Geplande taken door achtereenvolgens te klikken op de knop **Start** <img alt="Windows Start icon" src="https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003339831/original/LiRpnw_fvi0uCk0rRXoViquF5Nr2ZxE1FA.png?1643376954" height="18" />, op **Configuratiescherm**, op **Geplande taken**
-2. Dubbelklik op **Een nieuwe taak toevoegen**
-3. Een wizard zal opstarte, klik op **Volgende** gebackupped
+<img src="./4-01.png" alt="4-01.png" style="width:300px;"/>
 
-   ![Image 4](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003339845/original/M60WxmgMGre2pczoZsTt9o6VIOV_mLxcTQ.png?1643376955)
+<img src="./4-02.png" alt="4-02.png" style="width:600px;"/>
 
-4. Klik op **Bladeren** om het programma **FinassetCmd.exe** te selecteren. Standaard staat dit programma in `C:\\LBRP\\Clients\\Finasset\\FinassetCmd.exe`.
+1. Klik **Maak Taak** en geef uw taak een naam
 
-   <strong><ins>Belangrijk</ins></strong>: U moet FinassetCmd.exe selecteren en niet Finasset.exe!
+   <img src="./4-03.png" alt="4-03.png" style="width:400px;"/>
 
-   ![image 5](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003339840/original/pb1vWG8Hrp_z7w5S7PP897p2_sB8j8aHgw.png?1643376955)
+2. Maak een **Trigger** aan (*bijvoorbeeld elke dag*).
 
-5. Vul als naam **Finasset Backup** en klik op **Dagelijks** en daarna op de knop **Volgende**
+   <img src="./4-04.png" alt="4-04.png" style="width:400px;"/>
 
-   ![image 6](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003339837/original/-211oubCxN8Qw2w1M3sQyJAQlGA1iICD7g.png?1643376955)
+3. Maak een **Action** aan en kies `FinassetCmd.exe` met de nodige parameters.
 
-6. Vul een **uur** in waarop de backup moet uitgevoerd worden. Kies een uur waarop uw computer zeker aan staat anders worden er geen backups genomen. Als start datum moet een datum gelijk aan vandaag of een dag in het verleden worden ingesteld. Geen datum in de toekomst want anders gaan de backups pas vanaf deze datum worden uitgevoerd. Klik op **Volgende**.
-
-   ![Image 7](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003339839/original/jDrlkeqiGt-NWNVA9wohJufXQ7DWCHmC9w.png?1643376955)
-
-7. Windows Gebruikersnaam en Wachtwoord invullen van een gebruiker die volgende rechten heeft op deze computer om deze taak te kunnen uitvoeren. Druk op **Volgende**.
-
-   ![image 8](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003339843/original/8ySkVV9h68IVXKYbDZF0ejP_PswoR3ndBA.png?1643376955)
-
-8. De optie '**Geavanceerde eigenschappen voor deze taak openen wanneer ik op Voltooien klik**' aanvinken. Op **Voltooien** klikken.
-
-   ![image 9](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003339841/original/BCnLZ8BDrTZgXYXbqXUxFrGFZWCIZ1-nZg.png?1643376955)
-
-9. De waarde naast **Uitvoeren** moet aangepast worden. De command line parameters voor de backup moeten er namelijk aan toegevoegd worden zoals wat er moet gebackupped worden, naar waar, ... Meer uitleg over welke parameters kunt u vinden hierboven bij 3 Manueel Backup via command line parameters.
+   <img src="./4-05.png" alt="4-05.png" style="width:400px;"/>
 
    Een voorbeeld van de waarde van Uitvoeren kan zijn: 
    ```bash
    C:\\LBRP\\Clients\\Finasset\\FinassetCmd.exe /host:localhost /db:Finasset /BackupPath:C:\\LBRP\\Clients\\Finasset\\\_Backup
-   ```
+   ```   
 
-   ![image 10](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003339844/original/rTgKw6dFkFi0yAKeYvhkpdG_TnMZfM60tg.png?1643376955)
-
-10. Op **OK** klikken en wachtwoord opnieuw invullen van de windows gebruiker
-
-### 4.3 Windows 2008/Windows Vista/Windows 7
-
-1. De knop **Start** ![image 10](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003339842/original/4eISMDy82XRRUkajOYH88fuzsB2SjdYQAg.jpeg?1643376955), op **Configuratiescherm**, op **Systeem en beveiliging** en op **Systeembeheer**, en vervolgens te dubbelklikken op **Taakplanner**.‌ ![image 11](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003339838/original/kczUalE8ifIpjMh67oyJk_VAVrkF0vx7Ew.jpeg?1643376955) Als u om het beheerderswachtwoord of een bevestiging wordt gevraagd, typt u het wachtwoord of een bevestiging..
-2. Klik op het menu **Actie** en klik op **Basistaak maken**.
-3. Typ als naam 'Finasset Backup' voor de taak en klik op **Volgende**.
-
-   ![image 12](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003339847/original/4xlK50P7aJUElsCiwHzo6zShhAbSafcCFg.png?1643376955)
-
-4. Klik op **Dagelijks** als u dagelijks een backup wil maken van Finasset en daarna op **Volgende**
-
-   ![image 13](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003339846/original/w23sTT-ToWdhLxN_g3Mn6xZdBwyxz6KY_A.png?1643376955)
-
-5. Geef de gewenste planning op en klik op Volgende.
-
-   <strong><ins>Opmerkingen</ins></strong>:
-
-   1. Kies een uur waarop uw computer zeker aan staat anders worden er geen backups genomen
-   2. Als start datum moet een datum gelijk aan vandaag of een dag in het verleden worden ingesteld. Geen datum in de toekomst want anders gaan de backups pas vanaf deze datum worden uitgevoerd.
-
-      ![image 14](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003339848/original/JZF5Bc1_DGyEKL2tCLQ_E0VA3Nb7ixQeng.png?1643376955)
-
-6. Klik op **Programma starten** en klik op **Volgende**
-
-   ![image 15](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003339849/original/p7blqLL50axcdG_s_KAaonhVcsdZjWAQ9w.png?1643376955)
-
-7. Configuratie van Programma starten:
-
-   1. Klik op **Bladeren** om het programma **FinassetCmd.exe** te selecteren. Standaard staat dit programma in C:\\LBRP\\Clients\\Finasset\\FinassetCmd.exe <br>
-
-      <strong><ins>Belangrijk</ins></strong>: U moet FinassetCmd.exe selecteren en niet Finasset.exe!
-
-   2. Bij'Parameters toevoegen (optioneel)' moet u de parameters van de backup invullen. Meer uitleg over welke parameters kunt u vinden hierboven bij 3 Manueel Backup via command line parameters
-
-      Een voorbeeld kan zijn: 
-
-      ```
-      /host:localhost /db:Finasset /BackupPath:C:\\LBRP\\Clients\\Finasset\\\_Backup
-      ```
-
-8. Klik vervolgens op **Volgende**
-
-   ![image 16](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003339850/original/faeVhgF_KXQ-taZDjOhU3EHUCfmXxd53OQ.png?1643376955)
-
-9. Het vinkje '**Het dialoogvenster Eigenschappen van deze taak openen als ik op Voltooien klik**' aanzetten en op **Voltooien** klikken
-
-   ![image 17](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003339851/original/5f_b8YsM39fgsIWb6mmKsMQVC5it0Xt7Kg.png?1643376955)
-
-10. De optie '**Uitvoeren ongeacht of gebruiker wel of niet is aangemeld**' aanzetten en op **OK** klikken.
-
-    ![image 18](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003339852/original/z4H6b3vgQNrXpn1rnzpOdJdYh3tkdOkW4Q.png?1643376955)
+4. Klik op **OK**
 
 ## 5. Restore backup
 
-Een backup kan teruggezet worden door:
+Een back-up kan als volgt worden teruggezet:
 
 1. Finasset opstarten
-2. Menu ▶️ Start ▶️ Restore
-3. Het backup bestand selecteren
-4. Op de 'Start Restore' knop drukken
 
-⚠️ Ofwel de naam van de server ofwel IP adres is verplicht. Als beide worden meegeven dan wordt de host naam gebruikt.
+2. Ga naar Menu ▶️ **Start** ▶️ **Restore**.
+
+3. Selecteer het back-up bestand.
+
+4. Klik op de knop **Start Restore**
+
+
+⚠️ Of de naam van de server of het IP-adres is verplicht. Als beide worden opgegeven, wordt de hostnaam gebruikt.

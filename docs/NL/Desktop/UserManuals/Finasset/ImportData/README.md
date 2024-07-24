@@ -2,66 +2,67 @@
 
 ## 1. Inleiding
 
-Dit document beschrijft welke data en op welke manier deze data kan geïmporteerd worden in Finasset.
+Dit document biedt een gedetailleerde uitleg over het importeren van gegevens in Finasset. Gegevens kunnen op twee manieren worden geïmporteerd: via een grafische gebruikersinterface of via de opdrachtregel. Het gebruik van opdrachtregelparameters biedt de mogelijkheid om de import automatisch te plannen via Taakplanner, zodat dagelijkse gegevensautomatisering mogelijk is.
 
-Data kan op 2 manieren geïmporteerd worden in Finasset. Via de grafische manier dat manueel moet gedaan worden door de gebruiker of via command line. Door gebruik te maken van command line parameters kan de import eventueel via taakplanner ingepland worden om elke dag automatisch data te importeren.
+De gegevens kunnen worden geïmporteerd uit een CSV-bestand. De importfunctionaliteit ondersteunt de volgende gegevenscategorieën: dossiers, boekjaren, algemene rekeningen, investeringen, afschrijvingen en investeringsgroepen.
 
-Data kan geïmporteerd worden uit een CSV bestand.
+## 2. Importprocedure
 
-Dossiers, boekjaren, algemene rekeningen, investeringen, afschrijvingen en investeringsgroepen kunnen geïmporteerd worden in Finasset.
+### 2.1 Grafische Import
 
-## 2. Hoe importeren
+#### 2.1.1 Selectie van het Importtype
 
-### 2.1 Grafisch importeren
+De grafische import kan worden uitgevoerd via het menu: Menu ▶️ Parameters ▶️ Import
 
-#### 2.1.1 Selectie type import
+<img src="./2-01.png" alt="2-01.png" style="width:180px;"/>
 
-Data kan grafisch geïmporteerd worden via Menu ▶️ Parameters ▶️ Import
+- Type Import:
 
-![Image 1](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003321337/original/_5Bt2idNXPHXPaFDQL4AdYWo21Hct0aZLQ.png?1643361748)
+   - **CSV-bestand**: Hiermee kunt u een CSV-bestand selecteren en importeren in Finasset.
 
-Type Import:
+   - **Popsy**: TODO
 
-- **CSV bestand**: hierbij kan een CSV bestand geselecteerd worden en geïmporteerd in Finasset.
-- Andere type imports zijn voorlopig nog niet ondersteund.
+   - Andere importtypes worden momenteel niet ondersteund.
 
-Algemene instellingen tijdens import zijn:
+     <img src="./2-02.png" alt="2-02.png" style="width:400px;"/>
 
 - Type overschrijven:
-  - Toevoegen en update: hierbij wordt zowel nieuwe data toegevoegd als bestaande data geupdate.
-  - Enkel toevoegen: hierbij worden enkel maar nieuwe data toegevoegd, bestaande data wordt niet overschreven
-  - Enkel update: hierbij wordt enkel maar bestaande data geupdate. Nieuwe data wordt niet geimporteerd.
 
-#### 2.1.2 Import type specifieke schermen
+   - Toevoegen en update: Zowel nieuwe gegevens worden toegevoegd als bestaande gegevens worden bijgewerkt.
 
-![Image 2](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003321575/original/xfZQymPdS2ScZwB8p5iVUcDoEpPS4PopfQ.png?1643361899)
+   - Enkel toevoegen: Alleen nieuwe gegevens worden toegevoegd; bestaande gegevens worden niet overschreven.
 
-Bij aanvinken van vinkje gaat dit type bestand geïmporteerd worden. Indien er dus een bestandsnaam ingevuld staat maar het vinkje staat niet aan dan gaat dit niet geïmporteerd worden.
+   - Enkel update: Alleen bestaande gegevens worden bijgewerkt; nieuwe gegevens worden niet geïmporteerd.
 
-Bij het drukken op Volgende worden de ingevulde velden bewaard. Op deze manier kan eenvoudig opnieuw getest worden om te importeren zonder telkens opnieuw alle instellingen te moeten ingeven.
+#### 2.1.2  Importtype-specifieke Instellingen
 
-#### 2.1.3 Start Import
+<img src="./2-03.png" alt="2-03.png" style="width:600px;"/>
 
-Na het invullen van de import specifieke instellingen afhankelijk van het type import kan de import gestart worden door op de knop Volgende te klikken.
+Bij het aanvinken van de bijbehorende selectievakjes wordt het bestand van het geselecteerde type geïmporteerd. Als een bestandsnaam is ingevoerd maar het selectievakje niet is aangevinkt, wordt het bestand niet geïmporteerd.
 
-![Image 3](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003321663/original/vl_5ebT-oDmVENrDampPg1LplrijCOVdjA.png?1643361994)
+Door op **Volgende** te klikken worden de ingevoerde instellingen opgeslagen, wat het testen van de import vergemakkelijkt zonder de instellingen telkens opnieuw in te voeren.
+
+#### 2.1.3 Starten van de Import
+
+Nadat de specifieke instellingen voor het importtype zijn ingevuld, kan de import worden gestart door op de knop **Volgende** te klikken.
 
 #### 2.1.4 Voortgang import
 
-Tijdens de import kan je via een progress bar zien hoe ver de import reeds is en kun je ook zien of er reeds fouten zijn opgetreden tijdens de import en/of er al zaken zijn geïmporteerd.
+Tijdens de import kunt u de voortgang volgen via een voortgangsbalk. Tevens worden eventuele fouten en geïmporteerde gegevens weergegeven.
 
-#### 2.1.5 Einde import
+#### 2.1.5 Voltooiing van de Import
 
-Nadat alles is geïmporteerd wordt een overzicht getoond van wat er geïmporteerd is en waar er fouten waren. Als er fouten waren in een record dan wordt deze record niet geïmporteerd.
+Na voltooiing van de import wordt een overzicht gepresenteerd van de geïmporteerde gegevens en eventuele fouten. Records met fouten worden niet geïmporteerd.
 
-### 2.2 Via command line
+### 2.2 Import via Opdrachtregel
 
-Het command line programma FinassetCmd.exe kan gebruikt worden om CSV bestanden te importeren via de command line.
+Het opdrachtregelprogramma `FinassetCmd.exe` kan worden gebruikt voor het importeren van CSV-bestanden via de opdrachtregel.
 
-Het programma FinassetCmd.exe blijft actief zolang de import loopt. Eens de import gedaan is met of zonder fouten dan stopt het programma met uitvoeren en wordt een exit code teruggegeven. De exit code 0 wordt teruggegeven als de import succesvol verliep anders wordt een exit code verschillend van 0 teruggeven.
+`FinassetCmd.exe` blijft actief zolang de import loopt. Na voltooiing van de import, ongeacht of er fouten zijn opgetreden, wordt het programma beëindigd en wordt een exitcode geretourneerd. Een exitcode van 0 duidt op een succesvolle import, terwijl een andere exitcode een fout aangeeft.
 
-Al deze command line parameters worden ook gebruikt in de grafische manier om data te importeren. Meer uitleg over bepaalde parameters kan ook gevonden worden bij de grafische manier van importeren.
-Mogelijke command line parameters zijn:
+De opdrachtregelparameters die worden gebruikt, komen overeen met die in de grafische importmethode. Voor aanvullende uitleg over specifieke parameters kunt u ook de grafische importhandleiding raadplegen.
+
+Beschikbare opdrachtregelparameters zijn:
 
 <table>
   <thead>
@@ -173,29 +174,30 @@ Parameters specifiek import CSV bestanden:
 
 <strong><ins>Voorbeeld</ins></strong>:
 
+```
 FinassetCmd.exe /host:LBRPServer /itype:c /dtype:d /iCsvDFile:dossiers.csv
+```
 
 ## 3. CSV bestandsstructuur
 
-### 3.1 Algemene richtlijnen CSV bestand
+### 3.1 Algemene Richtlijnen voor CSV-bestanden
 
-De CSV bestanden moeten voldoen aan volgende richtlijnen:
+De CSV-bestanden dienen te voldoen aan de volgende specificaties:
 
-- De eerste lijn van alle CSV bestanden bevat de veldnamen die moeten geïmporteerd worden.
-- Vanaf lijn 2 staat de data dat moet geïmporteerd worden.
-- De velden worden gesplitst door een tab.
-- De records worden gesplitst door een .
-- Als decimaal scheidingsteken moet punt gebruikt worden vb 1.21
-- Datums hebben als formaat: JJJJMMDD vb: 20120309 wat staat voor 9 maart 2012
-- De encoding van het bestand moet ANSI zijn.
-- Als in document staat dat type Decimaal(2) is dan wil dit zeggen dat het getal maximum 2 getallen na het decimaal scheidingsteken kan bevatten
-- Als een veld niet het CSV bestand zit dan wordt bij een toevoeging de standaard waarde of blanco geïmporteerd. Bij een update wordt het veld niet aangepast als het niet in het CSV bestand zit.
+- **Koptekst**: De eerste regel van elk CSV-bestand moet de veldnamen bevatten die geïmporteerd dienen te worden.
+- **Data**: Vanaf regel 2 worden de gegevens gepresenteerd die geïmporteerd moeten worden.
+- **Scheidingstekens**: Velden dienen gescheiden te worden door een tabteken, en records door een punt ('.').
+- **Decimale Scheiding**: Gebruik een punt als decimale scheidingsteken (bijvoorbeeld 1.21).
+- **Datumformaat**: Datums moeten worden geformatteerd als JJJJMMDD (bijvoorbeeld 20120309 voor 9 maart 2012).
+- **Bestandsencoding**: Het bestand moet worden opgeslagen met ANSI-encoding.
+- **Veldwaarden**: Indien een veld niet aanwezig is in het CSV-bestand, wordt bij een toevoeging de standaardwaarde of een lege waarde geïmporteerd. Bij een update blijft het veld ongewijzigd als het niet in het CSV-bestand voorkomt.
+- **Decimaal(n)**: Als een veld is gedefinieerd met een type Decimaal(2), betekent dit dat het getal maximaal twee cijfers na het decimale scheidingsteken mag bevatten.
 
-### 3.2 Standaard codes
+### 3.2 Standaard Codes
 
 #### 3.2.1 Landen
 
-**ISO 3166-1 standaard 2-letters** wordt gebruikt als land codes binnen Finasset.
+Binnen Finasset worden landcodes gedefinieerd volgens de **ISO 3166-1** standaard (*twee letters*).
 
 <strong><ins>Voorbeeld</ins></strong>:
 
@@ -232,7 +234,7 @@ De CSV bestanden moeten voldoen aan volgende richtlijnen:
 
 ### 3.3 Mapping velden
 
-Hieronder staat per type import beschreven welke velden er kunnen geïmporteerd worden en wat de headernaam(veldnaam) van elk veld is, ...
+Hieronder staat per type import beschreven welke velden er kunnen geïmporteerd worden en wat de headernaam (*veldnaam*) van elk veld is, ...
 
 #### 3.3.1 Dossiers
 
@@ -413,12 +415,13 @@ Hieronder staat per type import beschreven welke velden er kunnen geïmporteerd 
 
 #### 3.3.2 Boekjaren
 
-Bij toevoegen van een boekjaar gaat systeem de afschrijving voor de bestaande investeringen in dat boekjaar berekenen en invoegen.
+Bij het toevoegen van een boekjaar zal het systeem automatisch de afschrijvingen voor bestaande investeringen in dat boekjaar berekenen en invoegen.
 
-- Startdatum kan enkel aangepast worden voor het eerste boekjaar.
-- Einddatum kan enkel aangepast worden voor het laatste boekjaar.
+- **Startdatum**: Kan alleen worden aangepast voor het eerste boekjaar.
 
-Als start en/of einddatum aangepast wordt dan worden de afschrijvingen voor dat boekjaar en de volgende boekjaren NIET herberekend.
+- **Einddatum**: Kan alleen worden aangepast voor het laatste boekjaar.
+
+Als de start- of einddatum wordt gewijzigd, worden de afschrijvingen voor het betreffende boekjaar en alle volgende boekjaren niet herberekend.
 
 <table>
   <thead>
@@ -1096,19 +1099,18 @@ Is de uitboeking NIET 100% dan moet dit gedefinieerd worden in een extra bestand
 
 <!-- https://support.corpgroup.site/nl/support/solutions/articles/101000241366 -->
 
-### 3.4 Voorbeeld Excel bestand
+### 3.4 Voorbeeld van een Excel-bestand
 
-De CSV bestanden kunnen aangemaakt worden via Excel. Hierbij moet het volgende gedaan worden:
+CSV-bestanden kunnen worden aangemaakt met behulp van Excel door de volgende stappen te volgen:
 
-- Eerste rij bevat de veldnamen
+- **Veldnamen**: Zorg ervoor dat de eerste rij van uw bestand de veldnamen bevat.
 
-![Image 4](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003326050/original/tPrC47gb4u6wbWqBnLJv5N962L8iEqHXug.png?1643364930)
+   <img src="./3-01.png" alt="3-01.png" style="width:600px;"/>
 
-- De volgende rijen bevatten de data dat moet geïmporteerd worden
-- Zorg dat datums en getallen in het juiste formaat worden geformatteerd zoals hierboven beschreven. Door rechtermuis te klikken op een cel kan de formattering ingesteld worden. Hierbij kan dus ingesteld worden dat de formattering van een datum veld jjjjmmdd moet zijn. Hieronder een voorbeeld om de datum 25/01/1951 te laten formattering zoals deze nodig is voor Finasset.
+- **Data**: De daaropvolgende rijen moeten de gegevens bevatten die geïmporteerd moeten worden.
 
-![Image 5](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003326066/original/ypM2cW3Iq60qqN0a1PMyCOnhQDSRizkmKQ.png?1643364941)
+- **Formatering**: Zorg ervoor dat datums en getallen worden geformatteerd volgens de specificaties zoals eerder beschreven. U kunt de opmaak van een cel aanpassen door met de rechtermuisknop op de cel te klikken en de juiste opmaakinstellingen te selecteren. Voorbeeld: om de datum 25/01/1951 te formatteren naar het gewenste formaat JJJJMMDD, volgt u de onderstaande instellingen.
 
-- Excel bestand kunt u bewaren als .xls of .xlsx bestand. Maar een .xls of .xlsx bestand kan niet geïmporteerd worden in Finasset. Hiervoor moet het bestand eerst bewaard worden als eens \"Text (Tab delimited) (\*.txt)\" bestand.
+   <img src="./3-02.png" alt="3-02.png" style="width:600px;"/>
 
-![Image 6](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101003326081/original/36M3ZTs0Ru9frEaaENuXoOv0zIc5MZ9b4g.png?1643364948)
+- **Opslaan**: Sla het bestand op als een .xls of .xlsx bestand voor eigen gebruik, maar houd er rekening mee dat Finasset deze formaten niet ondersteunt voor import. U moet het bestand exporteren als "Tekst (Tab-gescheiden) (*.txt)" om het geschikt te maken voor import in Finasset.
