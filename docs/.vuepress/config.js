@@ -59,6 +59,27 @@ export default defineUserConfig({
     ],
 
     locales: {
+      '/': {
+        sidebar: [
+          {      
+            text: 'Select your Language',
+            children: [
+              {
+                text: 'English',
+                link: '/EN/',
+              },
+              {
+                text: 'Nederlands',
+                link: '/NL/',
+              },
+              {
+                text: 'Français',
+                link: '/FR/',
+              },
+            ]
+          }
+        ]
+      },
       '/EN/': {
         lang: 'en-US',
         selectLanguageName: 'English',
@@ -72,95 +93,95 @@ export default defineUserConfig({
         description: 'LBRP Handleidingen',
         sidebar: [
           {
-            text: 'Inhoud',
-            link: '/NL/',
+            text: 'Desktop Applications',
+            link: '/NL/Desktop/',
             children: [
               {
                 text: 'Handleidingen',
-                link: '/NL/UserManuals/',
+                link: '/NL/Desktop/UserManuals/',
                 collapsable: true,
                 children: [
                   {
                     text: 'AccoWin',
-                    link: '/NL/UserManuals/AccoWin/',
+                    link: '/NL/Desktop/UserManuals/AccoWin/',
                     children: [
                       {
                         text: 'Installatie',
-                        link: '/NL/UserManuals/AccoWin/Installation/',
+                        link: '/NL/Desktop/UserManuals/AccoWin/Installation/',
                       },
                       {
                         text: 'Backup Database',
-                        link: '/NL/UserManuals/AccoWin/BackupDatabase/',
+                        link: '/NL/Desktop/UserManuals/AccoWin/BackupDatabase/',
                       },
                       {
                         text: 'Intervat',
-                        link: '/NL/UserManuals/AccoWin/Intervat/',
+                        link: '/NL/Desktop/UserManuals/AccoWin/Intervat/',
                       },
                       {
                         text: 'Belco Tax',
-                        link: '/NL/UserManuals/AccoWin/BelcoTax/',
+                        link: '/NL/Desktop/UserManuals/AccoWin/BelcoTax/',
                       },
                       {
                         text: 'Coda',
-                        link: '/NL/UserManuals/AccoWin/Coda/',
+                        link: '/NL/Desktop/UserManuals/AccoWin/Coda/',
                       },
                       {
                         text: 'Winst Marge',
-                        link: '/NL/UserManuals/AccoWin/ProfitMargin/',
+                        link: '/NL/Desktop/UserManuals/AccoWin/ProfitMargin/',
                       },
                     ]
                   },
                   {
                     text: 'BelcoFin',
-                    link: '/NL/UserManuals/BelcoFin/',
+                    link: '/NL/Desktop/UserManuals/BelcoFin/',
                     children: [
                       {
                         text: 'Installatie',
-                        link: '/NL/UserManuals/BelcoFin/Installation/',
+                        link: '/NL/Desktop/UserManuals/BelcoFin/Installation/',
                       },
                       {
                         text: 'Handleiding',
-                        link: '/NL/UserManuals/BelcoFin/Manual/',
+                        link: '/NL/Desktop/UserManuals/BelcoFin/Manual/',
                       },
                       {
                         text: 'Backup Database',
-                        link: '/NL/UserManuals/BelcoFin/BackupDatabase/',
+                        link: '/NL/Desktop/UserManuals/BelcoFin/BackupDatabase/',
                       },
                       {
                         text: 'Import Data',
-                        link: '/NL/UserManuals/BelcoFin/ImportData/',
+                        link: '/NL/Desktop/UserManuals/BelcoFin/ImportData/',
                       },
                       {
                         text: 'Export Lonen',
-                        link: '/NL/UserManuals/BelcoFin/ExportWages/',
+                        link: '/NL/Desktop/UserManuals/BelcoFin/ExportWages/',
                       },
                       {
                         text: 'Opruimen Gegevens',
-                        link: '/NL/UserManuals/BelcoFin/CleanData/',
+                        link: '/NL/Desktop/UserManuals/BelcoFin/CleanData/',
                       },
                     ]
                   },
                   {
                     text: 'Finasset',
-                    link: '/NL/UserManuals/Finasset/',
+                    link: '/NL/Desktop/UserManuals/Finasset/',
                     children: [
                       {
                         text: 'Installatie',
-                        link: '/NL/UserManuals/Finasset/Installation/',
+                        link: '/NL/Desktop/UserManuals/Finasset/Installation/',
                       },
                       {
                         text: 'Backup Database',
-                        link: '/NL/UserManuals/Finasset/BackupDatabase/',
+                        link: '/NL/Desktop/UserManuals/Finasset/BackupDatabase/',
                       },
                       {
                         text: 'Import Data',
-                        link: '/NL/UserManuals/Finasset/ImportData/',
+                        link: '/NL/Desktop/UserManuals/Finasset/ImportData/',
                       },
                     ]
                   },
                   {
                     text: 'Corporate Desk',
-                    link: '/NL/UserManuals/CorpDesk/',
+                    link: '/NL/Desktop/UserManuals/CorpDesk/',
                     children: [
                     ]
                   },
@@ -168,43 +189,49 @@ export default defineUserConfig({
               },
               {
                 text: 'Veelgestelde vragen',
-                link: '/NL/FAQ/',
+                link: '/NL/Desktop/FAQ/',
                 children: [
                   {
                     text: 'AccoWin',
-                    link: '/NL/FAQ/AccoWin/',
+                    link: '/NL/Desktop/FAQ/AccoWin/',
                   },
                   {
                     text: 'BelcoFin',
-                    link: '/NL/FAQ/BelcoFin/',
+                    link: '/NL/Desktop/FAQ/BelcoFin/',
                   },
                   {
                     text: 'Finasset',
-                    link: '/NL/FAQ/Finasset/',
+                    link: '/NL/Desktop/FAQ/Finasset/',
                   },
                   {
                     text: 'Corporate Desk',
-                    link: '/NL/FAQ/CorpDesk/',
+                    link: '/NL/Desktop/FAQ/CorpDesk/',
                   },
                   {
                     text: 'General',
-                    link: '/NL/FAQ/General/',
+                    link: '/NL/Desktop/FAQ/General/',
                   },
                 ]
               },
               {
                 text: 'Andere',
-                link: '/NL/Other/',
+                link: '/NL/Desktop/Other/',
                 children: [
                 ]
               },
             ]
-          }
+          },
+          {
+            text: 'Cloud',
+            link: '/NL/Cloud/',
+            children: [
+            ]
+          },
         ]
       },
       '/FR/': {
         lang: 'fr-FR',
-        selectLanguageName: 'Francais',
+        selectLanguageName: 'Français',
         title: 'Manuels LBRP',
         description: 'Manuels LBRP'
       },

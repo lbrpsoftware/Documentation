@@ -1,5 +1,4 @@
-# Inhoud
+# Choose your Environment
 
-- [Handleidingen](UserManuals/README.md)
-- [Veelgestelde vragen](FAQ/README.md)
-- [Andere](Other/README.md)
+- [Cloud](Cloud/README.md>)
+- [Desktop](Desktop/README.md)
