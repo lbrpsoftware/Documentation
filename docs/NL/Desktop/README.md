@@ -1,4 +1,4 @@
-# Desktop - Pick a Topic
+# Desktop - Kies een categorie
 
 - [Handleidingen](UserManuals/README.md)
 - [Veelgestelde vragen](FAQ/README.md)

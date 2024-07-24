@@ -1,4 +1,4 @@
-# FAQ
+# Veelgestelde vragen
 
 - [AccoWin](AccoWin/README.md)
 - [BelcoFin](BelcoFin/README.md)

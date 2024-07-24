@@ -93,13 +93,12 @@ export default defineUserConfig({
         description: 'LBRP Handleidingen',
         sidebar: [
           {
-            text: 'Desktop Applications',
+            text: '🖥️ Desktop Applications',
             link: '/NL/Desktop/',
             children: [
               {
-                text: 'Handleidingen',
+                text: '📚 Handleidingen',
                 link: '/NL/Desktop/UserManuals/',
-                collapsable: true,
                 children: [
                   {
                     text: 'AccoWin',
@@ -188,7 +187,7 @@ export default defineUserConfig({
                 ]
               },
               {
-                text: 'Veelgestelde vragen',
+                text: '🗯️ Veelgestelde vragen',
                 link: '/NL/Desktop/FAQ/',
                 children: [
                   {
@@ -214,7 +213,7 @@ export default defineUserConfig({
                 ]
               },
               {
-                text: 'Andere',
+                text: '⁉️ Andere',
                 link: '/NL/Desktop/Other/',
                 children: [
                 ]
@@ -222,7 +221,7 @@ export default defineUserConfig({
             ]
           },
           {
-            text: 'Cloud',
+            text: '🌐 Cloud',
             link: '/NL/Cloud/',
             children: [
             ]
