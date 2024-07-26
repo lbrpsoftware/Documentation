@@ -54,7 +54,7 @@ export default defineUserConfig({
       },
       {
         text: 'Login',
-        link: 'https://abfweb.dev.corpgroup.site/login'
+        link: 'https://abfweb.dev.corpgroup.site/identity/login'
       },
     ],
 
