@@ -47,8 +47,12 @@ export default defineUserConfig({
             link: '/',
           },
           {
-            text: 'API',
+            text: 'API - Swagger',
             link: 'https://abfapi.dev.corpgroup.site/swagger'
+          },
+          {
+            text: 'API - Docs',
+            link: 'https://abfapi.dev.corpgroup.site/api-docs'
           },
         ]
       },
