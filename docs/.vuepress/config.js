@@ -242,6 +242,12 @@ export default defineUserConfig({
             children: [
             ]
           },
+          {
+            text: '⚖️ Contracts',
+            link: '/NL/Contracts/',
+            children: [
+            ]
+          },
         ]
       },
       '/FR/': {
