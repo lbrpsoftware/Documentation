@@ -1,5 +1,7 @@
 # Contracts
 
+- [AI Tranparancy Policy](AITransparancyPolicy/README.md)
+
 - [Cookie Policy](CookiePolicy/README.md)
 
 - [Data Processing Agreement (DPA)](DPA/README.md)
