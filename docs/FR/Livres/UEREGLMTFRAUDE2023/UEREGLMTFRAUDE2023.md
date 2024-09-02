@@ -18,7 +18,6 @@ considérant ce qui suit:
 
 3. Ce traitement peut nécessiter un ajustement portant sur la partie de l’écart entre les recettes théoriques de la TVA et les recettes de TVA effectivement perçues, qui est imputable à la fraude n’impliquant pas la complicité des acheteurs (ci-après «sans complicité») et à la TVA non perçue pour cause d’insolvabilité. 
 
-
 4. Les agrégats RNB et leurs composantes devraient être comparables d’un État membre à l’autre et conformes aux définitions et règles comptables pertinentes du système européen de comptes 2010 (SEC 2010), établies à l’annexe A du règlement (UE) no 549/2013 du Parlement européen et du Conseil (3). 
 
 5. Le traitement prévu dans la décision 98/527/CE, Euratom de la Commission (4) devrait être remplacé au moyen du présent règlement d’exécution, compte tenu des résultats des travaux consacrés à ce point dans le cadre de la vérification des données RNB. 
@@ -183,10 +182,10 @@ Pour distinguer la fraude à la TVA avec complicité de la fraude à la TVA sans
 
 En partant du principe que les opérations qui ne sont pas déclarées aux autorités fiscales ne le sont pas non plus aux autorités statistiques, et à moins que les montants de la TVA non perçue (imputable à la fraude sans complicité et à l’insolvabilité) ne soient déjà implicitement inclus dans les comptes, il convient d’opérer, le cas échéant, les ajustements suivants sur les opérations des comptes nationaux pour tenir compte de la TVA non perçue calculée selon la méthode décrite ci-dessus (ou selon une méthode équivalente):
 
-1) optique de la production: le montant de la TVA non perçue doit être inclus dans la valeur ajoutée du vendeur;
+1. optique de la production: le montant de la TVA non perçue doit être inclus dans la valeur ajoutée du vendeur;
 
-2) optique des revenus: le montant de la TVA non perçue doit être inclus dans l’excédent d’exploitation du vendeur;
+2. optique des revenus: le montant de la TVA non perçue doit être inclus dans l’excédent d’exploitation du vendeur;
 
-3) optique des dépenses: le montant de la TVA non perçue doit être inclus dans le prix d’acquisition du bien ou du service. Par conséquent, le montant de la TVA non perçue devrait être inclus dans la consommation finale des ménages et dans la formation brute de capital fixe. En fonction des sources et des méthodes utilisées pour estimer les catégories de dépenses, les montants correspondants peuvent déjà être inclus dans les données sources (par exemple, si une enquête sur le budget des ménages est utilisée) ou devraient être explicitement ajoutés (par exemple, si l’on recourt à des méthodes indirectes telles que la méthode de flux de produits ou les méthodes quantité-prix).
+3. optique des dépenses: le montant de la TVA non perçue doit être inclus dans le prix d’acquisition du bien ou du service. Par conséquent, le montant de la TVA non perçue devrait être inclus dans la consommation finale des ménages et dans la formation brute de capital fixe. En fonction des sources et des méthodes utilisées pour estimer les catégories de dépenses, les montants correspondants peuvent déjà être inclus dans les données sources (par exemple, si une enquête sur le budget des ménages est utilisée) ou devraient être explicitement ajoutés (par exemple, si l’on recourt à des méthodes indirectes telles que la méthode de flux de produits ou les méthodes quantité-prix).
 
 La TVA ayant fait l’objet d’une fraude avec complicité ne doit pas être enregistrée dans les comptes car elle n’a pas été acquittée par l’acheteur. La TVA payée par l’acheteur mais non perçue en raison d’une fraude sans complicité et/ou en cas d’insolvabilité doit être enregistrée dans les catégories correspondantes indiquées aux points 1 à 3 ci-dessus. 
