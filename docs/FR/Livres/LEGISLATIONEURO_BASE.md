@@ -1,53 +1,43 @@
-TITRE PREMIER - OBJET ET CHAMP D'APPLICATION 
-Article premier 
-1.    
-La présente directive établit le système commun de taxe sur la valeur ajoutée (TVA). 
-2.    
-Le principe du système commun de TVA est d'appliquer aux biens et aux services un impôt général sur la 
-consommation exactement proportionnel au prix des biens et des services, quel que soit le nombre des 
-opérations intervenues dans le processus de production et de distribution antérieur au stade d'imposition. 
-À chaque opération, la TVA, calculée sur le prix du bien ou du service au taux applicable à ce bien ou à ce 
-service, est exigible déduction faite du montant de la taxe qui a grevé directement le coût des divers éléments 
-constitutifs du prix. 
-Le système commun de TVA est appliqué jusqu'au stade du commerce de détail inclus. 
-Article 2 
-1.    
-Sont soumises à la TVA les opérations suivantes: 
-a)   
-les livraisons de biens effectuées à titre onéreux sur le territoire d'un État membre par un assujetti agissant 
-en tant que tel; 
-b)   
-les acquisitions intracommunautaires de biens effectuées à titre onéreux sur le territoire d'un État membre: 
-i)   
-par un assujetti agissant en tant que tel, ou par une personne morale non assujettie, lorsque le vendeur est 
-un assujetti agissant en tant que tel qui ne bénéficie pas de la franchise pour les petites entreprises prévue 
-aux articles 282 à 292 et qui ne relève pas des dispositions prévues aux articles 33 et 36; 
-ii)   
-lorsqu'il s'agit de moyens de transport neufs, par un assujetti ou par une personne morale non assujettie, dont 
-les autres acquisitions ne sont pas soumises à la TVA en vertu de l'article 3, paragraphe 1, ou par toute autre 
-personne non assujettie; 
-iii)  
-lorsqu'il s'agit de produits soumis à accises, au titre desquelles les droits d'accise sont exigibles sur le territoire 
-de l'État membre en vertu de la directive 92/12/CEE, par un assujetti ou par une personne morale non 
-assujettie, dont les autres acquisitions ne sont pas soumises à la TVA en vertu de l'article 3, paragraphe 1; 
-c)   
-les prestations de services, effectuées à titre onéreux sur le territoire d'un État membre par un assujetti 
-agissant en tant que tel; 
-d)   
-les importations de biens. 
-2.    
-a)   
-Aux fins du paragraphe 1, point b) ii), sont considérés comme «moyens de transport», les moyens de transport 
-suivants, destinés au transport de personnes ou de marchandises: 
-i)   
-les véhicules terrestres à moteur d'une cylindrée de plus de 48 centimètres cube ou d'une puissance de plus 
-de 7,2 kilowatts; 
-ii)   
-les bateaux d'une longueur de plus de 7,5 mètres, à l'exception des bateaux affectés à la navigation en haute 
-mer et assurant un trafic rémunéré de voyageurs ou à l'exercice d'une activité commerciale, industrielle ou de 
-pêche, ainsi que des bateaux de sauvetage et d'assistance en mer et des bateaux affectés à la pêche côtière; 
-iii)  
-les aéronefs dont le poids total au décollage excède 1 550 kilogrammes, à l'exception des aéronefs utilisés 
+# TITRE PREMIER - OBJET ET CHAMP D'APPLICATION
+
+## Article 1
+
+1. La présente directive établit le système commun de taxe sur la valeur ajoutée (TVA).
+
+2. Le principe du système commun de TVA est d'appliquer aux biens et aux services un impôt général sur la consommation exactement proportionnel au prix des biens et des services, quel que soit le nombre des 
+opérations intervenues dans le processus de production et de distribution antérieur au stade d'imposition.
+
+   À chaque opération, la TVA, calculée sur le prix du bien ou du service au taux applicable à ce bien ou à ce service, est exigible déduction faite du montant de la taxe qui a grevé directement le coût des divers éléments constitutifs du prix.
+
+   Le système commun de TVA est appliqué jusqu'au stade du commerce de détail inclus. 
+
+## Article 2
+
+1. Sont soumises à la TVA les opérations suivantes: 
+
+   a) les livraisons de biens effectuées à titre onéreux sur le territoire d'un État membre par un assujetti agissant en tant que tel; 
+
+   b) les acquisitions intracommunautaires de biens effectuées à titre onéreux sur le territoire d'un État membre: 
+
+      i) par un assujetti agissant en tant que tel, ou par une personne morale non assujettie, lorsque le vendeur est un assujetti agissant en tant que tel qui ne bénéficie pas de la franchise pour les petites entreprises prévue aux articles 282 à 292 et qui ne relève pas des dispositions prévues aux articles 33 et 36; 
+
+      ii) lorsqu'il s'agit de moyens de transport neufs, par un assujetti ou par une personne morale non assujettie, dont les autres acquisitions ne sont pas soumises à la TVA en vertu de l'article 3, paragraphe 1, ou par toute autre personne non assujettie; 
+
+      iii) lorsqu'il s'agit de produits soumis à accises, au titre desquelles les droits d'accise sont exigibles sur le territoire de l'État membre en vertu de la directive 92/12/CEE, par un assujetti ou par une personne morale non assujettie, dont les autres acquisitions ne sont pas soumises à la TVA en vertu de l'article 3, paragraphe 1; 
+
+   c) les prestations de services, effectuées à titre onéreux sur le territoire d'un État membre par un assujetti agissant en tant que tel; 
+
+   d) les importations de biens. 
+
+2. _
+
+   a) Aux fins du paragraphe 1, point b) ii), sont considérés comme «moyens de transport», les moyens de transport suivants, destinés au transport de personnes ou de marchandises: 
+
+      i) les véhicules terrestres à moteur d'une cylindrée de plus de 48 centimètres cube ou d'une puissance de plus de 7,2 kilowatts; 
+
+      ii) les bateaux d'une longueur de plus de 7,5 mètres, à l'exception des bateaux affectés à la navigation en haute mer et assurant un trafic rémunéré de voyageurs ou à l'exercice d'une activité commerciale, industrielle ou de pêche, ainsi que des bateaux de sauvetage et d'assistance en mer et des bateaux affectés à la pêche côtière; 
+
+      iii) les aéronefs dont le poids total au décollage excède 1 550 kilogrammes, à l'exception des aéronefs utilisés 
 par des compagnies de navigation aérienne pratiquant essentiellement un trafic international rémunéré. 
 b)   
 Ces moyens de transport sont considérés comme «neufs» dans les cas suivants: 
