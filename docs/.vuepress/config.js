@@ -240,6 +240,42 @@ export default defineUserConfig({
             text: '🌐 Cloud',
             link: '/NL/Cloud/',
             children: [
+              {
+                text: '📚 Handleidingen',
+                link: '/NL/Cloud/UserManuals/',
+                children: [
+                  {
+                    text: 'Identity',
+                    link: '/NL/Cloud/UserManuals/Identity/',
+                    children: [
+                      {
+                        text: 'Gebruikers',
+                        link: '/NL/Cloud/UserManuals/Identity/Users/',
+                      },
+                      {
+                        text: 'Organisaties',
+                        link: '/NL/Cloud/UserManuals/Identity/Organizations/',
+                      },
+                      {
+                        text: 'Leden',
+                        link: '/NL/Cloud/UserManuals/Identity/Members/',
+                      },
+                      {
+                        text: 'Applicaties',
+                        link: '/NL/Cloud/UserManuals/Identity/Applications/',
+                      },
+                      {
+                        text: 'Facturen',
+                        link: '/NL/Cloud/UserManuals/Identity/Invoices/',
+                      },
+                      {
+                        text: 'Menu',
+                        link: '/NL/Cloud/UserManuals/Identity/Menu/',
+                      },
+                    ]
+                  },
+                ]
+              },
             ]
           },
           {
