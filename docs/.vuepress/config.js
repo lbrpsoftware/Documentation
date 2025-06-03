@@ -274,6 +274,28 @@ export default defineUserConfig({
                       },
                     ]
                   },
+                  {
+                    text: 'Books',
+                    link: '/NL/Cloud/UserManuals/Books/',
+                    children: [
+                      {
+                        text: 'Upload',
+                        link: '/NL/Cloud/UserManuals/Books/Upload/',
+                      },
+                      {
+                        text: 'Manage',
+                        link: '/NL/Cloud/UserManuals/Books/Manage/',
+                      },
+                      {
+                        text: 'View',
+                        link: '/NL/Cloud/UserManuals/Books/View/',
+                      },
+                      {
+                        text: 'AI',
+                        link: '/NL/Cloud/UserManuals/Books/AI/',
+                      },
+                    ]
+                  },
                 ]
               },
             ]
