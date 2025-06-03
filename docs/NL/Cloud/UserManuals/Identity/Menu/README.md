@@ -1,69 +1,66 @@
 # LBRP Cloud - Identity - Menu
 
-## 1. Hoofdmenu  
+## 1. Hoofdmenu
 
-Het hoofdmenu biedt snelle toegang tot de belangrijkste onderdelen van het systeem:  
+Het hoofdmenu biedt snelle toegang tot de belangrijkste onderdelen van het systeem:
 
 <img src="./menu.png" alt="menu.png" style="width:200px;"/>
 
 ---
 
-### 1.1 Ingelogde Gebruiker
+### 1.1 Ingelogde gebruiker
 
-Bekijk de gegevens van de huidige gebruiker.
+Bekijk de gegevens van de huidige ingelogde gebruiker.
 
 ### 1.2 Organisaties
 
-Link naar een overzicht van alle organisaties waar je lid van bent.  
+Link naar een overzicht van alle organisaties waarvan je lid bent.
 
-### 1.3 Actieve Organisatie
+### 1.3 Instellingen
 
-Beheer de instellingen van de momenteel geselecteerde organisatie.  
+In het **Instellingen**-menu kun je diverse configuraties beheren. Dit scherm is onderverdeeld in drie secties:
 
-#### 1.3.1 Instellingen  
-
-In het **Instellingen**-menu kun je diverse configuraties beheren, waaronder de e-mailinstellingen:  
+#### 1.3.1 Organisatie-instellingen
 
 <img src="./smtp.png" alt="smtp.png" style="width:400px;"/>
 
-- Stel de SMTP-server in om e-mails vanuit het systeem te kunnen verzenden.  
-
-- Te configureren instellingen:  
-
-   - SMTP-serveradres  
-
-   - Poortnummer  
-
-   - Gebruikersnaam  
-
-   - Wachtwoord  
-
+- Stel de SMTP-server in om e-mails vanuit het systeem te kunnen verzenden.
+- Te configureren instellingen:
+   - SMTP-serveradres
+   - Poortnummer
+   - Gebruikersnaam
+   - Wachtwoord
    - Beveiligingstype (bijv. SSL/TLS)
 
-Met deze instellingen zorg je ervoor dat eigen e-mails, correct worden verzonden.
+<img src="./api-keys.png" alt="api-keys.png" style="width:400px;"/>
 
-### 1.4 Accountinstellingen
+- Voeg hier 3rd-party API-keys toe om diensten te gebruiken zoals AI. Deze API-keys zijn toegankelijk voor alle leden van de organisatie.
+- Hier kun je ook een eigen LbrpCloud API-key genereren om te gebruiken in andere software.
+
+#### 1.3.2 Gebruikersinstellingen
 
 <img src="./avatar.png" alt="avatar.png" style="width:400px;"/>
 
-Beheer je persoonlijke account: 
+- Beheer je persoonlijke account:
+   - Gebruikersgegevens
+   - Avatar veranderen
+   - Wachtwoord resetten
+   - Taal instellen
 
-   - Gebruikersgegevens  
+- Voeg hier 3rd-party API-keys toe om diensten te gebruiken zoals AI. Deze API-keys zijn enkel toegankelijk voor de gebruiker in alle organisaties waarvan de gebruiker lid is.
 
-   - Avatar veranderen  
+#### 1.3.3 Lid-instellingen
 
-   - Wachtwoord resetten  
+<img src="./member.png" alt="member.png" style="width:400px;"/>
 
+- Support aanvragen
+- Voeg hier 3rd-party API-keys toe om diensten te gebruiken zoals AI. Deze API-keys zijn enkel toegankelijk voor de gebruiker van de huidige organisatie.
+- Foutmeldingen beheren
 
-### 1.5 Foutenlog
+### 1.4 Helpdesk
 
-Bekijk een overzicht van systeemfouten en logs.  
+Link naar onze helpdesk voor ondersteuning.
 
-### 1.6 Helpdesk
-   
-Link naar onze helpdesk voor ondersteuning.  
+### 1.5 Logout
 
-### 1.7 Logout
-   
-Veilig uitloggen uit het systeem.  
-
+Veilig uitloggen uit het systeem.

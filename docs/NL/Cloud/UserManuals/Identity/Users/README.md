@@ -2,7 +2,7 @@
 
 ## 1. Aanmelden
 
-Om toegang te krijgen tot de software, kun je eenvoudig inloggen via de **Login**-knop op de startpagina. 
+Om toegang te krijgen tot de applicatie, kun je inloggen via de **Login**-knop op de [startpagina](https://abfweb.corpgroup.site/identity/login).
 
 1. Klik op **Login**.  
 2. Voer je gebruikersnaam en wachtwoord in.  
