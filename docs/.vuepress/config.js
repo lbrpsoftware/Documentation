@@ -48,17 +48,17 @@ export default defineUserConfig({
           },
           {
             text: 'API - Swagger',
-            link: 'https://abfapi.dev.corpgroup.site/swagger'
+            link: 'https://abfapi.corpgroup.site/swagger'
           },
           {
             text: 'API - Docs',
-            link: 'https://abfapi.dev.corpgroup.site/api-docs'
+            link: 'https://abfapi.corpgroup.site/api-docs'
           },
         ]
       },
       {
         text: 'Login',
-        link: 'https://abfweb.dev.corpgroup.site/identity/login'
+        link: 'https://abfweb.corpgroup.site/identity/login'
       },
     ],
 
@@ -295,6 +295,10 @@ export default defineUserConfig({
                         link: '/NL/Cloud/UserManuals/Books/AI/',
                       },
                     ]
+                  },
+                  {
+                    text: 'Globalization',
+                    link: '/NL/Cloud/UserManuals/Globalization/',
                   },
                 ]
               },
