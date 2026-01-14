@@ -21,7 +21,7 @@ Om de **CATALOG** applicatie te kunnen gebruiken, moet deze eerst geactiveerd wo
 3. Geef de catalogus een naam en eventueel een beschrijving.
 4. Sla de catalogus op.
 
-<img src="./catalog.png" alt="catalog.png" style="width:400px;"/>
+<img src="./catalog.png" alt="catalog.png" style="width:600px;"/>
 
 ## 3. Producten Toevoegen aan Catalogus
 
@@ -37,7 +37,7 @@ Aan een catalogus kan u verschillende producten of diensten koppelen.
    - BTW-percentage
 4. Sla het product op.
 
-<img src="./product.png" alt="product.png" style="width:400px;"/>
+<img src="./product.png" alt="product.png" style="width:800px;"/>
 
 De producten zijn nu beschikbaar binnen de catalogus.
 
@@ -47,8 +47,8 @@ De producten zijn nu beschikbaar binnen de catalogus.
 
 Per catalogus kunnen 3 winstmarges in percenten worden ingegeven
 
-<img src="./calc_catalog.png" alt="calc_catalog.png" style="width:400px;"/>
+<img src="./calc_catalog.png" alt="calc_catalog.png" style="width:600px;"/>
 
 ### 4.2 Prijsberekening Producten
 
-<img src="./calc_product.png" alt="calc_product.png" style="width:400px;"/>
+<img src="./calc_product.png" alt="calc_product.png" style="width:600px;"/>

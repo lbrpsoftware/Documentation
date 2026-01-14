@@ -81,7 +81,7 @@ De gegevens van deze relatie (zoals bankinformatie) worden automatisch gebruikt 
 
 Na de voorbereiding kan u documenten aanmaken (bv. offertes, facturen, creditnota’s).
 
-<img src="./document.png" alt="document.png" style="width:600px;"/>
+<img src="./document.png" alt="document.png" style="width:800px;"/>
 
 ## 3.1 Relatie kiezen
 
@@ -92,7 +92,7 @@ Na de voorbereiding kan u documenten aanmaken (bv. offertes, facturen, creditnot
 
 Voeg documentlijnen toe op basis van producten of diensten uit de catalogus.
 
-<img src="./document_line.png" alt="document_line.png" style="width:600px;"/>
+<img src="./document_line.png" alt="document_line.png" style="width:800px;"/>
 
 Meer informatie:
 [Catalog](../Catalog/README.md)

@@ -24,7 +24,7 @@ Indien **Vies** actief is, worden naam, land en adres automatisch opgehaald op b
 Meer informatie hierover vindt u in de [Vies](../Vies/README.md)-handleiding:
 
 
-<img src="./vies.png" alt="vies.png" style="width:400px;"/>
+<img src="./vies.png" alt="vies.png" style="width:800px;"/>
 
 ### 2.1 Adres
 

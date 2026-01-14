@@ -17,7 +17,7 @@ Om de **Scrada** applicatie te kunnen gebruiken, moet deze eerst geactiveerd wor
 
 ## 1.2. Eigen Organisatie registreren
 
-<img src="./register.png" alt="register.png" style="width:400px;"/>
+<img src="./register.png" alt="register.png" style="width:800px;"/>
 
 ## 2. Inbound
 
