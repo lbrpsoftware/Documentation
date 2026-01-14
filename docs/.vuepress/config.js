@@ -275,6 +275,22 @@ export default defineUserConfig({
                     ]
                   },
                   {
+                    text: 'Document',
+                    link: '/NL/Cloud/UserManuals/Document/',
+                  },
+                  {
+                    text: 'Relation',
+                    link: '/NL/Cloud/UserManuals/Relation/',
+                  },
+                  {
+                    text: 'Catalog',
+                    link: '/NL/Cloud/UserManuals/Catalog/',
+                  },                                                      
+                  {
+                    text: 'Scrada',
+                    link: '/NL/Cloud/UserManuals/Scrada/',
+                  },                                                      
+                  {
                     text: 'Books',
                     link: '/NL/Cloud/UserManuals/Books/',
                     children: [
