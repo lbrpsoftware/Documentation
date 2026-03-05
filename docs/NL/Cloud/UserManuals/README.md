@@ -8,7 +8,7 @@
 - [Document](Document/README.md) (Invoicing, PEP-IT)
 - [Relation](Relation/README.md)
 - [Catalog](Catalog/README.md)
-- [Scrada](Scrada/README.md)
+- [Peppol](Scrada/README.md)
 
 ## 3. Books and Globalization
 
