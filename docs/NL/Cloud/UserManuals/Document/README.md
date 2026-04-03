@@ -58,7 +58,7 @@ Met **Report Templates** kan u de lay-out en inhoud van documenten en e-mails aa
 2. Kies het type template:
    - DocumentLogo: Logo op afdruk
    - DocumentHeader: Extra Header tekst op afdruk
-   - DocumentData: Customù Producten grid velden
+   - DocumentData: Custom Producten grid velden
    - DocumentFooter: Extra Footer tekst op afdruk
    - DocumentAppendix: Extra volledig blad na raport
 
@@ -71,6 +71,11 @@ Met **Report Templates** kan u de lay-out en inhoud van documenten en e-mails aa
    - Rappel 4: Rappel Tekst nummer 4
 
 3. Voeg beschikbare velden toe vanuit het document.
+4. Voorbeeld
+
+<img src="./document_template_example_1.png" alt="document_template_example_1.png" style="width:250px;"/>
+<img src="./document_template_example_2.png" alt="document_template_example_2.png" style="width:250px;"/>
+
 
 ## 2.3 Eigen Relatie ‼️
 
