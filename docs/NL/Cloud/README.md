@@ -1,3 +1,4 @@
 # LBRP Cloud - Kies een categorie
 
-- [Handleidingen](UserManuals/README.md)
+- [Gebruikers Handleidingen](UserManuals/README.md)
+- [Developers Handleidingen](DevManuals/README.md)
