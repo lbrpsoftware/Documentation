@@ -4,7 +4,7 @@
 
 ![Image 1](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101031856674/original/Y9UUHNPwbSHvIbihFwAt_D7fXmTx80uuKA.png?1663226728)
 
-Stel hier de map in waar de bestanden worden geplaatst om te importeren in uw boekhouding. <br>
+Stel hier de map in waar de bestanden worden geplaatst om te importeren in uw boekhouding. <br/>
 Per dossier (aangever) wordt er een submap aangemaakt.
 
 **Aanpassen te gebruiken grootboekrekeningen**:

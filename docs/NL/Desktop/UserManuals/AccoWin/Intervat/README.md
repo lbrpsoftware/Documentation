@@ -14,7 +14,7 @@ De werkwijze om een BTW-aangifte te maken van een dossier blijft ongewijzigd in 
 
 ![Image 1]()
 
-- Daarna ziet u het scherm van de BTW-aangifte. U selecteert de BTW-periode waarvoor u de aangifte wilt maken en u vult de andere gegevens in zoals betaalde voorschotten, nog te ontvangen saldo... <br>
+- Daarna ziet u het scherm van de BTW-aangifte. U selecteert de BTW-periode waarvoor u de aangifte wilt maken en u vult de andere gegevens in zoals betaalde voorschotten, nog te ontvangen saldo... <br/>
   Onderaan het scherm ziet u wanneer de aangifte is ingediend en via welke weg. Als u een volledig nieuwe BTW-aangifte aanmaakt, is dit veld nog blanco.
 
 ![Image 2]()

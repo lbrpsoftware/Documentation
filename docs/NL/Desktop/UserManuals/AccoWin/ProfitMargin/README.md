@@ -120,7 +120,7 @@ Bij klikken op de knop Sluiten of F12 worden de voertuig gegevens weggeschreven 
 
 ### 6.2 Menu optie aankopen
 
-Via deze menu optie zie je alle aankopen en hun detail. <br> Overzichtsscherm:
+Via deze menu optie zie je alle aankopen en hun detail. <br/> Overzichtsscherm:
 
 ![Image 11]()
 
@@ -172,7 +172,7 @@ Voorbeeld selectie voertuig na inboeken verkoopfactuur:
 
 ### 7.2 Menu optie verkopen
 
-Via deze menu optie zie je alle verkopen en hun detail. <br> Overzichtsscherm:
+Via deze menu optie zie je alle verkopen en hun detail. <br/> Overzichtsscherm:
 
 ![Image 16]()
 
@@ -295,11 +295,11 @@ Op het einde van elke periode zal het systeem een verkoopfactuur boeken.
 
 Bij berekeningsmanier per periode wordt de marge berekend per BTW periode:
 
-- <ins>Bepaling marge eerste periode</ins>: <br>
+- <ins>Bepaling marge eerste periode</ins>: <br/>
   Marge = verkoop periode– (aankoop periode+ beginstock)
-- <ins>Bepaling marge in de loop van het jaar</ins>: <br>
+- <ins>Bepaling marge in de loop van het jaar</ins>: <br/>
   Marge = verkoop periode– (aankoop periode+ overdracht negatieve marge vorige periode)
-- <ins>Bepaling marge laatste periode</ins>: <br>
+- <ins>Bepaling marge laatste periode</ins>: <br/>
   Marge = Verkoop volledig jaar – (aankoop volledig jaar + beginstock – eindstock) – Reeds aangegeven positieve marges)
 
 Rooster 00 wordt enkel op het einde van het jaar berekend en ingevuld. Gedurende het jaar is rooster 00 blanco.

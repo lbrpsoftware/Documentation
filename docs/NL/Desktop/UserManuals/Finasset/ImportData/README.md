@@ -85,47 +85,47 @@ Beschikbare opdrachtregelparameters zijn:
     </tr>
     <tr>
       <td>/port:&lt;poort nummer&gt;</td>
-      <td>Poort van de server. Als niet meegegeven dan wordt de <br> standaard poort nummer gebruikt.</td>
+      <td>Poort van de server. Als niet meegegeven dan wordt de <br/> standaard poort nummer gebruikt.</td>
       <td></td>
     </tr>
     <tr>
       <td>/db:&lt;database naam&gt;</td>
-      <td>Naam van de database. Als niet meegegeven dan wordt de <br> standaard database van Finasset gebruikt.</td>
+      <td>Naam van de database. Als niet meegegeven dan wordt de <br/> standaard database van Finasset gebruikt.</td>
       <td></td>
     </tr>
     <tr>
       <td>/language:&lt;taal&gt;</td>
-      <td>De taal van de foutmeldingen: <br> <strong>N</strong>: Nederlands <br> <strong>F</strong>: Frans</td>
+      <td>De taal van de foutmeldingen: <br/> <strong>N</strong>: Nederlands <br/> <strong>F</strong>: Frans</td>
       <td></td>
     </tr>
     <tr>
       <td>/itype:&lt;type import&gt;</td>
-      <td>Type bron waarvan de data wordt geïmporteerd: <br> <strong>c</strong>: CSV bestand</td>
+      <td>Type bron waarvan de data wordt geïmporteerd: <br/> <strong>c</strong>: CSV bestand</td>
       <td></td>
     </tr>
     <tr>
       <td>/dtype:&lt;data type&gt;</td>
-      <td>Welke soort data er moet geïmporteerd worden: <br> <strong>d</strong>: dossiers <br> <strong>y</strong>: boekjaren <br> <strong>a</strong>: investeringen <br> <strong>g</strong>: algemene rekeningen <br> <strong>o</strong>: investeringsgroepen</td>
+      <td>Welke soort data er moet geïmporteerd worden: <br/> <strong>d</strong>: dossiers <br/> <strong>y</strong>: boekjaren <br/> <strong>a</strong>: investeringen <br/> <strong>g</strong>: algemene rekeningen <br/> <strong>o</strong>: investeringsgroepen</td>
       <td>✅</td>
     </tr>
     <tr>
       <td>/otype:&lt;type import&gt;</td>
-      <td>Type import: <br> <strong>i</strong>: enkel nieuwe data toevoegen <br> <strong>u</strong>: enkel bestaande data updaten <br> <strong>iu</strong>: zowel nieuwe als bestaande data importeren <br> Standaard waarde is iu.</td>
+      <td>Type import: <br/> <strong>i</strong>: enkel nieuwe data toevoegen <br/> <strong>u</strong>: enkel bestaande data updaten <br/> <strong>iu</strong>: zowel nieuwe als bestaande data importeren <br/> Standaard waarde is iu.</td>
       <td></td>
     </tr>
     <tr>
       <td>/logfile: &lt;bestandsnaam&gt;</td>
-      <td>De locatie en naam van het bestand waar de logging informatie <br> van de import in staat. Als deze parameter niet gebruikt wordt <br> dan wordt geen log bestand aangemaakt.</td>
+      <td>De locatie en naam van het bestand waar de logging informatie <br/> van de import in staat. Als deze parameter niet gebruikt wordt <br/> dan wordt geen log bestand aangemaakt.</td>
       <td></td>
     </tr>
     <tr>
       <td>/loginfo</td>
-      <td>Als deze parameter wordt toegevoegd dan wordt naast de fouten <br> ook extra logging informatie getoond en/of weggeschreven in het <br> log bestand.</td>
+      <td>Als deze parameter wordt toegevoegd dan wordt naast de fouten <br/> ook extra logging informatie getoond en/of weggeschreven in het <br/> log bestand.</td>
       <td></td>
     </tr>
     <tr>
       <td>/overwritelog</td>
-      <td>Als deze parameter gebruikt wordt dan wordt log bestand <br> overschreven telkens het programma wordt uitgevoerd. Als de <br> parameter niet wordt gebruikt dan wordt de logging steeds <br> toegevoegd aan bestaande logbestand.</td>
+      <td>Als deze parameter gebruikt wordt dan wordt log bestand <br/> overschreven telkens het programma wordt uitgevoerd. Als de <br/> parameter niet wordt gebruikt dan wordt de logging steeds <br/> toegevoegd aan bestaande logbestand.</td>
       <td></td>
     </tr>
   </tbody>
@@ -156,17 +156,17 @@ Parameters specifiek import CSV bestanden:
     </tr>
     <tr>
       <td>/iCsvADFile:&lt;bestandsnaam&gt;</td>
-      <td>De bestandsnaam van het CSV bestand met afschrijvingen van <br> de investeringen</td>
+      <td>De bestandsnaam van het CSV bestand met afschrijvingen van <br/> de investeringen</td>
       <td>✅</td>
     </tr>
     <tr>
       <td>/iCsvGFile:&lt;bestandsnaam&gt;</td>
-      <td>De bestandsnaam van het CSV bestand met <br> grootboekrekeningen</td>
+      <td>De bestandsnaam van het CSV bestand met <br/> grootboekrekeningen</td>
       <td>✅</td>
     </tr>
     <tr>
       <td>/iCsvOFile:&lt;bestandsnaam&gt;</td>
-      <td>De bestandsnaam van het CSV bestand met <br> investeringsgroepen</td>
+      <td>De bestandsnaam van het CSV bestand met <br/> investeringsgroepen</td>
       <td>✅</td>
     </tr>
   </tbody>
@@ -243,9 +243,9 @@ Hieronder staat per type import beschreven welke velden er kunnen geïmporteerd 
     <tr>
       <th>Veldnaam</th>
       <th>Omschrijving</th>
-      <th>Type veld <br> (max)</th>
+      <th>Type veld <br/> (max)</th>
       <th>Verplicht</th>
-      <th>Standaard <br> waarde</th>
+      <th>Standaard <br/> waarde</th>
     </tr>
   </thead>
   <tbody>
@@ -314,101 +314,101 @@ Hieronder staat per type import beschreven welke velden er kunnen geïmporteerd 
     </tr>
     <tr>
       <td>CompanyType</td>
-      <td>Type bedrijf: <br> 1: Vennootschap <br> 2: VZW <br> 3: Natuurlijk persoon</td>
+      <td>Type bedrijf: <br/> 1: Vennootschap <br/> 2: VZW <br/> 3: Natuurlijk persoon</td>
       <td>Nummer</td>
       <td>✅</td>
       <td></td>
     </tr>
     <tr>
       <td>Language</td>
-      <td>Taal code: <br> 1: Nederlands <br> 2: Frans <br> 3: Engels <br> 4: Duits</td>
+      <td>Taal code: <br/> 1: Nederlands <br/> 2: Frans <br/> 3: Engels <br/> 4: Duits</td>
       <td>Nummer</td>
       <td></td>
       <td>1</td>
     </tr>
     <tr>
       <td>CompanyNumber</td>
-      <td>Ondernemingsnummer. Punten, <br> spaties en streepjes worden <br> automatisch verwijderd uit <br> nummer en als nummer 9 lang is <br> wordt deze omgevormd naar 10 <br> door er een 0 voor te zetten.</td>
+      <td>Ondernemingsnummer. Punten, <br/> spaties en streepjes worden <br/> automatisch verwijderd uit <br/> nummer en als nummer 9 lang is <br/> wordt deze omgevormd naar 10 <br/> door er een 0 voor te zetten.</td>
       <td>Tekst(30)</td>
       <td>✅</td>
       <td></td>
     </tr>
     <tr>
       <td>AssetMaxPercDig</td>
-      <td>Maximale tarief voor degressieve <br> afschrijvingen op aankoopwaarde. <br> Indien 40% dan moet de waarde <br> hier 40 zijn.</td>
+      <td>Maximale tarief voor degressieve <br/> afschrijvingen op aankoopwaarde. <br/> Indien 40% dan moet de waarde <br/> hier 40 zijn.</td>
       <td>Decimaal(2)</td>
       <td></td>
-      <td>Parameter <br> applicatie. <br> Normaal 40.</td>
+      <td>Parameter <br/> applicatie. <br/> Normaal 40.</td>
     </tr>
     <tr>
       <td>AssetMinPerc</td>
       <td>Minimum percentage afschrijving</td>
       <td>Decimaal(2)</td>
       <td></td>
-      <td>Parameter <br> applicatie. <br> Normaal 0,05</td>
+      <td>Parameter <br/> applicatie. <br/> Normaal 0,05</td>
     </tr>
     <tr>
       <td>AssetAutoDigLin</td>
-      <td>Y: Automatische overgang van <br> degressief naar lineair bij <br> afschrijving <br> N: geen automatisch overgang</td>
+      <td>Y: Automatische overgang van <br/> degressief naar lineair bij <br/> afschrijving <br/> N: geen automatisch overgang</td>
       <td>Tekst(1)</td>
       <td></td>
-      <td>Parameter <br> applicatie. <br> Normaal: Y</td>
+      <td>Parameter <br/> applicatie. <br/> Normaal: Y</td>
     </tr>
     <tr>
       <td>AssetBelowMinAddLastPer</td>
-      <td>Y: Indien afschrijving onder min <br> percentage dan toevoegen aan <br> laaste periode <br> N: Indien afschrijving onder min <br> percentage dan toevoegen aan <br> eerste periode</td>
+      <td>Y: Indien afschrijving onder min <br/> percentage dan toevoegen aan <br/> laaste periode <br/> N: Indien afschrijving onder min <br/> percentage dan toevoegen aan <br/> eerste periode</td>
       <td>Tekst(1)</td>
       <td></td>
-      <td>Parameter <br> applicatie. <br> Normaal: Y</td>
+      <td>Parameter <br/> applicatie. <br/> Normaal: Y</td>
     </tr>
     <tr>
       <td>AssetDefaultDepreciationType</td>
-      <td>Type afschrijving: <br> L: Lineair <br> D: Degressief</td>
+      <td>Type afschrijving: <br/> L: Lineair <br/> D: Degressief</td>
       <td>Tekst(1)</td>
       <td></td>
-      <td>Parameter <br> applicatie. <br> Normaal: L</td>
+      <td>Parameter <br/> applicatie. <br/> Normaal: L</td>
     </tr>
     <tr>
       <td>AssetDefaultPerc</td>
-      <td>Afschrijvingspercentage. Indien <br> afschrijvingspercentage 20 is dan <br> is dit afschrijven over 5 jaar</td>
+      <td>Afschrijvingspercentage. Indien <br/> afschrijvingspercentage 20 is dan <br/> is dit afschrijven over 5 jaar</td>
       <td>Decimaal(4)</td>
       <td></td>
-      <td>Parameter <br> applicatie. <br> Normaal: 20</td>
+      <td>Parameter <br/> applicatie. <br/> Normaal: 20</td>
     </tr>
     <tr>
       <td>AssetDefaultNumberOfYear</td>
-      <td>Aantal jaren afschrijven. Indien <br> aantal jaar 5 is dan is percentage <br> 20</td>
+      <td>Aantal jaren afschrijven. Indien <br/> aantal jaar 5 is dan is percentage <br/> 20</td>
       <td>Decimaal(4)</td>
       <td></td>
-      <td>Parameter <br> applicatie. <br> Normaal: 5</td>
+      <td>Parameter <br/> applicatie. <br/> Normaal: 5</td>
     </tr>
     <tr>
       <td>AssetWarnNoPurchaseDate</td>
-      <td>Y: Er wordt een melding getoond <br> bij bewaren van investering als er <br> geen AK datum ingevuld is <br> N: Er wordt geen melding getoond</td>
+      <td>Y: Er wordt een melding getoond <br/> bij bewaren van investering als er <br/> geen AK datum ingevuld is <br/> N: Er wordt geen melding getoond</td>
       <td>Tekst(1)</td>
       <td></td>
-      <td>Parameter <br> applicatie. <br> Normaal: Y</td>
+      <td>Parameter <br/> applicatie. <br/> Normaal: Y</td>
     </tr>
     <tr>
       <td>AssetWarnNoDerecognitionDate</td>
-      <td>Y: Er wordt een melding getoond <br> bij bewaren van investering als er <br> geen uitboekingsdatum ingevuld <br> is <br> N: Er wordt geen melding getoond</td>
+      <td>Y: Er wordt een melding getoond <br/> bij bewaren van investering als er <br/> geen uitboekingsdatum ingevuld <br/> is <br/> N: Er wordt geen melding getoond</td>
       <td>Tekst(1)</td>
       <td></td>
-      <td>Parameter <br> applicatie. <br> Normaal: Y</td>
+      <td>Parameter <br/> applicatie. <br/> Normaal: Y</td>
     </tr>
     <tr>
       <td>AssetWarnNoVATPurchaseDate</td>
-      <td>Y: Er wordt een melding getoond <br> bij bewaren van investering als er <br> geen btw datum ingevuld is <br> N: Er wordt geen melding getoond</td>
+      <td>Y: Er wordt een melding getoond <br/> bij bewaren van investering als er <br/> geen btw datum ingevuld is <br/> N: Er wordt geen melding getoond</td>
       <td>Tekst(1)</td>
       <td></td>
-      <td>Parameter <br> applicatie. <br> Normaal: Y</td>
+      <td>Parameter <br/> applicatie. <br/> Normaal: Y</td>
     </tr>
     <tr>
       <td>AssetCopyPurchDtToVATDtIfEmpty</td>
-      <td>Y: Als de AK datum ingevuld is en <br> de BTW datum is leeg dan wordt <br> de AK datum ook bewaard in het <br> BTW datum veld. <br> N: Er wordt niets gedaan</td>
+      <td>Y: Als de AK datum ingevuld is en <br/> de BTW datum is leeg dan wordt <br/> de AK datum ook bewaard in het <br/> BTW datum veld. <br/> N: Er wordt niets gedaan</td>
       <td>Tekst(1)</td>
       <td></td>
-      <td>Parameter <br> applicatie. <br> Normaal: Y</td>
+      <td>Parameter <br/> applicatie. <br/> Normaal: Y</td>
     </tr>
   </tbody>
 </table>
@@ -428,22 +428,22 @@ Als de start- of einddatum wordt gewijzigd, worden de afschrijvingen voor het be
     <tr>
       <th>Veldnaam</th>
       <th>Omschrijving</th>
-      <th>Type veld <br> (max)</th>
+      <th>Type veld <br/> (max)</th>
       <th>Verplicht</th>
-      <th>Standaard <br> waarde</th>
+      <th>Standaard <br/> waarde</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>DossierCode</td>
-      <td>Code van het dossier waartoe <br> dit boekjaar behoort (zie <br> hierboven)</td>
+      <td>Code van het dossier waartoe <br/> dit boekjaar behoort (zie <br/> hierboven)</td>
       <td>Tekst(50)</td>
       <td>✅</td>
       <td></td>
     </tr>
     <tr>
       <td>Code</td>
-      <td>Code. Deze code moet uniek <br> zijn binnen het dossier</td>
+      <td>Code. Deze code moet uniek <br/> zijn binnen het dossier</td>
       <td>Tekst(50)</td>
       <td>✅</td>
       <td></td>
@@ -464,14 +464,14 @@ Als de start- of einddatum wordt gewijzigd, worden de afschrijvingen voor het be
     </tr>
     <tr>
       <td>ProRataType</td>
-      <td>Type pro rata: <br> 1: Geen pro rata <br> 2: Per dag afschrijving <br> berekenen</td>
+      <td>Type pro rata: <br/> 1: Geen pro rata <br/> 2: Per dag afschrijving <br/> berekenen</td>
       <td>Nummer</td>
       <td></td>
       <td>1</td>
     </tr>
     <tr>
       <td>BalanceType</td>
-      <td>Type balans: <br> 1: VKT <br> 2: VOLL</td>
+      <td>Type balans: <br/> 1: VKT <br/> 2: VOLL</td>
       <td>Nummer</td>
       <td></td>
       <td>1</td>
@@ -486,43 +486,43 @@ Als de start- of einddatum wordt gewijzigd, worden de afschrijvingen voor het be
     <tr>
       <th>Veldnaam</th>
       <th>Omschrijving</th>
-      <th>Type veld <br> (max)</th>
+      <th>Type veld <br/> (max)</th>
       <th>Verplicht</th>
-      <th>Standaard <br> waarde</th>
+      <th>Standaard <br/> waarde</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>DossierCode</td>
-      <td>Code van het dossier waartoe <br> deze algemene rekening <br> behoort (zie hierboven)</td>
+      <td>Code van het dossier waartoe <br/> deze algemene rekening <br/> behoort (zie hierboven)</td>
       <td>Tekst(50)</td>
       <td>✅</td>
       <td></td>
     </tr>
     <tr>
       <td>Code</td>
-      <td>Rekeningnummer. Kan enkel <br> cijfers bevatten. Deze code <br> moet uniek zijn binnen het <br> dossier</td>
+      <td>Rekeningnummer. Kan enkel <br/> cijfers bevatten. Deze code <br/> moet uniek zijn binnen het <br/> dossier</td>
       <td>Tekst(10)</td>
       <td>✅</td>
       <td></td>
     </tr>
     <tr>
       <td>Description</td>
-      <td>Omschrijving van de algemene <br> rekening</td>
+      <td>Omschrijving van de algemene <br/> rekening</td>
       <td>Tekst(250)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>GenAccDep</td>
-      <td>Rekeningnummer waarop de <br> afschrijvingen worden geboekt <br> van deze algemene rekening. <br> Kan enkel cijfers bevatten</td>
+      <td>Rekeningnummer waarop de <br/> afschrijvingen worden geboekt <br/> van deze algemene rekening. <br/> Kan enkel cijfers bevatten</td>
       <td>Tekst(10)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>GenAccCost</td>
-      <td>De kostenrekening waarop de <br> afschrijvingen worden geboekt. <br> Kan enkel cijfers bevatten</td>
+      <td>De kostenrekening waarop de <br/> afschrijvingen worden geboekt. <br/> Kan enkel cijfers bevatten</td>
       <td>Tekst(10)</td>
       <td></td>
       <td></td>
@@ -531,8 +531,8 @@ Als de start- of einddatum wordt gewijzigd, worden de afschrijvingen voor het be
       <td>GenAccType</td>
       <td>cell2</td>
       <td>Nummer</td>
-      <td>Type algemene rekening: <br> 1: Kapitaalsubsidies & gespreid <br> te belasten meerwaarden (1) <br> 2: Oprichtingskosten (20) <br> 3: IVA-Onderzoek en <br> ontwikkeling (210) <br> 4: IVA-Concessies, octrooien, <br> licenties, knowhow, merken en <br> soortelijke rechten (211) <br> 5: IVA-Goodwill (212) <br> 6: IVA-Vooruitbetalingen (213) <br> 7: MVA-Industriële, <br> administratieve of commerciële <br> gebouwen (22) <br> 8: MVA-Installaties, machines <br> en uitrusting(23) <br> 9: MVA-Rollend materieel (24) <br> 10: MVA-Kantoormaterieel en <br> meubilair (24) <br> 11: MVA-Leasing en soortgelijke <br> rechten (25) <br> 12: MVA-Andere materiële vaste <br> activa (26) <br> 13: MVA-Activa in aanbouw en <br> vooruitbetalingen (27)</td>
-      <td>Indien niet <br> ingevuld wordt <br> automatisch <br> bepaald adhv <br> rekeningnummer. <br> Bij <br> rekeningnummer <br> 24xxxx wordt <br> standaard 24 <br> genomen</td>
+      <td>Type algemene rekening: <br/> 1: Kapitaalsubsidies & gespreid <br/> te belasten meerwaarden (1) <br/> 2: Oprichtingskosten (20) <br/> 3: IVA-Onderzoek en <br/> ontwikkeling (210) <br/> 4: IVA-Concessies, octrooien, <br/> licenties, knowhow, merken en <br/> soortelijke rechten (211) <br/> 5: IVA-Goodwill (212) <br/> 6: IVA-Vooruitbetalingen (213) <br/> 7: MVA-Industriële, <br/> administratieve of commerciële <br/> gebouwen (22) <br/> 8: MVA-Installaties, machines <br/> en uitrusting(23) <br/> 9: MVA-Rollend materieel (24) <br/> 10: MVA-Kantoormaterieel en <br/> meubilair (24) <br/> 11: MVA-Leasing en soortgelijke <br/> rechten (25) <br/> 12: MVA-Andere materiële vaste <br/> activa (26) <br/> 13: MVA-Activa in aanbouw en <br/> vooruitbetalingen (27)</td>
+      <td>Indien niet <br/> ingevuld wordt <br/> automatisch <br/> bepaald adhv <br/> rekeningnummer. <br/> Bij <br/> rekeningnummer <br/> 24xxxx wordt <br/> standaard 24 <br/> genomen</td>
     </tr>
   </tbody>
 </table>
@@ -544,29 +544,29 @@ Als de start- of einddatum wordt gewijzigd, worden de afschrijvingen voor het be
     <tr>
       <th>Veldnaam</th>
       <th>Omschrijving</th>
-      <th>Type veld <br> (max)</th>
+      <th>Type veld <br/> (max)</th>
       <th>Verplicht</th>
-      <th>Standaard <br> waarde</th>
+      <th>Standaard <br/> waarde</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>DossierCode</td>
-      <td>Code van het dossier waartoe <br> deze investeringsgroep behoort <br> (zie hierboven)</td>
+      <td>Code van het dossier waartoe <br/> deze investeringsgroep behoort <br/> (zie hierboven)</td>
       <td>Tekst(50)</td>
       <td>✅</td>
       <td></td>
     </tr>
     <tr>
       <td>Code</td>
-      <td>De code van de <br> investeringsgroep</td>
+      <td>De code van de <br/> investeringsgroep</td>
       <td>Tekst(50)</td>
       <td>✅</td>
       <td></td>
     </tr>
     <tr>
       <td>Description</td>
-      <td>Omschrijving van de <br> investeringsgroep</td>
+      <td>Omschrijving van de <br/> investeringsgroep</td>
       <td>Tekst(250)</td>
       <td></td>
       <td></td>
@@ -585,20 +585,20 @@ Bij toevoegen van investering gaat systeem automatisch de afschrijvingen bereken
       <th>Omschrijving</th>
       <th>Type veld (max)</th>
       <th>Verplicht</th>
-      <th>Standaard <br> waarde</th>
+      <th>Standaard <br/> waarde</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>DossierCode</td>
-      <td>Code van het dossier waartoe <br> deze investering behoort (zie <br> hierboven)</td>
+      <td>Code van het dossier waartoe <br/> deze investering behoort (zie <br/> hierboven)</td>
       <td>Tekst(50)</td>
       <td>✅</td>
       <td></td>
     </tr>
     <tr>
       <td>Code</td>
-      <td>De code van de investering. <br> Deze code moet uniek zijn <br> binnen het dossier.</td>
+      <td>De code van de investering. <br/> Deze code moet uniek zijn <br/> binnen het dossier.</td>
       <td>Tekst(50)</td>
       <td>✅</td>
       <td></td>
@@ -612,35 +612,35 @@ Bij toevoegen van investering gaat systeem automatisch de afschrijvingen bereken
     </tr>
     <tr>
       <td>GenAccCode</td>
-      <td>De code van de algemene <br> rekening</td>
+      <td>De code van de algemene <br/> rekening</td>
       <td>Tekst(10)</td>
       <td>✅</td>
       <td></td>
     </tr>
     <tr>
       <td>PurchaseYearCode</td>
-      <td>De code van het <br> aankoopboekjaar</td>
+      <td>De code van het <br/> aankoopboekjaar</td>
       <td>Tekst(50)</td>
       <td>✅ 1️⃣</td>
       <td></td>
     </tr>
     <tr>
       <td>PurchaseYear</td>
-      <td>Aankoopboekjaar waarbij <br> boekjaar niet gedefinieerd is in <br> het systeem. Dit is handig voor <br> zeer oude investeringen. Deze <br> investeringen moeten wel <br> liggen voor het eerste boekjaar <br> aangemaakt voor dit dossier</td>
+      <td>Aankoopboekjaar waarbij <br/> boekjaar niet gedefinieerd is in <br/> het systeem. Dit is handig voor <br/> zeer oude investeringen. Deze <br/> investeringen moeten wel <br/> liggen voor het eerste boekjaar <br/> aangemaakt voor dit dossier</td>
       <td>Nummer</td>
       <td>✅ 3️⃣</td>
       <td></td>
     </tr>
     <tr>
       <td>AssetGroupCode</td>
-      <td>De code van de groep waartoe <br> deze investering behoort</td>
+      <td>De code van de groep waartoe <br/> deze investering behoort</td>
       <td>Tekst(50)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>PurchaseValue</td>
-      <td>De aankoopwaarde van de <br> investering zonder BTW</td>
+      <td>De aankoopwaarde van de <br/> investering zonder BTW</td>
       <td>Decimaal(2)</td>
       <td></td>
       <td>0</td>
@@ -661,35 +661,35 @@ Bij toevoegen van investering gaat systeem automatisch de afschrijvingen bereken
     </tr>
     <tr>
       <td>PurchaseVATNotDeductedAsset</td>
-      <td>Y: niet aftrekbare BTW <br> toevoegen aan de investering <br> om af te schrijven <br> N: Niet aftrekbare BTW niet <br> toevoegen aan de investering <br> om af te schrijven</td>
+      <td>Y: niet aftrekbare BTW <br/> toevoegen aan de investering <br/> om af te schrijven <br/> N: Niet aftrekbare BTW niet <br/> toevoegen aan de investering <br/> om af te schrijven</td>
       <td>Tekst(1)</td>
       <td></td>
       <td>Y</td>
     </tr>
     <tr>
       <td>AssetDepreciationType</td>
-      <td>Type afschrijving: <br> L: Lineair <br> D: Degressief</td>
+      <td>Type afschrijving: <br/> L: Lineair <br/> D: Degressief</td>
       <td>Tekst(1)</td>
       <td></td>
-      <td>Standaard <br> waarde op <br> dossier niveau</td>
+      <td>Standaard <br/> waarde op <br/> dossier niveau</td>
     </tr>
     <tr>
       <td>AssetPerc</td>
-      <td>Afschrijvingspercentage. Ofwel <br> dit ofwel AssetNumberOfYear <br> moet ingevuld zijn. Indien beide <br> dan moet de omrekening <br> kloppen.</td>
+      <td>Afschrijvingspercentage. Ofwel <br/> dit ofwel AssetNumberOfYear <br/> moet ingevuld zijn. Indien beide <br/> dan moet de omrekening <br/> kloppen.</td>
       <td>Decimaal(4)</td>
       <td></td>
-      <td>Standaard <br> waarde op <br> dossier niveau</td>
+      <td>Standaard <br/> waarde op <br/> dossier niveau</td>
     </tr>
     <tr>
       <td>AssetNumberOfYear</td>
-      <td>Aantal jaren afschrijven. Ofwel <br> dit ofwel AssetNumberOfYear <br> moet ingevuld zijn. Indien beide <br> dan moet de omrekening <br> kloppen.</td>
+      <td>Aantal jaren afschrijven. Ofwel <br/> dit ofwel AssetNumberOfYear <br/> moet ingevuld zijn. Indien beide <br/> dan moet de omrekening <br/> kloppen.</td>
       <td>Decimaal(4)</td>
       <td></td>
-      <td>Standaard <br> waarde op <br> dossier niveau</td>
+      <td>Standaard <br/> waarde op <br/> dossier niveau</td>
     </tr>
     <tr>
       <td>ResidualValue</td>
-      <td>Restwaarde. Indien investering <br> die afgeschreven wordt op 0 <br> jaar zoals terreinen dan is <br> restwaarde gelijk aan <br> aankoopwaarde+niet <br> afgetrokken BTW</td>
+      <td>Restwaarde. Indien investering <br/> die afgeschreven wordt op 0 <br/> jaar zoals terreinen dan is <br/> restwaarde gelijk aan <br/> aankoopwaarde+niet <br/> afgetrokken BTW</td>
       <td>Decimaal(2)</td>
       <td></td>
       <td>0</td>
@@ -724,21 +724,21 @@ Bij toevoegen van investering gaat systeem automatisch de afschrijvingen bereken
     </tr>
     <tr>
       <td>BookingOutTypeCode</td>
-      <td>Uitboekings type code: <br> 00000001: Verkoop <br> 00000002: Diefstal <br> 00000003: Verlies <br> 00000004: Buitengebruikstelling <br> … : Of zelf gedefinieerde <br> uitboekingstypes <br> Indien veld blanco dan is er <br> geen uitboekingstype</td>
+      <td>Uitboekings type code: <br/> 00000001: Verkoop <br/> 00000002: Diefstal <br/> 00000003: Verlies <br/> 00000004: Buitengebruikstelling <br/> … : Of zelf gedefinieerde <br/> uitboekingstypes <br/> Indien veld blanco dan is er <br/> geen uitboekingstype</td>
       <td>Tekst(50)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>BookingOutYearCode</td>
-      <td>De code van het <br> uitboekingsboekjaar. Kan enkel <br> ingevuld zijn als <br> uitboekingstype ingevuld is</td>
+      <td>De code van het <br/> uitboekingsboekjaar. Kan enkel <br/> ingevuld zijn als <br/> uitboekingstype ingevuld is</td>
       <td>Tekst(50)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>BookingOutValue</td>
-      <td>Uitboekingswaarde zonder <br> BTW</td>
+      <td>Uitboekingswaarde zonder <br/> BTW</td>
       <td>Decimaal(2)</td>
       <td></td>
       <td>0</td>
@@ -780,14 +780,14 @@ Bij toevoegen van investering gaat systeem automatisch de afschrijvingen bereken
     </tr>
     <tr>
       <td>InvestmentDeductionKind</td>
-      <td>Investeringsaftrek soort: <br> 1: Eénmalig <br> 2: Gespreid <br> Indien niets ingevuld dan geen <br> investeringsaftrek</td>
+      <td>Investeringsaftrek soort: <br/> 1: Eénmalig <br/> 2: Gespreid <br/> Indien niets ingevuld dan geen <br/> investeringsaftrek</td>
       <td>Nummer</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>InvestmentDeductionType</td>
-      <td>Investeringsaftrek type: <br> 1: Onderzoek en ontwikkeling <br> 2: Energiebesparende <br> investeringen <br> 3: Beveiliging beroepslokalen <br> 4: Rookafzuig- of <br> verluchtingssys <br> 5: Octrooien <br> 7: Zeeschepen <br> 8: Hergebruik verpakking <br> 99: Andere investering <br> Type investeringsaftrek is <br> afhankelijk van type bedrijf en <br> soort investeringsaftrek. Moet <br> ingevuld zijn indien <br> InvestmentDeductionKind  <br> ingevuld is anders moet het <br> leeg zijn. </td>
+      <td>Investeringsaftrek type: <br/> 1: Onderzoek en ontwikkeling <br/> 2: Energiebesparende <br/> investeringen <br/> 3: Beveiliging beroepslokalen <br/> 4: Rookafzuig- of <br/> verluchtingssys <br/> 5: Octrooien <br/> 7: Zeeschepen <br/> 8: Hergebruik verpakking <br/> 99: Andere investering <br/> Type investeringsaftrek is <br/> afhankelijk van type bedrijf en <br/> soort investeringsaftrek. Moet <br/> ingevuld zijn indien <br/> InvestmentDeductionKind  <br/> ingevuld is anders moet het <br/> leeg zijn. </td>
       <td>Nummer</td>
       <td></td>
       <td></td>
@@ -808,21 +808,21 @@ Bij toevoegen van investering gaat systeem automatisch de afschrijvingen bereken
     </tr>
     <tr>
       <td>VATType</td>
-      <td>Soort BTW: <br> 1: 5j (Roerend) <br> 2: 15j (Onroerend) <br> 3: 0j (< 1000 EUR)</td>
+      <td>Soort BTW: <br/> 1: 5j (Roerend) <br/> 2: 15j (Onroerend) <br/> 3: 0j (< 1000 EUR)</td>
       <td>Nummer</td>
       <td></td>
       <td>1</td>
     </tr>
     <tr>
       <td>AllowDepInYearBookingOut</td>
-      <td>Y: Afschrijving toelaten in <br> boekjaar uitboeking <br> N: Geen afschrijving toelaten in <br> boekjaar uitboeking</td>
+      <td>Y: Afschrijving toelaten in <br/> boekjaar uitboeking <br/> N: Geen afschrijving toelaten in <br/> boekjaar uitboeking</td>
       <td>Tekst(1)</td>
       <td></td>
       <td>N</td>
     </tr>
     <tr>
       <td>TotalDepPreviousYears</td>
-      <td>Mag enkel ingevuld zijn als het <br> veld PurchaseYear ingevuld is. <br> Dit veld bevat het totaal bedrag <br> dat reeds afgeschreven is.</td>
+      <td>Mag enkel ingevuld zijn als het <br/> veld PurchaseYear ingevuld is. <br/> Dit veld bevat het totaal bedrag <br/> dat reeds afgeschreven is.</td>
       <td>Decimaal(2)</td>
       <td></td>
       <td>0</td>
@@ -843,27 +843,27 @@ Bij toevoegen van investering gaat systeem automatisch de afschrijvingen bereken
       <th>Omschrijving</th>
       <th>Type veld (max)</th>
       <th>Verplicht</th>
-      <th>Standaard <br> waarde</th>
+      <th>Standaard <br/> waarde</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>DossierCode</td>
-      <td>Code van het dossier waartoe <br> deze afschrijving behoort (zie <br> hierboven)</td>
+      <td>Code van het dossier waartoe <br/> deze afschrijving behoort (zie <br/> hierboven)</td>
       <td>Tekst(50)</td>
       <td>✅</td>
       <td></td>
     </tr>
     <tr>
       <td>AssetCode</td>
-      <td>Code van de investering <br> waartoe deze afschrijving <br> behoort (zie hierboven)</td>
+      <td>Code van de investering <br/> waartoe deze afschrijving <br/> behoort (zie hierboven)</td>
       <td>Tekst(50)</td>
       <td>✅</td>
       <td></td>
     </tr>
     <tr>
       <td>cDepreciationYearell1</td>
-      <td>Code afschrijvingsboekjaar (zie <br> hierboven)</td>
+      <td>Code afschrijvingsboekjaar (zie <br/> hierboven)</td>
       <td>Tekst(50)</td>
       <td>✅</td>
       <td></td>
@@ -887,20 +887,20 @@ Bij toevoegen van investering gaat systeem automatisch de afschrijvingen bereken
       <th>Omschrijving</th>
       <th>Type veld (max)</th>
       <th>Verplicht</th>
-      <th>Standaard <br> waarde</th>
+      <th>Standaard <br/> waarde</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>DossierCode</td>
-      <td>Code van het dossier waartoe <br> de investering behoort de we <br> gaan overboeken</td>
+      <td>Code van het dossier waartoe <br/> de investering behoort de we <br/> gaan overboeken</td>
       <td>Tekst(50)</td>
       <td>✅</td>
       <td></td>
     </tr>
     <tr>
       <td>AssetCode</td>
-      <td>Code van de investering die we <br> gaan overboeken naar andere <br> rekening</td>
+      <td>Code van de investering die we <br/> gaan overboeken naar andere <br/> rekening</td>
       <td>Tekst(50)</td>
       <td>✅</td>
       <td></td>
@@ -908,56 +908,56 @@ Bij toevoegen van investering gaat systeem automatisch de afschrijvingen bereken
     <tr>
       <td>NewAssetCode</td>
       <td>	
-De code van de nieuwe <br> investering die zal aangemaakt <br> worden op de andere <br> algemene rekening</td>
+De code van de nieuwe <br/> investering die zal aangemaakt <br/> worden op de andere <br/> algemene rekening</td>
       <td>Tekst(50)</td>
       <td>✅</td>
       <td></td>
     </tr>
     <tr>
       <td>GenAccDep</td>
-      <td>Nieuw rekeningnummer voor <br> deze investering</td>
+      <td>Nieuw rekeningnummer voor <br/> deze investering</td>
       <td>Tekst(10)</td>
       <td>✅</td>
       <td></td>
     </tr>
     <tr>
       <td>BookingOutTypeCode</td>
-      <td>Uitboekings type: Voorbeeld <br> 00000005: Uitboeking</td>
+      <td>Uitboekings type: Voorbeeld <br/> 00000005: Uitboeking</td>
       <td>Tekst(50)</td>
       <td>✅</td>
       <td></td>
     </tr>
     <tr>
       <td>YearCode</td>
-      <td>De code van het boekjaar <br> waarin de algemene rekening <br> verandert</td>
+      <td>De code van het boekjaar <br/> waarin de algemene rekening <br/> verandert</td>
       <td>Tekst(50)</td>
       <td>✅</td>
       <td></td>
     </tr>
     <tr>
       <td>Date</td>
-      <td>Datum waarop deze <br> overboeking moet gebeuren</td>
+      <td>Datum waarop deze <br/> overboeking moet gebeuren</td>
       <td>Datum</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>Journal</td>
-      <td>Dagboek waarin deze <br> overboeking wordt gedaan</td>
+      <td>Dagboek waarin deze <br/> overboeking wordt gedaan</td>
       <td>Tekst(20)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>DocNumber</td>
-      <td>Documentnummer waarin deze <br> overboeking wordt gedaan</td>
+      <td>Documentnummer waarin deze <br/> overboeking wordt gedaan</td>
       <td>Nummer</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>Comment</td>
-      <td>Opmerking over deze <br> overboeking</td>
+      <td>Opmerking over deze <br/> overboeking</td>
       <td>Tekst(1024)</td>
       <td></td>
       <td></td>
@@ -978,69 +978,69 @@ Is de uitboeking NIET 100% dan moet dit gedefinieerd worden in een extra bestand
       <th>Omschrijving</th>
       <th>Type veld (max)</th>
       <th>Verplicht</th>
-      <th>Standaard <br> waarde</th>
+      <th>Standaard <br/> waarde</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>DossierCode</td>
-      <td>Code van het dossier waartoe <br> de investering behoort dat we <br> gedeeltelijk gaan uitboeken</td>
+      <td>Code van het dossier waartoe <br/> de investering behoort dat we <br/> gedeeltelijk gaan uitboeken</td>
       <td>Tekst(50)</td>
       <td>✅</td>
       <td></td>
     </tr>
     <tr>
       <td>AssetCode</td>
-      <td>Code van de investering die <br> gedeeltelijk gaan uitboeken</td>
+      <td>Code van de investering die <br/> gedeeltelijk gaan uitboeken</td>
       <td>Tekst(50)</td>
       <td>✅</td>
       <td></td>
     </tr>
     <tr>
       <td>NewAssetCode</td>
-      <td>De code van de nieuwe <br> investering die zal aangemaakt <br> worden als we gedeeltelijk <br> gaan uitboeken</td>
+      <td>De code van de nieuwe <br/> investering die zal aangemaakt <br/> worden als we gedeeltelijk <br/> gaan uitboeken</td>
       <td>Tekst(50)</td>
       <td>✅</td>
       <td></td>
     </tr>
     <tr>
       <td>BookingOutTypeCode</td>
-      <td>Uitboekings type code: <br> 00000001: Verkoop <br> 00000002: Diefstal <br> 00000003: Verlies <br> 00000004: <br> Buitengebruikstelling <br> … : Of zelf gedefinieerde <br> uitboekingstypes</td>
+      <td>Uitboekings type code: <br/> 00000001: Verkoop <br/> 00000002: Diefstal <br/> 00000003: Verlies <br/> 00000004: <br/> Buitengebruikstelling <br/> … : Of zelf gedefinieerde <br/> uitboekingstypes</td>
       <td>Tekst(50)</td>
       <td>✅</td>
       <td></td>
     </tr>
     <tr>
       <td>YearCode</td>
-      <td>De code van het boekjaar <br> waarin de uitboeking wordt <br> gedaan</td>
+      <td>De code van het boekjaar <br/> waarin de uitboeking wordt <br/> gedaan</td>
       <td>Tekst(50)</td>
       <td>✅</td>
       <td></td>
     </tr>
     <tr>
       <td>PurchaseValueMinus</td>
-      <td>De aankoopwaarde van de <br> investering zonder BTW dat <br> uitgeboekt wordt</td>
+      <td>De aankoopwaarde van de <br/> investering zonder BTW dat <br/> uitgeboekt wordt</td>
       <td>Decimaal(2)</td>
       <td>✅</td>
       <td></td>
     </tr>
     <tr>
       <td>PurchaseVATDeductedMinus</td>
-      <td>Bedrag afgetrokken BTW dat <br> uitgeboekt wordt</td>
+      <td>Bedrag afgetrokken BTW dat <br/> uitgeboekt wordt</td>
       <td>Decimaal(2)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>PurchaseVATNotDeductedMinus</td>
-      <td>Bedrag niet afgetrokken BTW <br> dat uitgeboekt wordt</td>
+      <td>Bedrag niet afgetrokken BTW <br/> dat uitgeboekt wordt</td>
       <td>Decimaal(2)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>DepreciationMinus</td>
-      <td>Bedrag afschrijvingen dat <br> uitgeboekt wordt</td>
+      <td>Bedrag afschrijvingen dat <br/> uitgeboekt wordt</td>
       <td>Decimaal(2)</td>
       <td></td>
       <td></td>
@@ -1068,7 +1068,7 @@ Is de uitboeking NIET 100% dan moet dit gedefinieerd worden in een extra bestand
     </tr>
     <tr>
       <td>BookingOutValue</td>
-      <td>Uitboekingswaarde zonder <br> BTW</td>
+      <td>Uitboekingswaarde zonder <br/> BTW</td>
       <td>Decimaal(2)</td>
       <td></td>
       <td></td>
@@ -1089,7 +1089,7 @@ Is de uitboeking NIET 100% dan moet dit gedefinieerd worden in een extra bestand
     </tr>
     <tr>
       <td>Comment</td>
-      <td>Opmerking over deze <br> uitboeking</td>
+      <td>Opmerking over deze <br/> uitboeking</td>
       <td>Tekst(1024)</td>
       <td></td>
       <td></td>

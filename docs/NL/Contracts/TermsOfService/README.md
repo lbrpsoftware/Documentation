@@ -40,8 +40,8 @@ Welcome to **LBRP**. These Terms of Service govern your use of our website and s
 
 If you have any questions about these Terms of Service, please contact us at:
 
-**LBRP bv**<br>
-Molenstraat 7<br>
-2200 Herentals<br>
-Email: [info\@lbrp.be](mailto:info@lbrp.be?subject=GDPR)<br>
-Phone Number: +32 14 14 10 64<br>
+**LBRP bv**<br/>
+Molenstraat 7<br/>
+2200 Herentals<br/>
+Email: [info\@lbrp.be](mailto:info@lbrp.be?subject=GDPR)<br/>
+Phone Number: +32 14 14 10 64<br/>

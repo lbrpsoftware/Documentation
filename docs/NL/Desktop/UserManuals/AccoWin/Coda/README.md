@@ -16,15 +16,15 @@ Via het menu CODA - Instellingen wordt het scherm voor de instellingen getoond:
 
 ![Image 1](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101015161809/original/DcfW5MF6TM3GdyEgOU3SkKusgx6bdmIb0g.png?1654070813)
 
-- Wachtrekening niet toegewezen verrichtingen: <br>
+- Wachtrekening niet toegewezen verrichtingen: <br/>
   Geef hier het rekeningnummer voor de verrichtingen die niet automatisch kunnen worden toegewezen, hiervoor gebruikt u best een afzonderlijke wachtrekening.
-- Directory manueel verwerkte CODA bestanden: <br>
-  Selecteer de map waarnaar de <ins>manueel</ins> verwerkte CODA bestanden worden verplaatst na het inlezen. <br>
-  In een volgend scherm kan u de mappen opgeven voor automatisch te verwerken CODA bestanden die ontvangen worden van diensten zoals Codabox. <br>
+- Directory manueel verwerkte CODA bestanden: <br/>
+  Selecteer de map waarnaar de <ins>manueel</ins> verwerkte CODA bestanden worden verplaatst na het inlezen. <br/>
+  In een volgend scherm kan u de mappen opgeven voor automatisch te verwerken CODA bestanden die ontvangen worden van diensten zoals Codabox. <br/>
   Maak eventueel vooraf de map(pen) aan via Windows verkenner.
-- Jaartal voor nummer bankafschrift zetten: <br>
+- Jaartal voor nummer bankafschrift zetten: <br/>
   Het is aan te raden het jaartal voor het nummer van het bankafschrift te zetten, dit is vooral belangrijk wanneer een boekjaar over meerdere kalenderjaren loopt.
-- Zoeken op naam van de tegenpartij in coda: <br>
+- Zoeken op naam van de tegenpartij in coda: <br/>
   Indien deze optie wordt aangevinkt, gaat het programma ook zoeken op de naam van de tegenpartij van een bankverrichting. Als de klanten of leveranciers worden aangemaakt via het ophalen van de gegevens via \"VIES\", worden deze sneller gevonden.
 - Zoeken naar CODA bestanden bij openen dossier: Indien deze optie aan staat en er zijn CODA bestanden beschikbaar, toont het programma een melding.
 

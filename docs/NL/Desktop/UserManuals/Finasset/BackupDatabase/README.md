@@ -60,12 +60,12 @@ Mogelijke command line parameters zijn:
     </tr>
     <tr>
       <td>/port:&lt;poort nummer&gt;</td>
-      <td>Poort van de server. Als niet meegegeven dan wordt de<br> standaard poort nummer gebruikt.</td>
+      <td>Poort van de server. Als niet meegegeven dan wordt de<br/> standaard poort nummer gebruikt.</td>
       <td></td>
     </tr>
     <tr>
       <td>/db:&lt;database naam&gt;</td>
-      <td>Naam van de database. Als niet meegegeven dan wordt<br> de standaard database van Finasset gebruikt.</td>
+      <td>Naam van de database. Als niet meegegeven dan wordt<br/> de standaard database van Finasset gebruikt.</td>
       <td></td>
     </tr>
     <tr>
@@ -85,22 +85,22 @@ Mogelijke command line parameters zijn:
     </tr>
     <tr>
       <td>/BackupIncludeDate</td>
-      <td>Als deze parameter gebruikt wordt dan wordt de huidige<br> datum en tijd toegevoegd aan de naam van het backup<br> bestand.</td>
+      <td>Als deze parameter gebruikt wordt dan wordt de huidige<br/> datum en tijd toegevoegd aan de naam van het backup<br/> bestand.</td>
       <td></td>
     </tr>
     <tr>
       <td>/logfile: &lt;bestandsnaam&gt;</td>
-      <td>De locatie en naam van het bestand waar de logging<br> informatie van de backup in staat. Als deze parameter<br> niet gebruikt wordt dan wordt geen log bestand<br> aangemaakt.</td>
+      <td>De locatie en naam van het bestand waar de logging<br/> informatie van de backup in staat. Als deze parameter<br/> niet gebruikt wordt dan wordt geen log bestand<br/> aangemaakt.</td>
       <td></td>
     </tr>
     <tr>
       <td>/loginfo</td>
-      <td>Als deze parameter wordt toegevoegd dan wordt naast<br> de fouten ook extra logging informatie getoond en/of<br> weggeschreven in het log bestand.</td>
+      <td>Als deze parameter wordt toegevoegd dan wordt naast<br/> de fouten ook extra logging informatie getoond en/of<br/> weggeschreven in het log bestand.</td>
       <td></td>
     </tr>
     <tr>
       <td>/overwritelog</td>
-      <td>Als deze parameter gebruikt wordt dan wordt log<br> bestand overschreven telkens het programma wordt<br> uitgevoerd. Als de parameter niet wordt gebruikt dan<br> wordt de logging steeds toegevoegd aan bestaande<br> logbestand.</td>
+      <td>Als deze parameter gebruikt wordt dan wordt log<br/> bestand overschreven telkens het programma wordt<br/> uitgevoerd. Als de parameter niet wordt gebruikt dan<br/> wordt de logging steeds toegevoegd aan bestaande<br/> logbestand.</td>
       <td></td>
     </tr>
   </tbody>

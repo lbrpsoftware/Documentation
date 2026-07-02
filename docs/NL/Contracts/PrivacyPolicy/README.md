@@ -58,8 +58,8 @@ We may update our Privacy Policy from time to time. We will notify you of any ch
 
 If you have any questions about this Privacy Policy, please contact us at:
 
-**LBRP bv**<br>
-Molenstraat 7<br>
-2200 Herentals<br>
-Email: [info\@lbrp.be](mailto:info@lbrp.be?subject=GDPR)<br>
-Phone Number: +32 14 14 10 64<br>
+**LBRP bv**<br/>
+Molenstraat 7<br/>
+2200 Herentals<br/>
+Email: [info\@lbrp.be](mailto:info@lbrp.be?subject=GDPR)<br/>
+Phone Number: +32 14 14 10 64<br/>

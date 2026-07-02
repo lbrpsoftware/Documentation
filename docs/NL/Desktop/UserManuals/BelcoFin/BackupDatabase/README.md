@@ -59,12 +59,12 @@ Mogelijke command line parameters zijn:
     </tr>
     <tr>
       <td>/port:&lt;poort nummer&gt;</td>
-      <td>Poort van de server. Als niet meegegeven dan <br> wordt de standaard poort nummer gebruikt.</td>
+      <td>Poort van de server. Als niet meegegeven dan <br/> wordt de standaard poort nummer gebruikt.</td>
       <td></td>
     </tr>
     <tr>
       <td>/db:&lt;database naam&gt;</td>
-      <td>Naam van de database. Als niet meegegeven <br> dan wordt de standaard database van Belcofin <br> gebruikt.</td>
+      <td>Naam van de database. Als niet meegegeven <br/> dan wordt de standaard database van Belcofin <br/> gebruikt.</td>
       <td></td>
     </tr>
     <tr>
@@ -84,32 +84,32 @@ Mogelijke command line parameters zijn:
     </tr>
     <tr>
       <td>/BackupXml</td>
-      <td>Als deze parameter gebruikt wordt dan worden <br> ook de XML bestanden, die aangemaakt zijn <br> door Belcofin, gebackupped.</td>
+      <td>Als deze parameter gebruikt wordt dan worden <br/> ook de XML bestanden, die aangemaakt zijn <br/> door Belcofin, gebackupped.</td>
       <td></td>
     </tr>
     <tr>
       <td>/BackupPdf</td>
-      <td>Als deze parameter gebruikt wordt dan worden <br> ook de PDF bestanden, die aangemaakt zijn <br> door Belcofin, gebackupped.</td>
+      <td>Als deze parameter gebruikt wordt dan worden <br/> ook de PDF bestanden, die aangemaakt zijn <br/> door Belcofin, gebackupped.</td>
       <td></td>
     </tr>
     <tr>
       <td>/BackupIncludeDate</td>
-      <td>Als deze parameter gebruikt wordt dan wordt <br> de huidige datum en tijd toegevoegd aan de <br> naam van het backup bestand.</td>
+      <td>Als deze parameter gebruikt wordt dan wordt <br/> de huidige datum en tijd toegevoegd aan de <br/> naam van het backup bestand.</td>
       <td></td>
     </tr>
     <tr>
       <td>/logfile: &lt;bestandsnaam&gt;</td>
-      <td>De locatie en naam van het bestand waar de <br> logging informatie van de backup in staat. Als <br> deze parameter niet gebruikt wordt dan wordt <br> geen log bestand aangemaakt.</td>
+      <td>De locatie en naam van het bestand waar de <br/> logging informatie van de backup in staat. Als <br/> deze parameter niet gebruikt wordt dan wordt <br/> geen log bestand aangemaakt.</td>
       <td></td>
     </tr>
     <tr>
       <td>/loginfo</td>
-      <td>Als deze parameter wordt toegevoegd dan <br> wordt naast de fouten ook extra logging <br> informatie getoond en/of weggeschreven in het <br> log bestand. </td>
+      <td>Als deze parameter wordt toegevoegd dan <br/> wordt naast de fouten ook extra logging <br/> informatie getoond en/of weggeschreven in het <br/> log bestand. </td>
       <td></td>
     </tr>
     <tr>
       <td>/overwritelog</td>
-      <td>Als deze parameter gebruikt wordt dan wordt <br> log bestand overschreven telkens het <br> programma wordt uitgevoerd. Als de parameter <br> niet wordt gebruikt dan wordt de logging steeds <br> toegevoegd aan bestaande logbestand.</td>
+      <td>Als deze parameter gebruikt wordt dan wordt <br/> log bestand overschreven telkens het <br/> programma wordt uitgevoerd. Als de parameter <br/> niet wordt gebruikt dan wordt de logging steeds <br/> toegevoegd aan bestaande logbestand.</td>
       <td></td>
     </tr>
   </tbody>
@@ -206,9 +206,9 @@ Klik op **Programma starten** en klik op **Volgende**
 Configuratie van Programma starten:
 
 1. Klik op **Bladeren** om het programma **BelcofinCmd.exe** te selecteren. Standaard staat dit programma in C:\\LBRP\\Clients\\Belcofin\\BelcofinCmd.exe.
-   <br> <strong><ins>Belangrijk</ins></strong>: U moet BelcofinCmd.exe selecteren en niet Belcofin.exe!
+   <br/> <strong><ins>Belangrijk</ins></strong>: U moet BelcofinCmd.exe selecteren en niet Belcofin.exe!
 2. Bij'Parameters toevoegen (optioneel)' moet u de parameters van de backup invullen. Meer uitleg over welke parameters kunt u vinden hierboven bij 3 Manueel Backup via command line parameters
-   <br> Een voorbeeld kan zijn: /host:localhost /db:Belcofin /BackupXml /BackupPdf /BackupPath:C:\\LBRP\\Clients\\Belcofin\\\_Backup
+   <br/> Een voorbeeld kan zijn: /host:localhost /db:Belcofin /BackupXml /BackupPdf /BackupPath:C:\\LBRP\\Clients\\Belcofin\\\_Backup
 
 3. Klik vervolgens op **Volgende**
 

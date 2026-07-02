@@ -58,8 +58,8 @@ We are committed to continuous improvement:
 
 If you have questions or concerns about this policy or our AI helpdesk, please get in touch with us at:
 
-**LBRP bv**<br>
-Molenstraat 7<br>
-2200 Herentals<br>
-Email: [info\@lbrp.be](mailto:info@lbrp.be?subject=GDPR)<br>
-Phone Number: +32 14 14 10 64<br>
+**LBRP bv**<br/>
+Molenstraat 7<br/>
+2200 Herentals<br/>
+Email: [info\@lbrp.be](mailto:info@lbrp.be?subject=GDPR)<br/>
+Phone Number: +32 14 14 10 64<br/>

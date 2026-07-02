@@ -7,7 +7,7 @@
 <img src="../post.png" alt="post.png" /> [/identity/register](https://abfapi.dev.corpgroup.site/swagger/index.html#/%F0%9F%97%9D%EF%B8%8Fidentity/post_identity_register)
 
 - De `Request` voor het registreren van een nieuwe **Gebruiker** (***User***) zorgt er meteen voor dat ook een **Organisatie** (***Organization***) wordt aangemaakt waarvan deze nieuwe gebruiker beheerder (***Member***) van is.
-- De `Response` geeft u een `Token` terug waarmee u andere, beveiligde, eindpunten kan oproepen.<br>
+- De `Response` geeft u een `Token` terug waarmee u andere, beveiligde, eindpunten kan oproepen.<br/>
   Vul dit `Token` in in de **Authorization** `Header` van een **Request**.
 
 ### 1.2 Aanmelden

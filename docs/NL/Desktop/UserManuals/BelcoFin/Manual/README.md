@@ -491,7 +491,7 @@ De afgedrukte weddefiche geeft een overzicht van de inkomsten van de bedrijfslei
 
 In het selectiescherm voor de weddefiches kunnen de maanden worden opgegeven waarvan de fiches moeten worden gedrukt.
 
-- Door het aan- of uitvinken van de extra selecties kan de lijst gefilterd worden op de wijze van verzenden van documenten zoals deze is opgegeven bij "**Methode verzenden**" op de fiche van de bedrijfsleider. <br>
+- Door het aan- of uitvinken van de extra selecties kan de lijst gefilterd worden op de wijze van verzenden van documenten zoals deze is opgegeven bij "**Methode verzenden**" op de fiche van de bedrijfsleider. <br/>
   (Zie: _Bedrijfsleiders met inkomsten waarvoor een fiche 281.20 wordt opgemaakt_)
 - Door het vinkje bij "**Reeds verzonden weddefiches mee opnemen**" aan te vinken kan men opgeven dat bedrijfsleiders waarvoor de weddefiches reeds verzonden zijn, opnieuw moeten worden opgenomen in de selectielijst.
 

@@ -99,26 +99,26 @@ This DPA shall be governed by and construed in accordance with the laws of [Your
 
 For any questions or concerns regarding this DPA, please contact:
 
-**LBRP bv**<br>
-Molenstraat 7<br>
-2200 Herentals<br>
-Email: [info\@lbrp.be](mailto:info@lbrp.be?subject=GDPR)<br>
-Phone Number: +32 14 14 10 64<br>
+**LBRP bv**<br/>
+Molenstraat 7<br/>
+2200 Herentals<br/>
+Email: [info\@lbrp.be](mailto:info@lbrp.be?subject=GDPR)<br/>
+Phone Number: +32 14 14 10 64<br/>
 Agreement Confirmation
 
 By signing below, both parties agree to the terms of this Data Processing Agreement.
 
-**Data Controller**<br>
+**Data Controller**<br/>
 
-Signature: ____________________________<br>
-Name: _______________________________<br>
-Title: ________________________________<br>
-Date: ________________________________<br>
-<br>
+Signature: ____________________________<br/>
+Name: _______________________________<br/>
+Title: ________________________________<br/>
+Date: ________________________________<br/>
+<br/>
 
-**Data Processor**<br>
+**Data Processor**<br/>
 
-Signature: ____________________________<br>
-Name: _______________________________<br>
-Title: ________________________________<br>
-Date: ________________________________<br>
+Signature: ____________________________<br/>
+Name: _______________________________<br/>
+Title: ________________________________<br/>
+Date: ________________________________<br/>

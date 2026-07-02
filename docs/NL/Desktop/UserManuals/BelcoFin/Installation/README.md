@@ -219,7 +219,7 @@ De procedure om een licentie aan te vragen is als volgt:
 
 ![Image 22](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101031772672/original/GqU8wzxffbsZ5yyYIkMhXOblQJDtXP4syQ.png?1663165501)
 
-4. Gegevens invullen. Klantcode kan op de factuur gevonden worden. <br>
+4. Gegevens invullen. Klantcode kan op de factuur gevonden worden. <br/>
    Na invullen van de gegevens op Aanvragen klikken
 
 ![Image 23](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101031772673/original/BkVF7JL4eZZbfWjai_qeOs51l0J_SbrZ_w.png?1663165501)
@@ -253,7 +253,7 @@ Indien de server map waar de Belcofin Client staat reeds gekoppeld is op de clie
 <ins>Procedure om netwerk map te koppelen op werkstation/client</ins>:
 
 1. Deze computer opstarten of windows verkenner
-2. Menu > Extra > **Netwerkverbinding maken** kiezen. <br>
+2. Menu > Extra > **Netwerkverbinding maken** kiezen. <br/>
    Op windows 7 of windows vista moet u eerst op alt drukken om het menu te zien
 
 ![Image 25](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101031772670/original/OCRSk3lHH-WLoaMMcmPFSQoH5H2LlKraJQ.png?1663165501)

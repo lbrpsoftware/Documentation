@@ -50,7 +50,7 @@ Accowin toont na het selecteren van de menukeuze een overzicht van alle dossier 
 
 ![Image 5](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101015172199/original/2bGihkQOLt3mZyu8zHsgFh2x14vmyvmlww.png?1654073533)
 
-Door te kiezen voor Afdrukken kan men deze lijst uitdrukken om verdere bewerkingen te doen. <br> <br>
+Door te kiezen voor Afdrukken kan men deze lijst uitdrukken om verdere bewerkingen te doen. <br/> <br/>
 
 Na afdrukken of Sluiten vraagt Accowin om deze dossiers te verwijderen uit de overzichtslijst. Antwoord Ja indien men verder wilt werken zonder rekening te houden met deze dossiers.
 
@@ -66,19 +66,19 @@ Met <img src="https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/h
 
 Met de selectieknop **_FICHES AANMAKEN_** genereert accowin de fiches van alle dossiers waarvoor er ereloonfiches dienen gemaakt te worden.
 
-_Tip: Het is aan te raden om de fiches 281.50 dossier per dossier aan te maken_. <br>
+_Tip: Het is aan te raden om de fiches 281.50 dossier per dossier aan te maken_. <br/>
 _Zo bewaart men beter het overzicht en kan men beter ingrijpen indien er gegevens van de begunstigde ontbreken_.
 
-Indien het programma foutieve gegevens bemerkt bij het aanmaken van de fiches wordt na het aanmaken van de fiches een overzicht getoond met de gevonden fouten. De lijst kan worden afgedrukt om de nodige aanpassingen van de gegevens te kunnen doen. <br>
+Indien het programma foutieve gegevens bemerkt bij het aanmaken van de fiches wordt na het aanmaken van de fiches een overzicht getoond met de gevonden fouten. De lijst kan worden afgedrukt om de nodige aanpassingen van de gegevens te kunnen doen. <br/>
 (op de leveranciersfiches of bij de dossiergegevens)
 
-<br>
+<br/>
 
 Na het klikken op FICHES AANMAKEN toont accowin een overzicht met de gegenereerde fiches.
 
 ![Image 10](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101015172214/original/yH23seTiKKPTmpl0cyItxEJN5FOmoe3dQA.png?1654073533)
 
-Klik op **_Detail aangifte_** om de gegevens van de aangever te raadplegen. <br>
+Klik op **_Detail aangifte_** om de gegevens van de aangever te raadplegen. <br/>
 
 Klik op **_Overzicht inkoopfacturen_** om de lijst te zien van de inkoopfacturen die in aanmerking werden genomen om de geselecteerde fiche samen te stellen.
 
@@ -96,9 +96,9 @@ Als de gegenereerde fiches werden overgenomen in de dossiers kan men deze raadpl
 
 1. Fiches 281.50 om eventueel aan de begunstigden te overhandigen
 2. Lijst met overzicht van de fiches voor het dossier
-3. Vergelijking van de detail in de boekhouding met de fiches <br>
+3. Vergelijking van de detail in de boekhouding met de fiches <br/>
    Op deze lijst kan men nagaan of er verschillen zijn tussen de gegenereerde fiches en de fiches die in Accowin beschikbaar zijn. Verschillen kunnen voortvloeien uit manuele aanpassingen na het genereren van de fiches of als gevolg van het manueel aanmaken of verwijderen van fiches
-4. Fiches zonder boeking in de boekhouding <br>
+4. Fiches zonder boeking in de boekhouding <br/>
    Deze lijst geeft een overzicht van fiches die niet automatisch gegenereerd werden
 
 ![Image 13](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101015172211/original/D-3lE652xqbsKztSIqLbHTigi8NOzha5eA.png?1654073533)
@@ -113,9 +113,9 @@ U krijgt een selectielijst met de dossiers waarvoor fiches bestaan die via Belco
 
 Er zijn 2 types van XML-bestand die kunnen worden aangemaakt:
 
-XML voor **definitieve** aangifte of XML voor **testaangifte**. <br>
+XML voor **definitieve** aangifte of XML voor **testaangifte**. <br/>
 
-_Tip: maak eerst een testbestand aan om door te sturen naar Belcotax, hiermee kan u nagaan of alle gegevens in het bestand correct verwerkt worden door Belcotax. Als bij de verwerking van het testbestand geen fouten worden gemeld door Belcotax, kan een definitieve aangifte worden doorgezonden_. <br>
+_Tip: maak eerst een testbestand aan om door te sturen naar Belcotax, hiermee kan u nagaan of alle gegevens in het bestand correct verwerkt worden door Belcotax. Als bij de verwerking van het testbestand geen fouten worden gemeld door Belcotax, kan een definitieve aangifte worden doorgezonden_. <br/>
 
 Selecteer de dossiers welke moeten worden opgenomen in het XML-bestand dat u wil doorsturen via Belcotax en druk op de knop OK.
 
@@ -127,9 +127,9 @@ Vervolgens wordt het scherm getoond om de BELCOTAX toepassing te starten. Door d
 
 Zie artikel: https://support.corpgroup.site/nl/support/solutions/articles/101000378742-xml-omvormen-naar-bow
 
-<br>
-<br>
-<!-- <br> -->
+<br/>
+<br/>
+<!-- <br/> -->
 
 Log vervolgens in op de BELCOTAX toepassing
 
@@ -147,22 +147,22 @@ Klik vervolgens op CONVERTEREN om verder te gaan.
 
 Na het converteren toont BELCOTAX de fouten die gevonden zijn en die moeten verbeterd worden.
 
-Indien men een Testuitvoering heeft uitgevoerd ontvangt met de hiernavolgende foutboodschap. <br>
-Dit betekent dat er verder geen fouten zijn gevonden in het converteren. <br>
+Indien men een Testuitvoering heeft uitgevoerd ontvangt met de hiernavolgende foutboodschap. <br/>
+Dit betekent dat er verder geen fouten zijn gevonden in het converteren. <br/>
 U kan nu het definitieve XML-bestand aanmaken en doorsturen.
 
 ![Image 18](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101015172217/original/Bm0GeB3ns1XZuV85ej6vOfQN2DNQYCIxOg.png?1654073533)
 
-Na een testuitvoering moet men vanuit accowin terug het definitieve XML-bestand aanmaken om door te sturen. <br>
+Na een testuitvoering moet men vanuit accowin terug het definitieve XML-bestand aanmaken om door te sturen. <br/>
 
 Klik op Verzending Bestand om de fiches definitief door te sturen
 
 ![Image 19](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101015172220/original/AL2vdj6D7OlhuInPYUAYWEIdphdX_590_w.png?1654073533)
 
-Zoek het juiste BOW bestand in de map \\accowin\\\_belcotax <br>
+Zoek het juiste BOW bestand in de map \\accowin\\\_belcotax <br/>
 Vul uw email adres in om antwoord te ontvangen
 
-![Image 20](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101015172219/original/Zua0j-6TRCxuOSSdSzgyA5-7_KjFCklCCQ.png?1654073533) <br> <br>
+![Image 20](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101015172219/original/Zua0j-6TRCxuOSSdSzgyA5-7_KjFCklCCQ.png?1654073533) <br/> <br/>
 
 U ontvangt een referentie van de verzending en een email van de verwerking.
 

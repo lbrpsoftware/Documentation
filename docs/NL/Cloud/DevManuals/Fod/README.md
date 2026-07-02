@@ -2,7 +2,7 @@
 
 ## 1. MyMinFin
 
-Nadat een gebruiker zich heeft aangemeld bij **FOD** zal er om de 6 uur een **Taak** worden uitgevoerd om nieuwe documenten in onze database te plaatsen.<BR>
+Nadat een gebruiker zich heeft aangemeld bij **FOD** zal er om de 6 uur een **Taak** worden uitgevoerd om nieuwe documenten in onze database te plaatsen.<br/>
 Deze database kan met de volgende eindpunten worden aangesproken.
 
 ### 1.1 Lijst

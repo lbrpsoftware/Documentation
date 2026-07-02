@@ -215,12 +215,12 @@ Mogelijke command line parameters zijn:
     </tr>
     <tr>
       <td>/port:&lt;poort nummer&gt;</td>
-      <td>Poort van de server. Als niet meegegeven dan <br> wordt de standaard poort nummer gebruikt.</td>
+      <td>Poort van de server. Als niet meegegeven dan <br/> wordt de standaard poort nummer gebruikt.</td>
       <td></td>
     </tr>
     <tr>
       <td>/db:&lt;database naam&gt;</td>
-      <td>Naam van de database. Als niet meegegeven <br> dan wordt de standaard database van Belcofin <br> gebruikt.</td>
+      <td>Naam van de database. Als niet meegegeven <br/> dan wordt de standaard database van Belcofin <br/> gebruikt.</td>
       <td></td>
     </tr>
     <tr>
@@ -235,7 +235,7 @@ Mogelijke command line parameters zijn:
     </tr>
     <tr>
       <td>/itype:&lt;type import&gt;</td>
-      <td>Type bron waarvan de data wordt <br> geïmporteerd:
+      <td>Type bron waarvan de data wordt <br/> geïmporteerd:
         <ul>
           <li>c: CSV bestand</li>
           <li>ks: Kluwer SQL server database</li>
@@ -255,10 +255,10 @@ Mogelijke command line parameters zijn:
           <li>a: aangevers/dossiers</li>
           <li>v: dossierverantwoordelijken</li>
           <li>i: link aangever-bedrijfsleider</li>
-          <li>s: begunstigden (enkel voor import <br> type CSV)</li>
-          <li>5: fiches 281.50 (enkel voor import <br> type CSV)</li>
+          <li>s: begunstigden (enkel voor import <br/> type CSV)</li>
+          <li>5: fiches 281.50 (enkel voor import <br/> type CSV)</li>
         </ul>
-        Bij import van CSV bestand kan er maar 1 <br> soort data gedefinieerd worden bv a. Bij import <br> van Kluwer kunnen er meerdere soorten data <br> ingevuld worden die moeten geïmporteerd <br> worden bv azl dan wordt aangever, <br> bedrijfsleider en link aangever-bedrijfsleider <br> geïmporteerd.
+        Bij import van CSV bestand kan er maar 1 <br/> soort data gedefinieerd worden bv a. Bij import <br/> van Kluwer kunnen er meerdere soorten data <br/> ingevuld worden die moeten geïmporteerd <br/> worden bv azl dan wordt aangever, <br/> bedrijfsleider en link aangever-bedrijfsleider <br/> geïmporteerd.
       </td>
       <td>X</td>
     </tr>
@@ -268,7 +268,7 @@ Mogelijke command line parameters zijn:
         <ul>
           <li>i: enkel nieuwe data toevoegen</li>
           <li>u: enkel bestaande data updaten</li>
-          <li>iu: zowel nieuwe als bestaande data <br> importeren</li>
+          <li>iu: zowel nieuwe als bestaande data <br/> importeren</li>
         </ul>
         Standaard waarde is iu.
       </td>
@@ -276,7 +276,7 @@ Mogelijke command line parameters zijn:
     </tr>
     <tr>
       <td>/rtype:&lt;sleutelveld&gt;</td>
-      <td>Welk veld van Belcofin moet gebruikt worden <br> als sleutelveld om te importeren:
+      <td>Welk veld van Belcofin moet gebruikt worden <br/> als sleutelveld om te importeren:
         <ul>
           <li>r: veld 'Referte'</li>
           <li>e: veld 'Referte extern systeem'</li>
@@ -287,12 +287,12 @@ Mogelijke command line parameters zijn:
     </tr>
     <tr>
       <td>/idistricttype:&lt;waarde&gt;</td>
-      <td>Dit heeft aan hoe het ontvangkantoor moet <br> geïmporteerd worden:
+      <td>Dit heeft aan hoe het ontvangkantoor moet <br/> geïmporteerd worden:
         <ul>
-          <li>b: ontvangkantoor laten bepalen <br> door Belcofin en deze van de import <br> negeren</li>
-          <li>i: ontvangkantoor van de import <br> gebruiken</li>
-          <li>e: als ontvangkantoor van de import <br> en deze volgens Belcofin <br> verschillend zijn dan foutmelding <br> geven</li>
-          <li>ib: ontvangkantoor van de import <br> gebruiken, indien niet ingevuld deze <br> laten bepalen door Belcofin</li>
+          <li>b: ontvangkantoor laten bepalen <br/> door Belcofin en deze van de import <br/> negeren</li>
+          <li>i: ontvangkantoor van de import <br/> gebruiken</li>
+          <li>e: als ontvangkantoor van de import <br/> en deze volgens Belcofin <br/> verschillend zijn dan foutmelding <br/> geven</li>
+          <li>ib: ontvangkantoor van de import <br/> gebruiken, indien niet ingevuld deze <br/> laten bepalen door Belcofin</li>
         </ul>
         Standaard waarde is: ib
       </td>
@@ -300,17 +300,17 @@ Mogelijke command line parameters zijn:
     </tr>
     <tr>
       <td>/logfile: &lt;bestandsnaam&gt;</td>
-      <td>De locatie en naam van het bestand waar de <br> logging informatie van de import in staat. Als <br> deze parameter niet gebruikt wordt dan wordt <br> geen log bestand aangemaakt.</td>
+      <td>De locatie en naam van het bestand waar de <br/> logging informatie van de import in staat. Als <br/> deze parameter niet gebruikt wordt dan wordt <br/> geen log bestand aangemaakt.</td>
       <td></td>
     </tr>
     <tr>
       <td>/loginfo</td>
-      <td>Als deze parameter wordt toegevoegd dan <br> wordt naast de fouten ook extra logging <br> informatie getoond en/of weggeschreven in het <br> log bestand.</td>
+      <td>Als deze parameter wordt toegevoegd dan <br/> wordt naast de fouten ook extra logging <br/> informatie getoond en/of weggeschreven in het <br/> log bestand.</td>
       <td></td>
     </tr>
     <tr>
       <td>/overwritelog</td>
-      <td>Als deze parameter gebruikt wordt dan wordt <br> log bestand overschreven telkens het <br> programma wordt uitgevoerd. Als de parameter <br> niet wordt gebruikt dan wordt de logging steeds <br> toegevoegd aan bestaande logbestand.</td>
+      <td>Als deze parameter gebruikt wordt dan wordt <br/> log bestand overschreven telkens het <br/> programma wordt uitgevoerd. Als de parameter <br/> niet wordt gebruikt dan wordt de logging steeds <br/> toegevoegd aan bestaande logbestand.</td>
       <td></td>
     </tr>
     <tr>
@@ -331,7 +331,7 @@ Mogelijke command line parameters zijn:
     </tr>
     <tr>
       <td>/idbuser:&lt;gebruikersnaam&gt;</td>
-      <td>De gebruikersnaam om verbinding te maken <br> met de database van kluwer. Dit is <strong>niet</strong> de <br> gebruikersnaam waarmee je aanlogt in Kluwer. <br> Indien windows authenticatie wordt gebruikt <br> voor SQL server of standaard gebruikersnaam <br> bij Firebird dan is deze parameter niet nodig</td>
+      <td>De gebruikersnaam om verbinding te maken <br/> met de database van kluwer. Dit is <strong>niet</strong> de <br/> gebruikersnaam waarmee je aanlogt in Kluwer. <br/> Indien windows authenticatie wordt gebruikt <br/> voor SQL server of standaard gebruikersnaam <br/> bij Firebird dan is deze parameter niet nodig</td>
       <td></td>
     </tr>
     <tr>
@@ -344,9 +344,9 @@ Mogelijke command line parameters zijn:
       <td>De database van Centraal Dossierbeheer:
         <ul>
           <li>SQL server: de database naam</li>
-          <li>Firebird: pad en bestandsnaam op <br> de server van Centraal dossier <br> beheer database</li>
+          <li>Firebird: pad en bestandsnaam op <br/> de server van Centraal dossier <br/> beheer database</li>
         </ul>
-        Meer informatie hierover kan ook gevonden <br> worden in \"2.1.2.2 Import Kluwer specifieke <br> schermen\" hierboven.
+        Meer informatie hierover kan ook gevonden <br/> worden in \"2.1.2.2 Import Kluwer specifieke <br/> schermen\" hierboven.
       </td>
       <td>X[4]</td>
     </tr>
@@ -355,60 +355,60 @@ Mogelijke command line parameters zijn:
       <td>De database van Wedde-Administratie:
         <ul>
           <li>SQL server: de database naam</li>
-          <li>Firebird: pad en bestandsnaam op <br> de server van Wedde-Administratie <br> database</li>
+          <li>Firebird: pad en bestandsnaam op <br/> de server van Wedde-Administratie <br/> database</li>
         </ul>
-        Meer informatie hierover kan ook gevonden <br> worden in \"2.1.2.2 Import Kluwer specifieke <br> schermen\" hierboven.
+        Meer informatie hierover kan ook gevonden <br/> worden in \"2.1.2.2 Import Kluwer specifieke <br/> schermen\" hierboven.
       </td>
       <td>X④</td>
     </tr>
     <tr>
       <td>/iwindowsauthentication</td>
-      <td>Deze parameter kan enkel gebruikt worden bij <br> Kluwer SQL server. Indien deze parameter <br> gedefinieerd dan gaat windows authenticatie <br> gebruikt worden om verbinding te maken met <br> SQL server.</td>
+      <td>Deze parameter kan enkel gebruikt worden bij <br/> Kluwer SQL server. Indien deze parameter <br/> gedefinieerd dan gaat windows authenticatie <br/> gebruikt worden om verbinding te maken met <br/> SQL server.</td>
       <td></td>
     </tr>
     <tr>
       <td>/idefaultuserandpassw</td>
-      <td>Deze parameter kan enkel gebruikt worden bij <br> Kluwer Firebird database. Als deze parameter <br> gedefinieerd dan wordt de standaard <br> gebruikersnaam en wachtwoord van Firebird <br> gebruikt om verbinding te maken.</td>
+      <td>Deze parameter kan enkel gebruikt worden bij <br/> Kluwer Firebird database. Als deze parameter <br/> gedefinieerd dan wordt de standaard <br/> gebruikersnaam en wachtwoord van Firebird <br/> gebruikt om verbinding te maken.</td>
       <td></td>
     </tr>
     <tr>
       <td>/iuser:&lt;GUID user&gt;</td>
-      <td>Als deze parameter gedefinieerd dan worden <br> enkel maar dossiers (aangevers en <br> bedrijfsleiders) van deze gebruiker <br> geïmporteerd. <br> De GUID van de gebruiker in de Kluwer <br> Centraal Dossier Beheer tabel</td>
+      <td>Als deze parameter gedefinieerd dan worden <br/> enkel maar dossiers (aangevers en <br/> bedrijfsleiders) van deze gebruiker <br/> geïmporteerd. <br/> De GUID van de gebruiker in de Kluwer <br/> Centraal Dossier Beheer tabel</td>
       <td></td>
     </tr>
     <tr>
       <td>/igroup:&lt;GUID groep&gt;</td>
-      <td>Als deze parameter gedefinieerd dan worden <br> enkel maar dossiers (aangevers en <br> bedrijfsleiders) van deze groep geïmporteerd. <br> De GUID van de groep in de Kluwer Centraal <br> Dossier Beheer tabel.</td>
+      <td>Als deze parameter gedefinieerd dan worden <br/> enkel maar dossiers (aangevers en <br/> bedrijfsleiders) van deze groep geïmporteerd. <br/> De GUID van de groep in de Kluwer Centraal <br/> Dossier Beheer tabel.</td>
       <td></td>
     </tr>
     <tr>
       <td>/ionlydossierswithperiodBV</td>
-      <td>Als deze parameter gedefinieerd dan worden <br> enkel maar dossiers (aangevers) waarbij de <br> periode van de bedrijfsvoorheffing is ingevuld <br> geïmporteerd</td>
+      <td>Als deze parameter gedefinieerd dan worden <br/> enkel maar dossiers (aangevers) waarbij de <br/> periode van de bedrijfsvoorheffing is ingevuld <br/> geïmporteerd</td>
       <td></td>
     </tr>
     <tr>
       <td>/ionlydossiersthatareworking</td>
-      <td>Als deze parameter is gedefinieerd dan worden <br> enkel maar bedrijfsleiders die werkzaam zijn op <br> dit moment geïmporteerd.</td>
+      <td>Als deze parameter is gedefinieerd dan worden <br/> enkel maar bedrijfsleiders die werkzaam zijn op <br/> dit moment geïmporteerd.</td>
       <td></td>
     </tr>
     <tr>
       <td>/iextrainfo</td>
-      <td>Als deze parameter gedefinieerd dan wordt ook <br> extra informatie zoals aantal kinderen, <br> burgerlijke stand, ... van een bedrijfsleider <br> geimporteerd</td>
+      <td>Als deze parameter gedefinieerd dan wordt ook <br/> extra informatie zoals aantal kinderen, <br/> burgerlijke stand, ... van een bedrijfsleider <br/> geimporteerd</td>
       <td></td>
     </tr>
     <tr>
       <td>/iextrainfowa</td>
-      <td>Als deze parameter gedefinieerd en Wedde-<br>Administratie database is ingevuld dan wordt <br> de extra informatie uit de Wedde-Administratie <br> database geimprteerd samen met het inkomen <br> van de partner.</td>
+      <td>Als deze parameter gedefinieerd en Wedde-<br/>Administratie database is ingevuld dan wordt <br/> de extra informatie uit de Wedde-Administratie <br/> database geimprteerd samen met het inkomen <br/> van de partner.</td>
       <td></td>
     </tr>
     <tr>
       <td>/idepperswithfromdt</td>
-      <td>Enkel maar personen die ten laste zijn van een <br> bedrijfsleider importeren die een Vanaf datum <br> hebben ingevuld. Dit is de standaard manier <br> waarop Kluwer de data inleest in Wedde-<br>Administratie.</td>
+      <td>Enkel maar personen die ten laste zijn van een <br/> bedrijfsleider importeren die een Vanaf datum <br/> hebben ingevuld. Dit is de standaard manier <br/> waarop Kluwer de data inleest in Wedde-<br/>Administratie.</td>
       <td></td>
     </tr>
     <tr>
       <td>/iprefix</td>
-      <td>De prefix die voor de referte van de aangever, <br> bedrijfsleider en medewerker moet gezet <br> worden. Standaard is deze blanco.</td>
+      <td>De prefix die voor de referte van de aangever, <br/> bedrijfsleider en medewerker moet gezet <br/> worden. Standaard is deze blanco.</td>
       <td></td>
     </tr>
     <tr>
@@ -423,18 +423,18 @@ Mogelijke command line parameters zijn:
       <td colspan="3"><strong>Parameters specifiek AdminIS 2013/AdminConsult</strong>:</td>
     </tr>
     <tr>
-      <td>/idatasourcename:<br>&lt;gegevensbron&gt;</td>
-      <td>De ODBC gegevensbron van <br> AdminIS2013/AdminConsult dat gebruikt wordt <br> om verbinding te maken met <br> AdminIS2013/AdminConsult</td>
+      <td>/idatasourcename:<br/>&lt;gegevensbron&gt;</td>
+      <td>De ODBC gegevensbron van <br/> AdminIS2013/AdminConsult dat gebruikt wordt <br/> om verbinding te maken met <br/> AdminIS2013/AdminConsult</td>
       <td>X[6]</td>
     </tr>
     <tr>
       <td>/idatasourceversion75</td>
-      <td>Deze parameter moet worden gebruikt als <br> versie 7.5 of later van AdminIS/AdminConsult <br> wordt gebruikt</td>
+      <td>Deze parameter moet worden gebruikt als <br/> versie 7.5 of later van AdminIS/AdminConsult <br/> wordt gebruikt</td>
       <td></td>
     </tr>
     <tr>
-      <td>/inameroleresponseemployee:<br>&lt;rol&gt;</td>
-      <td>De rol dat moet gebruikt worden voor als <br> dossierverantwoordelijke</td>
+      <td>/inameroleresponseemployee:<br/>&lt;rol&gt;</td>
+      <td>De rol dat moet gebruikt worden voor als <br/> dossierverantwoordelijke</td>
       <td></td>
     </tr>
     <tr>
@@ -442,7 +442,7 @@ Mogelijke command line parameters zijn:
     </tr>
     <tr>
       <td>/iesharelinkfield:&lt;veld&gt;</td>
-      <td>Welk veld van e-share moet gebruikt worden <br> als koppelveld:
+      <td>Welk veld van e-share moet gebruikt worden <br/> als koppelveld:
         <ul>
           <li>c: code</li>
           <li>a: boekhoudlink</li>
@@ -454,12 +454,12 @@ Mogelijke command line parameters zijn:
     </tr>
     <tr>
       <td>/iesharekey:&lt;sleutel&gt;</td>
-      <td>Software sleutel van e-share. Deze kan <br> gevonden worden op de website van e-share</td>
+      <td>Software sleutel van e-share. Deze kan <br/> gevonden worden op de website van e-share</td>
       <td>X</td>
     </tr>
     <tr>
       <td>/ieshareurl:&lt;url&gt;</td>
-      <td>De URL van e-share. Standaard is dit <br> https://www.e-share.be</td>
+      <td>De URL van e-share. Standaard is dit <br/> https://www.e-share.be</td>
       <td></td>
     </tr>
 
@@ -546,9 +546,9 @@ Hieronder staat per type import beschreven welke velden er kunnen geïmporteerd 
     <tr>
       <th>Veldnaam</th>
       <th>Omschrijving</th>
-      <th>Type veld <br> (max)</th>
+      <th>Type veld <br/> (max)</th>
       <th>Verplicht</th>
-      <th>Standaard <br> waarde</th>
+      <th>Standaard <br/> waarde</th>
     </tr>
   </thead>
   <tbody>
@@ -624,7 +624,7 @@ Hieronder staat per type import beschreven welke velden er kunnen geïmporteerd 
     </tr>
     <tr>
       <td>Language</td>
-      <td>Taal code: <br> 0: Nederlands, 1: Frans, 2: Engels, 3: Duits</td>
+      <td>Taal code: <br/> 0: Nederlands, 1: Frans, 2: Engels, 3: Duits</td>
       <td>Tekst(1)</td>
       <td></td>
       <td>0</td>
@@ -638,42 +638,42 @@ Hieronder staat per type import beschreven welke velden er kunnen geïmporteerd 
     </tr>
     <tr>
       <td>CompanyNumber</td>
-      <td>Ondernemingsnummer. Punten, spaties en <br> streepjes worden automatisch verwijderd <br> uit nummer en als nummer 9 lang is wordt <br> deze omgevormd naar 10 door er een 0 <br> voor te zetten.</td>
+      <td>Ondernemingsnummer. Punten, spaties en <br/> streepjes worden automatisch verwijderd <br/> uit nummer en als nummer 9 lang is wordt <br/> deze omgevormd naar 10 door er een 0 <br/> voor te zetten.</td>
       <td>Tekst(10)</td>
       <td>X[1]</td>
       <td></td>
     </tr>
     <tr>
       <td>NationalNumber</td>
-      <td>Rijksregisternummer. Punten, spaties en <br> streepjes worden automatisch verwijderd <br> uit nummer</td>
+      <td>Rijksregisternummer. Punten, spaties en <br/> streepjes worden automatisch verwijderd <br/> uit nummer</td>
       <td>Tekst(14)</td>
       <td>X⑦</td>
       <td></td>
     </tr>
     <tr>
       <td>NationalNumberPartner</td>
-      <td>Rijksregisternummer van partner. Punten, <br> spaties en streepjes worden automatisch <br> verwijderd uit nummer</td>
+      <td>Rijksregisternummer van partner. Punten, <br/> spaties en streepjes worden automatisch <br/> verwijderd uit nummer</td>
       <td>Tekst(14)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>PayrollPeriod</td>
-      <td>Periode aangifte BV: <br> 4: Kwartaalaangifte <br> 12: Maandaangifte</td>
+      <td>Periode aangifte BV: <br/> 4: Kwartaalaangifte <br/> 12: Maandaangifte</td>
       <td>Nummer</td>
       <td></td>
       <td>4</td>
     </tr>
     <tr>
       <td>SendType</td>
-      <td>Methode verzenden documenten: <br> 0: Brief - Afdrukken <br> 1: Email</td>
+      <td>Methode verzenden documenten: <br/> 0: Brief - Afdrukken <br/> 1: Email</td>
       <td>Nummer</td>
       <td></td>
       <td>0</td>
     </tr>
     <tr>
       <td>ReceiptDistrict</td>
-      <td>Gewestelijk directie kantoor code.[2] <br> Als niet ingevuld wordt deze automatisch <br>  adv de postcode bepaald.</td>
+      <td>Gewestelijk directie kantoor code.[2] <br/> Als niet ingevuld wordt deze automatisch <br/>  adv de postcode bepaald.</td>
       <td>Tekst(9)</td>
       <td></td>
       <td></td>
@@ -687,14 +687,14 @@ Hieronder staat per type import beschreven welke velden er kunnen geïmporteerd 
     </tr>
     <tr>
       <td>ResponsibleCode</td>
-      <td>De code van de verantwoordelijke van deze <br> aangever/dossier</td>
+      <td>De code van de verantwoordelijke van deze <br/> aangever/dossier</td>
       <td>Tekst(25)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>TaxType</td>
-      <td>Type belasting: <br> 1 : Personenbelasting <br> 2 : Rechtspersonenbelasting (VZW) <br> 3 : Vennootschapsbelasting (vennootschap <br> of VZW)</td>
+      <td>Type belasting: <br/> 1 : Personenbelasting <br/> 2 : Rechtspersonenbelasting (VZW) <br/> 3 : Vennootschapsbelasting (vennootschap <br/> of VZW)</td>
       <td>Nummer</td>
       <td></td>
       <td>3</td>
@@ -713,9 +713,9 @@ Hieronder staat per type import beschreven welke velden er kunnen geïmporteerd 
     <tr>
       <th>Veldnaam</th>
       <th>Omschrijving</th>
-      <th>Type veld <br> (max)</th>
+      <th>Type veld <br/> (max)</th>
       <th>Verplicht</th>
-      <th>Standaard <br> waarde</th>
+      <th>Standaard <br/> waarde</th>
     </tr>
   </thead>
   <tbody>
@@ -798,14 +798,14 @@ Hieronder staat per type import beschreven welke velden er kunnen geïmporteerd 
     </tr>
     <tr>
       <td>Language</td>
-      <td>Taal code: <br> 0: Nederlands <br> 1: Frans <br> 2: Engels <br> 3: Duits</td>
+      <td>Taal code: <br/> 0: Nederlands <br/> 1: Frans <br/> 2: Engels <br/> 3: Duits</td>
       <td>Tekst(1)</td>
       <td></td>
       <td>0</td>
     </tr>
     <tr>
       <td>NationalNumber</td>
-      <td>Rijksregisternummer. Punten, spaties <br> en streepjes worden automatisch <br> verwijderd uit nummer</td>
+      <td>Rijksregisternummer. Punten, spaties <br/> en streepjes worden automatisch <br/> verwijderd uit nummer</td>
       <td>Tekst(14)</td>
       <td>X⑨</td>
       <td></td>
@@ -840,63 +840,63 @@ Hieronder staat per type import beschreven welke velden er kunnen geïmporteerd 
     </tr>
     <tr>
       <td>MaritalStatus</td>
-      <td>Burgelijk stand: <br> 0: niet gekend <br> 1: ongehuwd <br> 2: gehuwd of wettelijk samenwonend <br> 3: weduwnaar of weduwe <br> 4: uit de echt gescheiden of gescheiden van tafel en bed <br> 5: feitelijk gescheiden</td>
+      <td>Burgelijk stand: <br/> 0: niet gekend <br/> 1: ongehuwd <br/> 2: gehuwd of wettelijk samenwonend <br/> 3: weduwnaar of weduwe <br/> 4: uit de echt gescheiden of gescheiden van tafel en bed <br/> 5: feitelijk gescheiden</td>
       <td>Nummer</td>
       <td></td>
       <td>1</td>
     </tr>
     <tr>
       <td>FamilyStatus</td>
-      <td>Gezinstoestand: <br> 0: alleenstaande <br> 1: partner heeft persoonlijke <br> beroepsinkomsten <br> 2: partner heeft geen <br> beroepsinkomsten of pensioen, <br> rente <= 130 EURO netto per maand <br>(inkomstenjaar 2016) <br> 3: partner enkel beroepsinkomsten <br> <=216 EURO (inkomstenjaar 2016) <br> 4: partner enkel pensioen, rente <br> >130 en < 432 EURO (inkomstenjaar <br> 2016) <br> </td>
+      <td>Gezinstoestand: <br/> 0: alleenstaande <br/> 1: partner heeft persoonlijke <br/> beroepsinkomsten <br/> 2: partner heeft geen <br/> beroepsinkomsten of pensioen, <br/> rente <= 130 EURO netto per maand <br/>(inkomstenjaar 2016) <br/> 3: partner enkel beroepsinkomsten <br/> <=216 EURO (inkomstenjaar 2016) <br/> 4: partner enkel pensioen, rente <br/> >130 en < 432 EURO (inkomstenjaar <br/> 2016) <br/> </td>
       <td>Nummer</td>
       <td></td>
       <td>0</td>
     </tr>
     <tr>
       <td>NumberOfChildren</td>
-      <td>Aantal kinderen (zowel met als <br> zonder handicap) <sup>(zie</sup> <br> <sup>NumberOfOtherHandicap voor extra info)<sup></td>
+      <td>Aantal kinderen (zowel met als <br/> zonder handicap) <sup>(zie</sup> <br/> <sup>NumberOfOtherHandicap voor extra info)<sup></td>
       <td>Nummer</td>
       <td></td>
       <td>0</td>
     </tr>
     <tr>
       <td>NumberOfOther</td>
-      <td>Aantal anderen ten laste leeftijd < 65 <br> jaar (zowel met als zonder <br> handicap) <sup>(zie NumberOfOtherHandicap voor <br> extra info)</sup></td>
+      <td>Aantal anderen ten laste leeftijd < 65 <br/> jaar (zowel met als zonder <br/> handicap) <sup>(zie NumberOfOtherHandicap voor <br/> extra info)</sup></td>
       <td>Nummer</td>
       <td></td>
       <td>0</td>
     </tr>
     <tr>
       <td>NumberOfChildrenHandicap</td>
-      <td>Aantal kinderen die een handicap <br> hebben <sup>(zie NumberOfOtherHandicap voor <br> extra info)</sup></td>
+      <td>Aantal kinderen die een handicap <br/> hebben <sup>(zie NumberOfOtherHandicap voor <br/> extra info)</sup></td>
       <td>Nummer</td>
       <td></td>
       <td>0</td>
     </tr>
     <tr>
       <td>NumberOfOtherHandicap</td>
-      <td>Aantal anderen ten laste leeftijd < 65 <br> jaar die een handicap hebben[2]</td>
+      <td>Aantal anderen ten laste leeftijd < 65 <br/> jaar die een handicap hebben[2]</td>
       <td>Nummer</td>
       <td></td>
       <td>0</td>
     </tr>
     <tr>
       <td>Handicap</td>
-      <td>Gehandicapt: <br> N: Nee <br> H: Ja</td>
+      <td>Gehandicapt: <br/> N: Nee <br/> H: Ja</td>
       <td>Tekst(1)</td>
       <td></td>
       <td>N</td>
     </tr>
     <tr>
       <td>HandicapPartner</td>
-      <td>Partner gehandicapt: <br> N: Nee <br> H: Ja</td>
+      <td>Partner gehandicapt: <br/> N: Nee <br/> H: Ja</td>
       <td>Tekst(1)</td>
       <td></td>
       <td>N</td>
     </tr>
     <tr>
       <td>OtherPeople</td>
-      <td>Diverse gezinslast: <br> N: Nee <br> X: Ja</td>
+      <td>Diverse gezinslast: <br/> N: Nee <br/> X: Ja</td>
       <td>Tekst(1)</td>
       <td></td>
       <td>N</td>
@@ -910,21 +910,21 @@ Hieronder staat per type import beschreven welke velden er kunnen geïmporteerd 
     </tr>
     <tr>
       <td>SendType</td>
-      <td>Methode verzenden documenten: <br> 0: Brief - Afdrukken <br> 1: Email</td>
+      <td>Methode verzenden documenten: <br/> 0: Brief - Afdrukken <br/> 1: Email</td>
       <td>Nummer</td>
       <td></td>
       <td>0</td>
     </tr>
     <tr>
       <td>NumberOfPlus65</td>
-      <td>Aantal anderen ten laste leeftijd <br> >= <br> 65 (zowel met als zonder <br> handicap) <sup>(zie NumberOfOtherHandicap voor <br> extra info)</sup></td>
+      <td>Aantal anderen ten laste leeftijd <br/> >= <br/> 65 (zowel met als zonder <br/> handicap) <sup>(zie NumberOfOtherHandicap voor <br/> extra info)</sup></td>
       <td>Nummer</td>
       <td></td>
       <td>0</td>
     </tr>
     <tr>
       <td>NumberOfPlus65Handicap</td>
-      <td>Aantal anderen ten laste leeftijd <br> >=65 die een handicap hebben <sup>(zie <br> NumberOfOtherHandicap voor extra info)</sup></td>
+      <td>Aantal anderen ten laste leeftijd <br/> >=65 die een handicap hebben <sup>(zie <br/> NumberOfOtherHandicap voor extra info)</sup></td>
       <td>Nummer</td>
       <td></td>
       <td>0</td>
@@ -945,7 +945,7 @@ Hieronder staat per type import beschreven welke velden er kunnen geïmporteerd 
       <th>Omschrijving</th>
       <th>Type veld (max)</th>
       <th>Verplicht</th>
-      <th>Standaard <br> waarde</th>
+      <th>Standaard <br/> waarde</th>
     </tr>
   </thead>
   <tbody>
@@ -1005,7 +1005,7 @@ Dit bestand beschrijft welke bedrijfsleider tot welk dossier behoort. Een bedrij
       <th>Omschrijving</th>
       <th>Type veld (max)</th>
       <th>Verplicht</th>
-      <th>Standaard <br> waarde</th>
+      <th>Standaard <br/> waarde</th>
     </tr>
   </thead>
   <tbody>
@@ -1069,7 +1069,7 @@ Voor buitenlandse begunstigden zo volledig mogelijk invullen (naam, voornaam, ad
       <th>Omschrijving</th>
       <th>Type veld (max)</th>
       <th>Verplicht</th>
-      <th>Standaard <br> waarde</th>
+      <th>Standaard <br/> waarde</th>
     </tr>
   </thead>
   <tbody>
@@ -1096,21 +1096,21 @@ Voor buitenlandse begunstigden zo volledig mogelijk invullen (naam, voornaam, ad
     </tr>
     <tr>
       <td>Commissions</td>
-      <td>Commissies, makelaarslonen, <br> handelsrestorno's, ... uitgedrukt in <br> eurocent. Als commissie 100,00 EUR is dan <br> moet hier 10000 ingevuld worden.</td>
+      <td>Commissies, makelaarslonen, <br/> handelsrestorno's, ... uitgedrukt in <br/> eurocent. Als commissie 100,00 EUR is dan <br/> moet hier 10000 ingevuld worden.</td>
       <td>Nummer</td>
       <td></td>
       <td>0</td>
     </tr>
     <tr>
       <td>Fees</td>
-      <td>Erelonen of vacatiegelden uitgedrukt in <br> eurocent. Als ereloon 100,00 EUR is dan <br> moet hier 10000 ingevuld worden.</td>
+      <td>Erelonen of vacatiegelden uitgedrukt in <br/> eurocent. Als ereloon 100,00 EUR is dan <br/> moet hier 10000 ingevuld worden.</td>
       <td>Nummer</td>
       <td></td>
       <td>0</td>
     </tr>
     <tr>
       <td>Advantage</td>
-      <td>Voordelen van alle aard uitgedrukt in <br> eurocent.</td>
+      <td>Voordelen van alle aard uitgedrukt in <br/> eurocent.</td>
       <td>Nummer</td>
       <td></td>
       <td>0</td>
@@ -1124,35 +1124,35 @@ Voor buitenlandse begunstigden zo volledig mogelijk invullen (naam, voornaam, ad
     </tr>
     <tr>
       <td>Costs</td>
-      <td>Kosten gedaan voor rekening van de <br> verkrijger uitgedrukt in eurocent</td>
+      <td>Kosten gedaan voor rekening van de <br/> verkrijger uitgedrukt in eurocent</td>
       <td>Nummer</td>
       <td></td>
       <td>0</td>
     </tr>
     <tr>
       <td>SportRemuneration</td>
-      <td>Het bedrag uitgedrukt in eurocent uit het <br> totaal dat betrekking heeft op vergoedingen <br> uitgekeurd aan sportbeoefenaars</td>
+      <td>Het bedrag uitgedrukt in eurocent uit het <br/> totaal dat betrekking heeft op vergoedingen <br/> uitgekeurd aan sportbeoefenaars</td>
       <td>Nummer</td>
       <td></td>
       <td>0</td>
     </tr>
     <tr>
       <td>ManagerRemuneration</td>
-      <td>Het bedrag uitgedrukt in eurocent uit het <br> totaal dat betrekking heeft op vergoedingen <br> uitgekeurd aan opleiders, trainers en <br> begeleiders voor hun activiteiten ten <br> behoeve van sportbeoefenaars</td>
+      <td>Het bedrag uitgedrukt in eurocent uit het <br/> totaal dat betrekking heeft op vergoedingen <br/> uitgekeurd aan opleiders, trainers en <br/> begeleiders voor hun activiteiten ten <br/> behoeve van sportbeoefenaars</td>
       <td>Nummer</td>
       <td></td>
       <td>0</td>
     </tr>
     <tr>
       <td>Payed</td>
-      <td>Indien het totaal niet betaald dit jaar dan <br> moet hier het bedrag in eurocent ingevuld <br> worden dat betaald is dit jaar.</td>
+      <td>Indien het totaal niet betaald dit jaar dan <br/> moet hier het bedrag in eurocent ingevuld <br/> worden dat betaald is dit jaar.</td>
       <td>Nummer</td>
       <td></td>
       <td>0</td>
     </tr>
     <tr>
       <td>Nihil</td>
-      <td>Mogelijke waardes: <br> Y: Indien er niets betaald is dit jaar <br> N: Indien niet van toepassing</td>
+      <td>Mogelijke waardes: <br/> Y: Indien er niets betaald is dit jaar <br/> N: Indien niet van toepassing</td>
       <td>Tekst(1)</td>
       <td></td>
       <td>N</td>

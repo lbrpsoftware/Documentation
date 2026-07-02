@@ -66,12 +66,12 @@ Via het programma AccowinCmd.exe, dat u in de Accowin Client directory kunt vind
     </tr>
     <tr>
       <td>/port:&lt;poort nummer&gt;</td>
-      <td>Poort van de server. Als niet meegegeven dan wordt de standaard poort <br> nummer gebruikt</td>
+      <td>Poort van de server. Als niet meegegeven dan wordt de standaard poort <br/> nummer gebruikt</td>
       <td></td>
     </tr>
     <tr>
       <td>/LocalPath:&lt;pad&gt;</td>
-      <td>Het pad waar het configuratiebestand van Accowin staat als er geen <br> server is geïnstalleerd. <br> <strong><u>Voorbeeld</u></strong>:
+      <td>Het pad waar het configuratiebestand van Accowin staat als er geen <br/> server is geïnstalleerd. <br/> <strong><u>Voorbeeld</u></strong>:
         <ul>
           <li>C:\LBRP\Clients\Accowin</li>
           <li>C:\Accowin</li>
@@ -81,7 +81,7 @@ Via het programma AccowinCmd.exe, dat u in de Accowin Client directory kunt vind
     </tr>
     <tr>
       <td>/db:&lt;database naam&gt;</td>
-      <td>Naam van de database. Als niet meegegeven dan wordt de standaard <br> database van Accowin gebruikt.</td>
+      <td>Naam van de database. Als niet meegegeven dan wordt de standaard <br/> database van Accowin gebruikt.</td>
       <td></td>
     </tr>
     <tr>
@@ -101,32 +101,32 @@ Via het programma AccowinCmd.exe, dat u in de Accowin Client directory kunt vind
     </tr>
     <tr>
       <td>/BackupAll</td>
-      <td>Als deze parameter gebruikt wordt, dan worden er back-ups gemaakt <br> van alle dossiers</td>
+      <td>Als deze parameter gebruikt wordt, dan worden er back-ups gemaakt <br/> van alle dossiers</td>
       <td>③</td>
     </tr>
     <tr>
       <td>/BackupDossier:&lt;Dossierkode&gt;</td>
-      <td>Als deze parameter gebruikt wordt, wordt er een back-up gemaakt <br> van het dossier met de opgegeven dossiercode, deze parameter kan <br> meermaals worden gebruikt om een back-up te maken van meerdere <br> dossiers</td>
+      <td>Als deze parameter gebruikt wordt, wordt er een back-up gemaakt <br/> van het dossier met de opgegeven dossiercode, deze parameter kan <br/> meermaals worden gebruikt om een back-up te maken van meerdere <br/> dossiers</td>
       <td>③</td>
     </tr>
     <tr>
       <td>/logfile: &lt;bestandsnaam&gt;</td>
-      <td>De locatie en naam van het bestand waar de logging informatie van de <br> back-up in staat. Als deze parameter niet gebruikt wordt dan wordt geen <br> log bestand aangemaakt.</td>
+      <td>De locatie en naam van het bestand waar de logging informatie van de <br/> back-up in staat. Als deze parameter niet gebruikt wordt dan wordt geen <br/> log bestand aangemaakt.</td>
       <td></td>
     </tr>
     <tr>
       <td>/loginfo</td>
-      <td>	Als deze parameter wordt toegevoegd dan wordt naast de fouten ook <br> extra logging informatie getoond en/of weggeschreven in het log <br> bestand.</td>
+      <td>	Als deze parameter wordt toegevoegd dan wordt naast de fouten ook <br/> extra logging informatie getoond en/of weggeschreven in het log <br/> bestand.</td>
       <td></td>
     </tr>
     <tr>
       <td>/logserver</td>
-      <td>Als deze parameter wordt toegevoegd dan worden de gegevens die met <br> de server worden uitgewisseld ook gelogd. (Enkel van toepassing als <br> server is geïnstalleerd)</td>
+      <td>Als deze parameter wordt toegevoegd dan worden de gegevens die met <br/> de server worden uitgewisseld ook gelogd. (Enkel van toepassing als <br/> server is geïnstalleerd)</td>
       <td></td>
     </tr>
     <tr>
       <td>/overwritelog</td>
-      <td>	Als deze parameter gebruikt wordt dan wordt log bestand overschreven <br> telkens het programma wordt uitgevoerd. Als de parameter niet wordt <br> gebruikt dan wordt de logging steeds toegevoegd aan bestaande <br> logbestand.</td>
+      <td>	Als deze parameter gebruikt wordt dan wordt log bestand overschreven <br/> telkens het programma wordt uitgevoerd. Als de parameter niet wordt <br/> gebruikt dan wordt de logging steeds toegevoegd aan bestaande <br/> logbestand.</td>
       <td></td>
     </tr>
   </tbody>
@@ -166,7 +166,7 @@ AccowinCmd.exe /LocalPath:C:\\LBRP\\Clients\\Accowin /BackupPath:C:\\LBRP\\Clien
 
 ![Image 4](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/23ff0702-7b5d-4a72-a181-9720c0f2c0ad/Untitled.png)
 
-4. Klik op **Bladeren** om het programma **AccowinCmd.exe** te selecteren. Standaard staat dit programma in <br> C:\\LBRP\\Clients\\Accowin\\AccowinCmd.exe. Belangrijk: U moet AccowinCmd.exe selecteren en niet Accowin.exe!
+4. Klik op **Bladeren** om het programma **AccowinCmd.exe** te selecteren. Standaard staat dit programma in <br/> C:\\LBRP\\Clients\\Accowin\\AccowinCmd.exe. Belangrijk: U moet AccowinCmd.exe selecteren en niet Accowin.exe!
 
 ![Image 5](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a2581bc5-fcb3-464c-91e6-de775e3673f7/Untitled.png)
 
@@ -186,7 +186,7 @@ AccowinCmd.exe /LocalPath:C:\\LBRP\\Clients\\Accowin /BackupPath:C:\\LBRP\\Clien
 
 ![Image 9](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/249f7625-0fa9-43bc-a40c-653adcb78f9f/Untitled.png)
 
-9. De waarde naast Uitvoeren moet aangepast worden. De command line parameters voor de back-up moeten er namelijk aan toegevoegd worden zoals wat er moet geback-upped worden, naar waar, ... Meer uitleg over welke parameters kunt u vinden hierboven bij 3 Manueel Back-up via command line parameters. Een voorbeeld van de waarde van Uitvoeren kan zijn: <br> AccowinCmd.exe/LocalPath:C:\\LBRP\\Clients\\AccowinBackupPath:C:\\LBRP\\Clients\\Accowin\\\_Backup/BackupAll
+9. De waarde naast Uitvoeren moet aangepast worden. De command line parameters voor de back-up moeten er namelijk aan toegevoegd worden zoals wat er moet geback-upped worden, naar waar, ... Meer uitleg over welke parameters kunt u vinden hierboven bij 3 Manueel Back-up via command line parameters. Een voorbeeld van de waarde van Uitvoeren kan zijn: <br/> AccowinCmd.exe/LocalPath:C:\\LBRP\\Clients\\AccowinBackupPath:C:\\LBRP\\Clients\\Accowin\\\_Backup/BackupAll
 
 ![Image 10](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f919c73c-194e-4c08-93dd-7e5d2008be63/Untitled.png)
 
@@ -222,7 +222,7 @@ AccowinCmd.exe /LocalPath:C:\\LBRP\\Clients\\Accowin /BackupPath:C:\\LBRP\\Clien
 
 7. Configuratie van Programma starten:
 
-   1. Klik op Bladeren om het programma AccowinCmd.exe te selecteren. Standaard staat dit programma in <br> C:\\LBRP\\Clients\\Accowin\\AccowinCmd.exe. Belangrijk: U moet AccowinCmd.exe selecteren en niet Accowin.exe!
+   1. Klik op Bladeren om het programma AccowinCmd.exe te selecteren. Standaard staat dit programma in <br/> C:\\LBRP\\Clients\\Accowin\\AccowinCmd.exe. Belangrijk: U moet AccowinCmd.exe selecteren en niet Accowin.exe!
    2. Bij'Parameters toevoegen (optioneel)' moet u de parameters van de back-up invullen. Meer uitleg over welke parameters kunt u vinden hierboven bij 3 Manueel Back-up via command line parameters
 
 ![Image 16](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/980036b0-ab67-4ac7-9d5f-1154e7952bc6/Untitled.png)
