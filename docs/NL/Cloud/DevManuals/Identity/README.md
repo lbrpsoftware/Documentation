@@ -57,3 +57,15 @@
 <img src="../post.png" alt="post.png" /> [/owner/application/enable](https://abfapi.dev.corpgroup.site/swagger/index.html#/%F0%9F%98%8Eowner/post_owner_application_enable)
 
 - U kunt een **Applicatie** activeren door dit eindpunt aan te roepen.
+- De volgende `Request` zal de **FOD** applicatie activeren:
+
+   ```json
+   {
+     "applicationType": 524288,
+     "enabled": false  # bevat de huidige waarde van de applicatie
+   }
+   ```
+
+- Druk op **Schema** bij een **Request body** om de mogelijke waarden van het **Applicatie Type** te zien:
+
+   <img src="../swagger_schema.png" alt="swagger_schema.png" style="width:800px;" />

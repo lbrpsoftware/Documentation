@@ -14,28 +14,46 @@ De **PRD** omgeving is de productieomgeving en dient niet gebruikt te worden voo
 
 ## 3. Request Headers
 
-De volgende Headers **MOETEN** aanwezig zijn in een Request:
+De volgende Headers **MOETEN** aanwezig zijn in een `Request`:
 
 ```
-X-Version: 1.0
-Api-Key:   te verkrijgen door LBRP
+Api-Key: te verkrijgen door LBRP
+```
+
+De volgende Headers **MOGEN** aanwezig zijn in een `Request`:
+
+```
 X-Legacy:  te verkrijgen door LBRP
+X-Version: 1.0
 ```
 
-De volgende Headers **MOGEN** aanwezig zijn in een Request:
+De volgende Headers **MOETEN** aanwezig zijn in een ge-authenticeerd `Request`:
 
 ```
 Authorization: Bearer <AccessToken>
 Organization:  <Organization Guid>
 ```
 
-## 4. API Onderdelen
+U kunt deze `Header` waarden in **Swagger** invullen door op de knop **Authorize 🔒** te klikken:
+
+<img src="./swagger_header.png" alt="swagger_header.png" style="width:400px;" />
+
+## 4. Requestds/Responses
+
+De meeste **JSON-contracten** hebben, in de meeste gevallen, altijd de volgende velden:
+
+- `identity`:     **Primaire** database sleutel als `Guid`.
+- `id`:           <br/>Extra sleutelwaarde als `Integer`.<br/>*❗Wordt momenteel niet gebruikt ❗*<br/><br/>
+- `lastModified`: Tijdstip van laatste **Wijziging**.
+- `created`:      Tijdstip van **Toevoeging**.
+- `createdBy`:    Gebruiker die het record heeft aangemaakt.
+
+## 5. API Onderdelen
 
 - [Identity Flow](Identity/README.md)
 - [FOD](Fod/README.md)
 
-
-## 5. Code Voorbeelden
+## 6. Code Voorbeelden
 
 - [Code Voorbeelden](Code/README.md)
 
