@@ -14,7 +14,7 @@ De **PRD** omgeving is de productieomgeving en dient niet gebruikt te worden voo
 
 ## 3. Request Headers
 
-De volgende Headers **MOETEN** aanwezig zijn in een `Request`:
+De volgende Header **MOET** aanwezig zijn in een `Request`:
 
 ```
 Api-Key: te verkrijgen door LBRP
@@ -24,13 +24,18 @@ De volgende Headers **MOGEN** aanwezig zijn in een `Request`:
 
 ```
 X-Legacy:  te verkrijgen door LBRP
-X-Version: 1.0
+X-Version: 1.0 # Indien niet aanwezig defaults naar 1.0
 ```
 
-De volgende Headers **MOETEN** aanwezig zijn in een ge-authenticeerd `Request`:
+De volgende Header **MOET** aanwezig zijn in een ge-authenticeerd `Request`:
 
 ```
 Authorization: Bearer <AccessToken>
+```
+
+De volgende Header **MOET** aanwezig zijn in een ge-authenticeerd `Request` op Organisatie-niveau:
+
+```
 Organization:  <Organization Guid>
 ```
 
@@ -38,7 +43,9 @@ U kunt deze `Header` waarden in **Swagger** invullen door op de knop **Authorize
 
 <img src="./swagger_header.png" alt="swagger_header.png" style="width:400px;" />
 
-## 4. Requestds/Responses
+## 4. Requests/Responses
+
+### 4.1 Algemene Velden
 
 De meeste **JSON-contracten** hebben, in de meeste gevallen, altijd de volgende velden:
 
@@ -48,6 +55,89 @@ De meeste **JSON-contracten** hebben, in de meeste gevallen, altijd de volgende 
 - `created`:      Tijdstip van **Toevoeging**.
 - `createdBy`:    Gebruiker die het record heeft aangemaakt.
 
+### 4.2 Algemene Response
+
+Indien de `Response` geen `Entiteit` bevat maar de `StatusCode` **200** (***OK***) is dan geven we meestal een `GeneralSuccessResponse` terug al dan niet met enkele berichten:
+
+```json
+{
+  "messages": [
+    "OK"
+  ]
+}
+```
+
+Indien de `Response` de `StatusCode` **400** (***Bad Request***) is dan geven we meestal een `GeneralFailResponse` terug al dan niet met enkele berichten:
+
+```json
+{
+  "errors": [
+    "Validation failed",
+    "Email is required"
+  ],
+  "statusCode": 400
+}
+```
+
+Indien de `Response` een resultaat is van een `Bulk` beweging dan geven we meestal een `GeneralCombinedResponse` terug.<br/>
+Deze bevat een lijst van zowel mogelijke `GeneralSuccessResponse` en `GeneralFailResponse`.
+
+```json
+{
+  "failures": [
+    {
+      "errors": [
+        "Validation failed",
+        "Email is required"
+      ],
+      "statusCode": 400
+    },
+    {
+      "errors": [
+        "Unauthorized access"
+      ],
+      "statusCode": 401
+    }
+  ],
+  "successes": [
+    {
+      "messages": [
+        "OK"
+      ]
+    },
+    {
+      "messages": [
+        "User created successfully"
+      ]
+    }
+  ]
+}
+```
+
+Indien de `Response` een lijst van `Entities` is dan krijg je een `PagedResponse` terug per pagina.
+
+```json
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Item 1"
+    },
+    {
+      "id": 2,
+      "name": "Item 2"
+    }
+  ],
+  "pageNumber": 1,
+  "pageSize": 20,
+  "sortBy": "",
+  "filterBy": "",
+  "count": 2,
+  "hasNextPage": false,
+  "hasPreviousPage": false
+}
+```
+
 ## 5. API Onderdelen
 
 - [Identity Flow](Identity/README.md)
@@ -56,5 +146,3 @@ De meeste **JSON-contracten** hebben, in de meeste gevallen, altijd de volgende 
 ## 6. Code Voorbeelden
 
 - [Code Voorbeelden](Code/README.md)
-
-
