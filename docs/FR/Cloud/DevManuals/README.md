@@ -17,7 +17,7 @@ L'environnement **PRD** est l'environnement de production et ne doit pas être u
 L'en-tête suivant **DOIT** être présent dans une `Requête` :
 
 ```
-API-Key: à obtenir auprès de LBRP
+X-Api-Key: à obtenir auprès de LBRP
 ```
 
 Les en-têtes suivants **PEUVENT** être présents dans une `Requête` :

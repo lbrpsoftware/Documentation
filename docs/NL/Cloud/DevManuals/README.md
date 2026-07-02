@@ -17,7 +17,7 @@ De **PRD** omgeving is de productieomgeving en dient niet gebruikt te worden voo
 De volgende header **MOET** aanwezig zijn in een `Request`:
 
 ```
-API-Key: te verkrijgen door LBRP
+X-Api-Key: te verkrijgen door LBRP
 ```
 
 De volgende headers **MOGEN** aanwezig zijn in een `Request`:
