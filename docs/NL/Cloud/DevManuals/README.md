@@ -14,32 +14,32 @@ De **PRD** omgeving is de productieomgeving en dient niet gebruikt te worden voo
 
 ## 3. Request Headers
 
-De volgende Header **MOET** aanwezig zijn in een `Request`:
+De volgende header **MOET** aanwezig zijn in een `Request`:
 
 ```
-Api-Key: te verkrijgen door LBRP
+API-Key: te verkrijgen door LBRP
 ```
 
-De volgende Headers **MOGEN** aanwezig zijn in een `Request`:
+De volgende headers **MOGEN** aanwezig zijn in een `Request`:
 
 ```
 X-Legacy:  te verkrijgen door LBRP
-X-Version: 1.0 # Indien niet aanwezig defaults naar 1.0
+X-Version: 1.0 # Indien niet aanwezig, standaard 1.0
 ```
 
-De volgende Header **MOET** aanwezig zijn in een ge-authenticeerd `Request`:
+De volgende header **MOET** aanwezig zijn in een geauthenticeerd `Request`:
 
 ```
 Authorization: Bearer <AccessToken>
 ```
 
-De volgende Header **MOET** aanwezig zijn in een ge-authenticeerd `Request` op Organisatie-niveau:
+De volgende header **MOET** aanwezig zijn in een geauthenticeerd `Request` op organisatieniveau:
 
 ```
 Organization:  <Organization Guid>
 ```
 
-U kunt deze `Header` waarden in **Swagger** invullen door op de knop **Authorize 🔒** te klikken:
+U kunt deze `header` waarden in **Swagger** invullen door op de knop **Authorize 🔒** te klikken:
 
 <img src="./swagger_header.png" alt="swagger_header.png" style="width:400px;" />
 
@@ -47,17 +47,21 @@ U kunt deze `Header` waarden in **Swagger** invullen door op de knop **Authorize
 
 ### 4.1 Algemene Velden
 
-De meeste **JSON-contracten** hebben, in de meeste gevallen, altijd de volgende velden:
+De meeste **JSON-contracten** hebben altijd de volgende velden:
 
-- `identity`:     **Primaire** database sleutel als `Guid`.
+- `identity`:     **Primaire** databasesleutel als `Guid`.
 - `id`:           <br/>Extra sleutelwaarde als `Integer`.<br/>*❗Wordt momenteel niet gebruikt ❗*<br/><br/>
-- `lastModified`: Tijdstip van laatste **Wijziging**.
-- `created`:      Tijdstip van **Toevoeging**.
+- `lastModified`: Tijdstip van laatste **wijziging**.
+- `created`:      Tijdstip van **toevoeging**.
 - `createdBy`:    Gebruiker die het record heeft aangemaakt.
+
+**LET OP**: Indien er een `id` als parameter moet worden meegeven is dit **NIET** de waarde van het `id`-veld, maar van het `identity`- veld:
+
+<img src="./swagger_identity.png" alt="swagger_identity.png" style="width:400px;" />
 
 ### 4.2 Algemene Response
 
-Indien de `Response` geen `Entiteit` bevat maar de `StatusCode` **200** (***OK***) is dan geven we meestal een `GeneralSuccessResponse` terug al dan niet met enkele berichten:
+Indien de `Response` geen `entiteit` bevat maar de `statuscode` **200** (***OK***) is, dan geven we meestal een `GeneralSuccessResponse` terug al dan niet met enkele berichten:
 
 ```json
 {
@@ -67,7 +71,7 @@ Indien de `Response` geen `Entiteit` bevat maar de `StatusCode` **200** (***OK**
 }
 ```
 
-Indien de `Response` de `StatusCode` **400** (***Bad Request***) is dan geven we meestal een `GeneralFailResponse` terug al dan niet met enkele berichten:
+Indien de `Response` de `statuscode` **400** (***Bad Request***) is, dan geven we meestal een `GeneralFailResponse` terug al dan niet met enkele berichten:
 
 ```json
 {
@@ -79,8 +83,8 @@ Indien de `Response` de `StatusCode` **400** (***Bad Request***) is dan geven we
 }
 ```
 
-Indien de `Response` een resultaat is van een `Bulk` beweging dan geven we meestal een `GeneralCombinedResponse` terug.<br/>
-Deze bevat een lijst van zowel mogelijke `GeneralSuccessResponse` en `GeneralFailResponse`.
+Indien de `Response` een resultaat is van een `bulkbeweging`, dan geven we meestal een `GeneralCombinedResponse` terug.<br/>
+Deze bevat een lijst van zowel mogelijke `GeneralSuccessResponse` als `GeneralFailResponse`.
 
 ```json
 {
@@ -114,7 +118,7 @@ Deze bevat een lijst van zowel mogelijke `GeneralSuccessResponse` en `GeneralFai
 }
 ```
 
-Indien de `Response` een lijst van `Entities` is dan krijg je een `PagedResponse` terug per pagina.
+Indien de `Response` een lijst van `entiteiten` is, dan krijg je een `PagedResponse` terug per pagina.
 
 ```json
 {

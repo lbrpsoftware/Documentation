@@ -2,8 +2,8 @@
 
 ## 1. MyMinFin
 
-Nadat een gebruiker zich heeft aangemeld bij **FOD** zal er om de 6 uur een **Taak** worden uitgevoerd om nieuwe documenten in onze database te plaatsen.<br/>
-Deze database kan met de volgende eindpunten worden aangesproken.
+Nadat een gebruiker zich heeft aangemeld bij **FOD**, zal er om de 6 uur een **taak** worden uitgevoerd om nieuwe documenten in onze database te plaatsen.<br/>
+Deze database kan met de volgende endpoints worden aangesproken.
 
 ### 1.1 Lijst
 
@@ -17,7 +17,7 @@ Deze database kan met de volgende eindpunten worden aangesproken.
 
 <img src="../get.png" alt="get.png" /> [/fod/minfin/view/{documentId}](https://abfapi.dev.corpgroup.site/swagger/index.html#/%F0%9F%87%A7%F0%9F%87%AAfod/get_fod_minfin_view__documentId_)
 
-### 1.3 Vlagje `Processed` Aanzetten
+### 1.3 Vlag `Processed` aanzetten
 
 <img src="../get.png" alt="get.png" /> [/fod/minfin/accept/{documentId}](https://abfapi.dev.corpgroup.site/swagger/index.html#/%F0%9F%87%A7%F0%9F%87%AAfod/get_fod_minfin_accept__documentId_)
 
