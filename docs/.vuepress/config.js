@@ -241,7 +241,7 @@ export default defineUserConfig({
             link: '/NL/Cloud/',
             children: [
               {
-                text: '📚 Handleidingen',
+                text: '📚 Gebruikers Handleidingen',
                 link: '/NL/Cloud/UserManuals/',
                 children: [
                   {
@@ -315,6 +315,24 @@ export default defineUserConfig({
                   {
                     text: 'Globalization',
                     link: '/NL/Cloud/UserManuals/Globalization/',
+                  },
+                ]
+              },
+              {
+                text: '👨‍💻 Dev Manuals',
+                link: '/NL/Cloud/DevManuals/',
+                children: [
+                  {
+                    text: 'Identity',
+                    link: '/NL/Cloud/DevManuals/Identity/',
+                  },
+                  {
+                    text: 'Fod',
+                    link: '/NL/Cloud/DevManuals/Fod/',
+                  },
+                  {
+                    text: 'Code',
+                    link: '/NL/Cloud/DevManuals/Code/',
                   },
                 ]
               },
