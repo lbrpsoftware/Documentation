@@ -480,6 +480,158 @@ type
   end;
 ```
 
+```pascal
+function TYourMod.GetGeneralResponse(Response: TRESTResponse): TOneOf<TGeneralFailResponse, TGeneralSuccessResponse>;
+var
+  F: TGeneralFailResponse;
+  O: TGeneralSuccessResponse;
+begin
+
+  if (not Response.Status.Success) then
+  begin
+    F := GeneralFailResponse(Response);
+    Result := TOneOf<TGeneralFailResponse, TGeneralSuccessResponse>.From(F);
+  end
+  else
+  begin
+    O := TGeneralSuccessResponse.Create;
+    O.AsJson := Response.Content;
+    Result := TOneOf<TGeneralFailResponse, TGeneralSuccessResponse>.From(O);
+  end;
+
+end;
+
+function TYourMod.GetGeneralCombinedResponse(Response: TRESTResponse): TOneOf<TGeneralFailResponse, TGeneralCombinedResponse>;
+var
+  F: TGeneralFailResponse;
+  O: TGeneralCombinedResponse;
+begin
+
+  if (not Response.Status.Success) then
+  begin
+    F := GeneralFailResponse(Response);
+    Result := TOneOf<TGeneralFailResponse, TGeneralCombinedResponse>.From(F);
+  end
+  else
+  begin
+    O := TGeneralCombinedResponse.Create;
+    O.AsJson := Response.Content;
+    Result := TOneOf<TGeneralFailResponse, TGeneralCombinedResponse>.From(O);
+  end;
+
+end;
+
+function TYourMod.GetAuthenticationResponse(Response: TRESTResponse; SetCurrentTokens: Boolean = True): TOneOf<TGeneralFailResponse, TAuthenticationSuccessResponse>;
+var
+  F: TGeneralFailResponse;
+  O: TAuthenticationSuccessResponse;
+begin
+
+  if (SetCurrentTokens) then
+  begin
+    m_AccessToken := '';
+    m_RefreshToken := '';
+  end;
+  try
+    if (not Response.Status.Success) then
+    begin
+      F := GeneralFailResponse(Response);
+      Result := TOneOf<TGeneralFailResponse, TAuthenticationSuccessResponse>.From(F);
+    end
+    else
+    begin
+      O := TAuthenticationSuccessResponse.Create;
+      O.AsJson := Response.Content;
+      Result := TOneOf<TGeneralFailResponse, TAuthenticationSuccessResponse>.From(O);
+    end;
+  finally
+    if (Result.IsOkay and SetCurrentTokens) then
+    begin
+      m_AccessToken := Result.AsOkay.Token;
+      m_RefreshToken := Result.AsOkay.RefreshToken;
+    end;
+  end;
+
+end;
+
+function TYourMod.GeneralFailResponse(Response: TRESTResponse): TGeneralFailResponse;
+var
+  R: TGeneralFailResponse;
+begin
+
+  R := TGeneralFailResponse.Create;
+  try
+    if (not Response.Status.ClientErrorBadRequest_400) then
+      R.Errors := [Response.StatusCode.ToString, Response.ErrorMessage]
+    else
+      R.AsJson := Response.Content;
+  finally
+    m_LastError := string.Join(', ', R.Errors);
+    Result := R;
+  end;
+
+end;
+
+function TYourMod.GetPagedResponse<T>(Response: TRESTResponse): TOneOf<TGeneralFailResponse, TPagedResponse<T>>;
+var
+  F: TGeneralFailResponse;
+  O: TPagedResponse<T>;
+begin
+
+  if (not Response.Status.Success) then
+  begin
+    F := GeneralFailResponse(Response);
+    Result := TOneOf<TGeneralFailResponse, TPagedResponse<T>>.From(F);
+  end
+  else
+  begin
+    O := TPagedResponse<T>.Create;
+    O.SetAsJson(Response.Content);
+    Result := TOneOf<TGeneralFailResponse, TPagedResponse<T>>.From(O);
+  end;
+
+end;
+
+function TYourMod.GetResponse<T>(Response: TRESTResponse): TOneOf<TGeneralFailResponse, T>;
+var
+  F: TGeneralFailResponse;
+  O: T;
+begin
+
+  if (not Response.Status.Success) then
+  begin
+    F := GeneralFailResponse(Response);
+    Result := TOneOf<TGeneralFailResponse, T>.From(F);
+  end
+  else
+  begin
+    O := T.Create;
+    O.AsJson := Response.Content;
+    Result := TOneOf<TGeneralFailResponse, T>.From(O);
+  end;
+
+end;
+
+function TYourMod.GetListResponse<T>(Response: TRESTResponse): TOneOf<TGeneralFailResponse, TList<T>>;
+var
+  F: TGeneralFailResponse;
+  O: TList<T>;
+begin
+
+  if (not Response.Status.Success) then
+  begin
+    F := GeneralFailResponse(Response);
+    Result := TOneOf<TGeneralFailResponse, TList<T>>.From(F);
+  end
+  else
+  begin
+    O := REST.Json.TJson.JsonToObject<TList<T>>(Response.Content);
+    Result := TOneOf<TGeneralFailResponse, TList<T>>.From(O);
+  end;
+
+end;
+```
+
 ## 3 Functions
 
 ```pascal
@@ -506,4 +658,81 @@ FRESTParams.CustomParams.AddItem('X-NoLimit-Api-Key', C_NOLIMIT, pkHTTPHEADER, [
 FRESTParams.CustomParams.AddItem('X-Legacy', Legacy, pkHTTPHEADER, []);
 FRESTParams.CustomParams.AddItem('Authorization', 'Bearer ' + m_AccessToken, pkHTTPHEADER, [poDoNotEncode]);
 FRESTParams.CustomParams.AddItem('Organization', GuidToString(m_Organization), pkHTTPHEADER, []);
+```
+
+## 5 TOneOf
+
+```pascal
+type
+  TOneOf<TFail, TOkay> = record
+  private
+    FFailValue: TFail;
+    FOkayValue: TOkay;
+    FIndex: Integer; // 1 for TFail, 2 for TOkay, 0 for unset
+  public
+    class function From(const Value: TFail): TOneOf<TFail, TOkay>; overload; static;
+    class function From(const Value: TOkay): TOneOf<TFail, TOkay>; overload; static;
+    function IsFail: Boolean;
+    function IsOkay: Boolean;
+    function IsSet: Boolean;
+    function AsFail: TFail;
+    function AsOkay: TOkay;
+    function TryGetFail(out Value: TFail): Boolean;
+    function TryGetOkay(out Value: TOkay): Boolean;
+  end;
+
+class function TOneOf<TFail, TOkay>.From(const Value: TFail): TOneOf<TFail, TOkay>;
+begin
+  Result.FFailValue := Value;
+  Result.FIndex := 1;
+end;
+
+class function TOneOf<TFail, TOkay>.From(const Value: TOkay): TOneOf<TFail, TOkay>;
+begin
+  Result.FOkayValue := Value;
+  Result.FIndex := 2;
+end;
+
+function TOneOf<TFail, TOkay>.IsFail: Boolean;
+begin
+  Result := FIndex = 1;
+end;
+
+function TOneOf<TFail, TOkay>.IsOkay: Boolean;
+begin
+  Result := FIndex = 2;
+end;
+
+function TOneOf<TFail, TOkay>.IsSet: Boolean;
+begin
+  Result := FIndex > 0;
+end;
+
+function TOneOf<TFail, TOkay>.AsFail: TFail;
+begin
+  if FIndex <> 1 then
+    raise Exception.Create('Value is not of type TFail');
+  Result := FFailValue;
+end;
+
+function TOneOf<TFail, TOkay>.AsOkay: TOkay;
+begin
+  if FIndex <> 2 then
+    raise Exception.Create('Value is not of type TOkay');
+  Result := FOkayValue;
+end;
+
+function TOneOf<TFail, TOkay>.TryGetFail(out Value: TFail): Boolean;
+begin
+  Result := FIndex = 1;
+  if Result then
+    Value := FFailValue;
+end;
+
+function TOneOf<TFail, TOkay>.TryGetOkay(out Value: TOkay): Boolean;
+begin
+  Result := FIndex = 2;
+  if Result then
+    Value := FOkayValue;
+end;
 ```
