@@ -99,14 +99,17 @@ export default defineUserConfig({
           {
             text: '🖥️ Desktop Applications',
             link: '/NL/Desktop/',
+            collapsed: true,
             children: [
               {
                 text: '📚 Handleidingen',
                 link: '/NL/Desktop/UserManuals/',
+                collapsed: true,
                 children: [
                   {
                     text: 'AccoWin',
                     link: '/NL/Desktop/UserManuals/AccoWin/',
+                    collapsed: true,
                     children: [
                       {
                         text: 'Installatie',
@@ -137,6 +140,7 @@ export default defineUserConfig({
                   {
                     text: 'BelcoFin',
                     link: '/NL/Desktop/UserManuals/BelcoFin/',
+                    collapsed: true,
                     children: [
                       {
                         text: 'Installatie',
@@ -171,6 +175,7 @@ export default defineUserConfig({
                   {
                     text: 'Finasset',
                     link: '/NL/Desktop/UserManuals/Finasset/',
+                    collapsed: true,
                     children: [
                       {
                         text: 'Installatie',
@@ -201,6 +206,7 @@ export default defineUserConfig({
                   {
                     text: 'Corporate Desk',
                     link: '/NL/Desktop/UserManuals/CorpDesk/',
+                    collapsed: true,
                     children: [
                     ]
                   },
@@ -209,6 +215,7 @@ export default defineUserConfig({
               {
                 text: '🗯️ Veelgestelde vragen',
                 link: '/NL/Desktop/FAQ/',
+                collapsed: true,
                 children: [
                   {
                     text: 'AccoWin',
@@ -235,6 +242,7 @@ export default defineUserConfig({
               {
                 text: '⁉️ Andere',
                 link: '/NL/Desktop/Other/',
+                collapsed: true,
                 children: [
                 ]
               },
@@ -243,14 +251,17 @@ export default defineUserConfig({
           {
             text: '🌐 Cloud',
             link: '/NL/Cloud/',
+            collapsed: true,
             children: [
               {
                 text: '📚 Gebruikers Handleidingen',
                 link: '/NL/Cloud/UserManuals/',
+                collapsed: true,
                 children: [
                   {
                     text: 'Identity',
                     link: '/NL/Cloud/UserManuals/Identity/',
+                    collapsed: true,
                     children: [
                       {
                         text: 'Gebruikers',
@@ -297,6 +308,7 @@ export default defineUserConfig({
                   {
                     text: 'Books',
                     link: '/NL/Cloud/UserManuals/Books/',
+                    collapsed: true,
                     children: [
                       {
                         text: 'Upload',
@@ -322,6 +334,7 @@ export default defineUserConfig({
                   },
                   {
                     text: 'Connecties',
+                    collapsed: true,
                     children: [
                       {
                         text: 'Companyweb',
@@ -358,6 +371,7 @@ export default defineUserConfig({
               {
                 text: '👨‍💻 Dev Manuals',
                 link: '/NL/Cloud/DevManuals/',
+                collapsed: true,
                 children: [
                   {
                     text: 'Identity',
@@ -378,6 +392,7 @@ export default defineUserConfig({
           {
             text: '⚖️ Contracts',
             link: '/NL/Contracts/',
+            collapsed: true,
             children: [
             ]
           },
