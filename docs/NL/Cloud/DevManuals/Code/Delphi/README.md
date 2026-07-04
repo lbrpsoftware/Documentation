@@ -137,9 +137,11 @@ type
 );
 ```
 
-## 2. Responses
+## 2. Classes
 
-### 2.1. Base Responses
+### 2.1. Base Contracts
+
+#### 2.1.1 Types
 
 ```pascal
 type
@@ -273,212 +275,7 @@ type
   end;
 ```
 
-### 2.2 Identity
-
-```pascal
-type
-  TRegisterRequest = class(TJsonDTO)
-  private
-    [JSONName('email')]    FEmail: string;
-    [JSONName('password')] FPassword: string;
-    [JSONName('language')] FLanguage: Integer;
-    function GetLanguage: TCultureKindEnum;
-    procedure SetLanguage(const Value: TCultureKindEnum);
-  public
-    property Email: string read FEmail write FEmail;
-    property Password: string read FPassword write FPassword;
-    property Language: TCultureKindEnum read GetLanguage write SetLanguage;
-  end;
-```
-
-```pascal
-type
-  TLoginRequest = class(TJsonDTO)
-  private
-    [JSONName('email')]    FEmail: string;
-    [JSONName('password')] FPassword: string;
-  public
-    property Email: string read FEmail write FEmail;
-    property Password: string read FPassword write FPassword;
-  end;
-```
-
-```pascal
-type
-  TRefreshRequest = class(TJsonDTO)
-  private
-    [JSONName('token')]        FToken: string;
-    [JSONName('refreshToken')] FRefreshToken: string;
-  public
-    property Token: string read FToken write FToken;
-    property RefreshToken: string read FRefreshToken write FRefreshToken;
-  end;
-```
-
-### 2.3 Organisaties/Applicaties
-
-```pascal
-type
-  TOrganization = class(TBaseResponse)
-  private
-    [JSONName('name')]              FName: string;
-    [JSONName('vatNumber')]         FVatNumber: string;
-    [JSONName('regNumber')]         FRegNumber: string;
-    [JSONName('isOwner')]           FIsOwner: Boolean;
-    [JSONName('email')]             FEmail: string;
-    [JSONName('businessStreet')]    FBusinessStreet: string;
-    [JSONName('businessNumber')]    FBusinessNumber: string;
-    [JSONName('businessBus')]       FBusinessBus: string;
-    [JSONName('businessZipCode')]   FBusinessZipCode: string;
-    [JSONName('businessCity')]      FBusinessCity: string;
-    [JSONName('businessDistrict')]  FBusinessDistrict: string;
-    [JSONName('businessRegion')]    FBusinessRegion: string;
-    [JSONName('businessCountry')]   FBusinessCountry: Integer; // TCountryEnum
-    [JSONName('invoiceIsBusiness')] FInvoiceIsBusiness: Boolean;
-    [JSONName('invoiceStreet')]     FInvoiceStreet: string;
-    [JSONName('invoiceNumber')]     FInvoiceNumber: string;
-    [JSONName('invoiceBus')]        FInvoiceBus: string;
-    [JSONName('invoiceZipCode')]    FInvoiceZipCode: string;
-    [JSONName('invoiceCity')]       FInvoiceCity: string;
-    [JSONName('invoiceDistrict')]   FInvoiceDistrict: string;
-    [JSONName('invoiceRegion')]     FInvoiceRegion: string;
-    [JSONName('invoiceCountry')]    FInvoiceCountry: Integer; // TCountryEnum
-    [JSONName('paymentType')]       FPaymentType: Integer;    // TPaymentTypeEnum
-    [JSONName('planType')]          FPlanType: Integer;       // TPlanTypeEnum
-    [JSONName('enabled')]           FEnabled: Boolean;
-    function GetBusinessCountry: TCountryEnum;
-    procedure SetBusinessCountry(const Value: TCountryEnum);
-    function GetInvoiceCountry: TCountryEnum;
-    procedure SetInvoiceCountry(const Value: TCountryEnum);
-    function GetPaymentType: TPaymentTypeEnum;
-    procedure SetPaymentType(const Value: TPaymentTypeEnum);
-    function GetPlanType: TPlanTypeEnum;
-    procedure SetPlanType(const Value: TPlanTypeEnum);
-  public
-    property Name: string read FName write FName;
-    property VatNumber: string read FVatNumber write FVatNumber;
-    property RegNumber: string read FRegNumber write FRegNumber;
-    property IsOwner: Boolean read FIsOwner write FIsOwner;
-    property Email: string read FEmail write FEmail;
-    property BusinessStreet: string read FBusinessStreet write FBusinessStreet;
-    property BusinessNumber: string read FBusinessNumber write FBusinessNumber;
-    property BusinessBus: string read FBusinessBus write FBusinessBus;
-    property BusinessZipCode: string read FBusinessZipCode write FBusinessZipCode;
-    property BusinessCity: string read FBusinessCity write FBusinessCity;
-    property BusinessDistrict: string read FBusinessDistrict write FBusinessDistrict;
-    property BusinessRegion: string read FBusinessRegion write FBusinessRegion;
-    property BusinessCountry: TCountryEnum read GetBusinessCountry write SetBusinessCountry;
-    property InvoiceIsBusiness: Boolean read FInvoiceIsBusiness write FInvoiceIsBusiness;
-    property InvoiceStreet: string read FInvoiceStreet write FInvoiceStreet;
-    property InvoiceNumber: string read FInvoiceNumber write FInvoiceNumber;
-    property InvoiceBus: string read FInvoiceBus write FInvoiceBus;
-    property InvoiceZipCode: string read FInvoiceZipCode write FInvoiceZipCode;
-    property InvoiceCity: string read FInvoiceCity write FInvoiceCity;
-    property InvoiceDistrict: string read FInvoiceDistrict write FInvoiceDistrict;
-    property InvoiceRegion: string read FInvoiceRegion write FInvoiceRegion;
-    property InvoiceCountry: TCountryEnum read GetInvoiceCountry write SetInvoiceCountry;
-    property PaymentType: TPaymentTypeEnum read GetPaymentType write SetPaymentType;
-    property PlanType: TPlanTypeEnum read GetPlanType write SetPlanType;
-    property Enabled: Boolean read FEnabled write FEnabled;
-  end;
-```
-
-```pascal
-type
-  TApplication = class(TBaseResponse)
-  private
-    [JSONName('applicationType')] FApplicationType: Int64; // TApplicationTypeEnum
-    [JSONName('enabled')]         FEnabled: Boolean;
-    function GetApplicationType:  TApplicationType;
-    procedure SetApplicationType(const Value: TApplicationType);
-  public
-    property ApplicationType: TApplicationType read GetApplicationType write SetApplicationType;
-    property Enabled: Boolean read FEnabled write FEnabled;
-  end;
-```
-
-```pascal
-type
-  TSetting = class(TBaseResponse)
-  private
-    [JSONName('userId')] FUserId: string;
-    [JSONName('level')]  FLevel: Integer; // TSettingLevelEnum
-    [JSONName('code')]   FCode: Integer;  // TSettingCodeEnum
-    [JSONName('value')]  FValue: string;
-    function GetSettingLevel: TSettingLevelEnum;
-    procedure SetSettingLevel(const Value: TSettingLevelEnum);
-    function GetSettingCode: TSettingCodeEnum;
-    procedure SetSettingCode(const Value: TSettingCodeEnum);
-  public
-    property UserId: string read FUserId write FUserId;
-    property Level: TSettingLevelEnum read GetSettingLevel write SetSettingLevel;
-    property Code: TSettingCodeEnum read GetSettingCode write SetSettingCode;
-    property Value: string read FValue write FValue;
-  end;
-```
-### 2.4 FOD
-
-```pascal
-type
-  TFodDocument = class(TBaseResponse)
-  private
-    [JSONName('externalId')]    FExternalId: TGuid;
-    [JSONName('ownerType')]     FOwnerType: Integer; // TFodOwnerTypeEnum
-    [JSONName('ownerValue')]    FOwnerValue: string;
-    [JSONName('format')]        FFormat: Integer;   // TFileExtEnum
-    [JSONName('documentType')]  FDocumentType: string;
-    [JSONName('fileName')]      FFileName: string;
-    [JSONName('fileCreated')]   FFileCreated: TDateTime;
-    [JSONName('state')]         FState: Integer;   // TFodDocumentStateEnum
-    [JSONName('processed')]     FProcessed: Boolean;
-    function GetOwnerType: TFodOwnerTypeEnum;
-    procedure SetOwnerType(const Value: TFodOwnerTypeEnum);
-    function GetFormat: TFileExtEnum;
-    procedure SetFormat(const Value: TFileExtEnum);
-    function GetState: TFodDocumentStateEnum;
-    procedure SetState(const Value: TFodDocumentStateEnum);
-  public
-    property ExternalId: TGuid read FExternalId write FExternalId;
-    property OwnerType: TFodOwnerTypeEnum read GetOwnerType write SetOwnerType;
-    property OwnerValue: string read FOwnerValue write FOwnerValue;
-    property Format: TFileExtEnum read GetFormat write SetFormat;
-    property DocumentType: string read FDocumentType write FDocumentType;
-    property FileName: string read FFileName write FFileName;
-    property FileCreated: TDateTime read FFileCreated write FFileCreated;
-    property State: TFodDocumentStateEnum read GetState write SetState;
-    property Processed: Boolean read FProcessed write FProcessed;
-  end;
-```
-
-```pascal
-type
-  TFodInterVat = class(TBaseResponse)
-  private
-    [JSONName('externalXmlId')] FExternalXmlId: TGuid;
-    [JSONName('externalPdfId')] FExternalPdfId: TGuid;
-    [JSONName('format')]        FFormat: Integer;        // TFileExtEnum
-    [JSONName('documentType')]  FDocumentType: Integer;  // TFodInterVatTypeEnum
-    [JSONName('documentState')] FDocumentState: Integer; // TFodInterVatStateEnum
-    [JSONName('fileName')]      FFileName: string;
-    [JSONName('documentDate')]  FDocumentDate: TDateTime;
-    [JSONName('remark')]        FRemark: string;
-    function GetFormat: TFileExtEnum;
-    procedure SetFormat(const Value: TFileExtEnum);
-    function GetType: TFodInterVatTypeEnum;
-    procedure SetType(const Value: TFodInterVatTypeEnum);
-    function GetState: TFodInterVatStateEnum;
-    procedure SetState(const Value: TFodInterVatStateEnum);
-  public
-    property ExternalXmlId: TGuid read FExternalXmlId write FExternalXmlId;
-    property ExternalPdfId: TGuid read FExternalPdfId write FExternalPdfId;
-    property Format: TFileExtEnum read GetFormat write SetFormat;
-    property DocumentType: TFodInterVatTypeEnum read GetType write SetType;
-    property DocumentState: TFodInterVatStateEnum read GetState write SetState;
-    property FileName: string read FFileName write FFileName;
-    property DocumentDate: TDateTime read FDocumentDate write FDocumentDate;
-    property Remark: string read FRemark write FRemark;
-  end;
-```
+#### 2.1.2 Functions
 
 ```pascal
 function TYourMod.GetGeneralResponse(Response: TRESTResponse): TOneOf<TGeneralFailResponse, TGeneralSuccessResponse>;
@@ -632,6 +429,213 @@ begin
 end;
 ```
 
+### 2.2 Identity Contracts
+
+```pascal
+type
+  TRegisterRequest = class(TJsonDTO)
+  private
+    [JSONName('email')]    FEmail: string;
+    [JSONName('password')] FPassword: string;
+    [JSONName('language')] FLanguage: Integer;
+    function GetLanguage: TCultureKindEnum;
+    procedure SetLanguage(const Value: TCultureKindEnum);
+  public
+    property Email: string read FEmail write FEmail;
+    property Password: string read FPassword write FPassword;
+    property Language: TCultureKindEnum read GetLanguage write SetLanguage;
+  end;
+```
+
+```pascal
+type
+  TLoginRequest = class(TJsonDTO)
+  private
+    [JSONName('email')]    FEmail: string;
+    [JSONName('password')] FPassword: string;
+  public
+    property Email: string read FEmail write FEmail;
+    property Password: string read FPassword write FPassword;
+  end;
+```
+
+```pascal
+type
+  TRefreshRequest = class(TJsonDTO)
+  private
+    [JSONName('token')]        FToken: string;
+    [JSONName('refreshToken')] FRefreshToken: string;
+  public
+    property Token: string read FToken write FToken;
+    property RefreshToken: string read FRefreshToken write FRefreshToken;
+  end;
+```
+
+### 2.3 Organisaties/Applicaties Contracts
+
+```pascal
+type
+  TOrganization = class(TBaseResponse)
+  private
+    [JSONName('name')]              FName: string;
+    [JSONName('vatNumber')]         FVatNumber: string;
+    [JSONName('regNumber')]         FRegNumber: string;
+    [JSONName('isOwner')]           FIsOwner: Boolean;
+    [JSONName('email')]             FEmail: string;
+    [JSONName('businessStreet')]    FBusinessStreet: string;
+    [JSONName('businessNumber')]    FBusinessNumber: string;
+    [JSONName('businessBus')]       FBusinessBus: string;
+    [JSONName('businessZipCode')]   FBusinessZipCode: string;
+    [JSONName('businessCity')]      FBusinessCity: string;
+    [JSONName('businessDistrict')]  FBusinessDistrict: string;
+    [JSONName('businessRegion')]    FBusinessRegion: string;
+    [JSONName('businessCountry')]   FBusinessCountry: Integer; // TCountryEnum
+    [JSONName('invoiceIsBusiness')] FInvoiceIsBusiness: Boolean;
+    [JSONName('invoiceStreet')]     FInvoiceStreet: string;
+    [JSONName('invoiceNumber')]     FInvoiceNumber: string;
+    [JSONName('invoiceBus')]        FInvoiceBus: string;
+    [JSONName('invoiceZipCode')]    FInvoiceZipCode: string;
+    [JSONName('invoiceCity')]       FInvoiceCity: string;
+    [JSONName('invoiceDistrict')]   FInvoiceDistrict: string;
+    [JSONName('invoiceRegion')]     FInvoiceRegion: string;
+    [JSONName('invoiceCountry')]    FInvoiceCountry: Integer; // TCountryEnum
+    [JSONName('paymentType')]       FPaymentType: Integer;    // TPaymentTypeEnum
+    [JSONName('planType')]          FPlanType: Integer;       // TPlanTypeEnum
+    [JSONName('enabled')]           FEnabled: Boolean;
+    function GetBusinessCountry: TCountryEnum;
+    procedure SetBusinessCountry(const Value: TCountryEnum);
+    function GetInvoiceCountry: TCountryEnum;
+    procedure SetInvoiceCountry(const Value: TCountryEnum);
+    function GetPaymentType: TPaymentTypeEnum;
+    procedure SetPaymentType(const Value: TPaymentTypeEnum);
+    function GetPlanType: TPlanTypeEnum;
+    procedure SetPlanType(const Value: TPlanTypeEnum);
+  public
+    property Name: string read FName write FName;
+    property VatNumber: string read FVatNumber write FVatNumber;
+    property RegNumber: string read FRegNumber write FRegNumber;
+    property IsOwner: Boolean read FIsOwner write FIsOwner;
+    property Email: string read FEmail write FEmail;
+    property BusinessStreet: string read FBusinessStreet write FBusinessStreet;
+    property BusinessNumber: string read FBusinessNumber write FBusinessNumber;
+    property BusinessBus: string read FBusinessBus write FBusinessBus;
+    property BusinessZipCode: string read FBusinessZipCode write FBusinessZipCode;
+    property BusinessCity: string read FBusinessCity write FBusinessCity;
+    property BusinessDistrict: string read FBusinessDistrict write FBusinessDistrict;
+    property BusinessRegion: string read FBusinessRegion write FBusinessRegion;
+    property BusinessCountry: TCountryEnum read GetBusinessCountry write SetBusinessCountry;
+    property InvoiceIsBusiness: Boolean read FInvoiceIsBusiness write FInvoiceIsBusiness;
+    property InvoiceStreet: string read FInvoiceStreet write FInvoiceStreet;
+    property InvoiceNumber: string read FInvoiceNumber write FInvoiceNumber;
+    property InvoiceBus: string read FInvoiceBus write FInvoiceBus;
+    property InvoiceZipCode: string read FInvoiceZipCode write FInvoiceZipCode;
+    property InvoiceCity: string read FInvoiceCity write FInvoiceCity;
+    property InvoiceDistrict: string read FInvoiceDistrict write FInvoiceDistrict;
+    property InvoiceRegion: string read FInvoiceRegion write FInvoiceRegion;
+    property InvoiceCountry: TCountryEnum read GetInvoiceCountry write SetInvoiceCountry;
+    property PaymentType: TPaymentTypeEnum read GetPaymentType write SetPaymentType;
+    property PlanType: TPlanTypeEnum read GetPlanType write SetPlanType;
+    property Enabled: Boolean read FEnabled write FEnabled;
+  end;
+```
+
+```pascal
+type
+  TApplication = class(TBaseResponse)
+  private
+    [JSONName('applicationType')] FApplicationType: Int64; // TApplicationTypeEnum
+    [JSONName('enabled')]         FEnabled: Boolean;
+    function GetApplicationType:  TApplicationType;
+    procedure SetApplicationType(const Value: TApplicationType);
+  public
+    property ApplicationType: TApplicationType read GetApplicationType write SetApplicationType;
+    property Enabled: Boolean read FEnabled write FEnabled;
+  end;
+```
+
+```pascal
+type
+  TSetting = class(TBaseResponse)
+  private
+    [JSONName('userId')] FUserId: string;
+    [JSONName('level')]  FLevel: Integer; // TSettingLevelEnum
+    [JSONName('code')]   FCode: Integer;  // TSettingCodeEnum
+    [JSONName('value')]  FValue: string;
+    function GetSettingLevel: TSettingLevelEnum;
+    procedure SetSettingLevel(const Value: TSettingLevelEnum);
+    function GetSettingCode: TSettingCodeEnum;
+    procedure SetSettingCode(const Value: TSettingCodeEnum);
+  public
+    property UserId: string read FUserId write FUserId;
+    property Level: TSettingLevelEnum read GetSettingLevel write SetSettingLevel;
+    property Code: TSettingCodeEnum read GetSettingCode write SetSettingCode;
+    property Value: string read FValue write FValue;
+  end;
+```
+### 2.4 FOD Contracts
+
+```pascal
+type
+  TFodDocument = class(TBaseResponse)
+  private
+    [JSONName('externalId')]    FExternalId: TGuid;
+    [JSONName('ownerType')]     FOwnerType: Integer; // TFodOwnerTypeEnum
+    [JSONName('ownerValue')]    FOwnerValue: string;
+    [JSONName('format')]        FFormat: Integer;   // TFileExtEnum
+    [JSONName('documentType')]  FDocumentType: string;
+    [JSONName('fileName')]      FFileName: string;
+    [JSONName('fileCreated')]   FFileCreated: TDateTime;
+    [JSONName('state')]         FState: Integer;   // TFodDocumentStateEnum
+    [JSONName('processed')]     FProcessed: Boolean;
+    function GetOwnerType: TFodOwnerTypeEnum;
+    procedure SetOwnerType(const Value: TFodOwnerTypeEnum);
+    function GetFormat: TFileExtEnum;
+    procedure SetFormat(const Value: TFileExtEnum);
+    function GetState: TFodDocumentStateEnum;
+    procedure SetState(const Value: TFodDocumentStateEnum);
+  public
+    property ExternalId: TGuid read FExternalId write FExternalId;
+    property OwnerType: TFodOwnerTypeEnum read GetOwnerType write SetOwnerType;
+    property OwnerValue: string read FOwnerValue write FOwnerValue;
+    property Format: TFileExtEnum read GetFormat write SetFormat;
+    property DocumentType: string read FDocumentType write FDocumentType;
+    property FileName: string read FFileName write FFileName;
+    property FileCreated: TDateTime read FFileCreated write FFileCreated;
+    property State: TFodDocumentStateEnum read GetState write SetState;
+    property Processed: Boolean read FProcessed write FProcessed;
+  end;
+```
+
+```pascal
+type
+  TFodInterVat = class(TBaseResponse)
+  private
+    [JSONName('externalXmlId')] FExternalXmlId: TGuid;
+    [JSONName('externalPdfId')] FExternalPdfId: TGuid;
+    [JSONName('format')]        FFormat: Integer;        // TFileExtEnum
+    [JSONName('documentType')]  FDocumentType: Integer;  // TFodInterVatTypeEnum
+    [JSONName('documentState')] FDocumentState: Integer; // TFodInterVatStateEnum
+    [JSONName('fileName')]      FFileName: string;
+    [JSONName('documentDate')]  FDocumentDate: TDateTime;
+    [JSONName('remark')]        FRemark: string;
+    function GetFormat: TFileExtEnum;
+    procedure SetFormat(const Value: TFileExtEnum);
+    function GetType: TFodInterVatTypeEnum;
+    procedure SetType(const Value: TFodInterVatTypeEnum);
+    function GetState: TFodInterVatStateEnum;
+    procedure SetState(const Value: TFodInterVatStateEnum);
+  public
+    property ExternalXmlId: TGuid read FExternalXmlId write FExternalXmlId;
+    property ExternalPdfId: TGuid read FExternalPdfId write FExternalPdfId;
+    property Format: TFileExtEnum read GetFormat write SetFormat;
+    property DocumentType: TFodInterVatTypeEnum read GetType write SetType;
+    property DocumentState: TFodInterVatStateEnum read GetState write SetState;
+    property FileName: string read FFileName write FFileName;
+    property DocumentDate: TDateTime read FDocumentDate write FDocumentDate;
+    property Remark: string read FRemark write FRemark;
+  end;
+```
+
 ## 3 Functions
 
 ```pascal
@@ -648,19 +652,75 @@ function GuidToString(Value: TGuid): string;
 function StringToGuid(Value: string): TGuid;
 ```
 
-## 4 Headers
+## 4 Header Example
 
 ```pascal
 FRESTParams.CustomParams.Clear;
 FRESTParams.CustomParams.AddItem('X-Version', '1.0', pkHTTPHEADER, []);
 FRESTParams.CustomParams.AddItem('X-Api-Key', C_API_KEY, pkHTTPHEADER, []);
-FRESTParams.CustomParams.AddItem('X-NoLimit-Api-Key', C_NOLIMIT, pkHTTPHEADER, []);
 FRESTParams.CustomParams.AddItem('X-Legacy', Legacy, pkHTTPHEADER, []);
 FRESTParams.CustomParams.AddItem('Authorization', 'Bearer ' + m_AccessToken, pkHTTPHEADER, [poDoNotEncode]);
 FRESTParams.CustomParams.AddItem('Organization', GuidToString(m_Organization), pkHTTPHEADER, []);
 ```
 
 ## 5 TOneOf
+
+`TOneOf<TFail, TOkay>` is een generiek record dat één van twee mogelijke waarden kan bevatten: een **foutwaarde** (`TFail`) of een **succeswaarde** (`TOkay`). Dit patroon wordt gebruikt als alternatief voor het gooien van uitzonderingen bij API-aanroepen — in plaats van een exception te gooien bij een mislukte aanroep, geeft de functie een `TOneOf` terug die ofwel een `TGeneralFailResponse` (fout) ofwel een succestype bevat.
+
+Het interne veld `FIndex` geeft aan welke waarde actief is:
+- `0` → niet ingesteld
+- `1` → `TFail` (fout)
+- `2` → `TOkay` (succes)
+
+### Overzicht methoden
+
+| Methode | Beschrijving |
+|---|---|
+| `From(TFail)` | Maakt een `TOneOf` aan met een foutwaarde (`FIndex = 1`) |
+| `From(TOkay)` | Maakt een `TOneOf` aan met een succeswaarde (`FIndex = 2`) |
+| `IsFail` | Geeft `True` terug als de waarde een fout is |
+| `IsOkay` | Geeft `True` terug als de waarde een succes is |
+| `IsSet` | Geeft `True` terug als er een waarde ingesteld is (fout of succes) |
+| `AsFail` | Geeft de foutwaarde terug; gooit een exception als het geen fout is |
+| `AsOkay` | Geeft de succeswaarde terug; gooit een exception als het geen succes is |
+| `TryGetFail` | Veilige variant van `AsFail` — geeft `False` terug als het geen fout is |
+| `TryGetOkay` | Veilige variant van `AsOkay` — geeft `False` terug als het geen succes is |
+
+### Gebruik in de praktijk
+
+Na een API-aanroep controleer je het resultaat als volgt:
+
+```pascal
+var
+  Result: TOneOf<TGeneralFailResponse, TGeneralSuccessResponse>;
+begin
+  Result := GetGeneralResponse(Response);
+
+  if Result.IsFail then
+    ShowMessage('Fout: ' + string.Join(', ', Result.AsFail.Errors))
+  else
+    ShowMessage('Succes: ' + string.Join(', ', Result.AsOkay.Messages));
+end;
+```
+
+Of met de veilige `TryGet`-varianten:
+
+```pascal
+var
+  Result: TOneOf<TGeneralFailResponse, TGeneralSuccessResponse>;
+  Fail: TGeneralFailResponse;
+  Okay: TGeneralSuccessResponse;
+begin
+  Result := GetGeneralResponse(Response);
+
+  if Result.TryGetFail(Fail) then
+    ShowMessage('Fout: ' + string.Join(', ', Fail.Errors))
+  else if Result.TryGetOkay(Okay) then
+    ShowMessage('Succes: ' + string.Join(', ', Okay.Messages));
+end;
+```
+
+### Type definitie & implementatie
 
 ```pascal
 type
