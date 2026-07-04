@@ -31,4 +31,4 @@ Volg deze stappen om CoManage te koppelen met AccoWin SFTP.
 **💡 Test integratie met sample bestand. Check BTW als leeg.**
 
 ---
-*Zie [04. Problemen oplossen](../../04-Troubleshooting.md) | [Andere providers](../../README.md#providers)*
+*Zie [Andere providers](../../README.md#providers)*

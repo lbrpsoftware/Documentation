@@ -29,7 +29,7 @@ Om de **Peppol** applicatie te kunnen gebruiken, moet deze eerst geactiveerd wor
 
 ## 4.2. Inbound via SFTP (3th-Party)
 
-Zie ook [Sftp Integratie](../Sftp/README.md)
+Zie ook [Sftp Integratie](../Provider/Scrada/README.md)
 
 ## 4.3. Convert (UBL <-> PDF)
 

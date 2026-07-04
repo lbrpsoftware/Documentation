@@ -1,6 +1,6 @@
 # Data Uitwisseling - Billit
 
-## Terug naar [Hoofdmenu](../../README.md) | [Providers Overzicht](Providers/README.md)
+## Terug naar [Hoofdmenu](../../README.md) | [Providers Overzicht](../README.md#providers)
 
 Volg deze stappen om Bilit te koppelen met AccoWin SFTP.
 
@@ -36,4 +36,4 @@ Volg deze stappen om Bilit te koppelen met AccoWin SFTP.
 **💡 Test met 1 factuur. Check BTW-match als geen bestanden verschijnen.**
 
 ---
-*Zie [04. Problemen oplossen](../../04-Troubleshooting.md) | [Andere providers](../../README.md#providers)*
+*Zie [Andere providers](../../README.md#providers)*

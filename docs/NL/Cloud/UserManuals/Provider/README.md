@@ -14,7 +14,7 @@ Bestanden worden door de diverse providers naar ons cloud platform verzonden om 
 
 ## Hoe werkt het (in het kort)?
 
-1. [AccoWin Setup](Accowin/README.md): Activeer een speciaal E-mail adres of maak de nodige SFTP-gebruiker(s) aan in AccoWin om de bestanden naartoe te sturen.
+1. AccoWin Setup: Activeer een speciaal E-mail adres of maak de nodige SFTP-gebruiker(s) aan in AccoWin om de bestanden naartoe te sturen.
 2. [Provider Setup](README.md#providers): Deel het E-mail adres of de SFTP-gegevens met uw klant en configureer de koppeling in het boekhoudpakket van de provider.
 3. Het boekhoudpakket stuurt bestanden naar ons cloud plaform dmv de ingestelde koppeling.
    Dit kan automatisch of handmatig zijn naargelang de mogelijkheden van de provider en de gekozen synchronisatie methode.

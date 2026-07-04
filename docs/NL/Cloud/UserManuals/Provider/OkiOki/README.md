@@ -37,4 +37,4 @@ In **OkiOki** maak je eerst FTP-verbindingen aan, die je daarna per **Bedrijf** 
 **Test: Verstuur 1 document → Check AccoWin UBL-menu na 1 uur.**
 
 ---
-*Zie [04. Problemen oplossen](../../04-Troubleshooting.md) | [Andere providers](../README.md#providers)*
+*Zie [Andere providers](../README.md#providers)*

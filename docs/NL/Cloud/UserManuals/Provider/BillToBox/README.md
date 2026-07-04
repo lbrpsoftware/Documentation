@@ -1,6 +1,6 @@
 # Data Uitwisseling - Bill-to-Box
 
-## Terug naar [Hoofdmenu](../../README.md) | [Providers Overzicht](Providers/README.md)
+## Terug naar [Hoofdmenu](../../README.md) | [Providers Overzicht](../README.md#providers)
 
 Volg deze stappen om BillToBox te koppelen met AccoWin SFTP.
 
@@ -39,4 +39,4 @@ Volg deze stappen om BillToBox te koppelen met AccoWin SFTP.
 **💡 Wacht ~1 uur na verzenden. Download in AccoWin via UBL-menu.**
 
 ---
-*Zie [04. Problemen oplossen](../../04-Troubleshooting.md) | [Andere providers](../../README.md#providers)*
+*Zie [Andere providers](../../README.md#providers)*

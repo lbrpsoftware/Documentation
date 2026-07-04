@@ -2,7 +2,7 @@
 
 ## 1. Inleiding
 
-Bekijk de volgende filmpjes om **BelcoFin** te koppelen met ons **Cloud Platform** en Cloud functionaliteiten te kunnen gebruiken vanuit **BelcoFin**.
+Bekijk de volgende filmpjes om **BelcoFin** te koppelen met ons **Cloud Platform** en om cloudfunctionaliteiten vanuit **BelcoFin** te kunnen gebruiken.
 
 - **Connecting AccoWin, BelcoFin and Finasset to our CLOUD API**
 
