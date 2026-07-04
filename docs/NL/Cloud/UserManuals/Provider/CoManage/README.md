@@ -1,6 +1,6 @@
-# SFTP Integratie - CoManage
+# Data Uitwisseling - CoManage
 
-## Terug naar [Hoofdmenu](../../README.md) | [Providers Overzicht](Providers/README.md)
+## Terug naar [Hoofdmenu](../../README.md) | [Providers Overzicht](../README.md#providers)
 
 Volg deze stappen om CoManage te koppelen met AccoWin SFTP.
 

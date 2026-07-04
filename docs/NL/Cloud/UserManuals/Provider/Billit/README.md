@@ -1,4 +1,4 @@
-# SFTP Integratie - Bilit
+# Data Uitwisseling - Billit
 
 ## Terug naar [Hoofdmenu](../../README.md) | [Providers Overzicht](Providers/README.md)
 

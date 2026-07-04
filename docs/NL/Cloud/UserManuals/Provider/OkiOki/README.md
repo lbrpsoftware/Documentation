@@ -1,4 +1,4 @@
-# SFTP Integratie - OkiOki
+# Data Uitwisseling - OkiOki
 
 ## Terug naar [Hoofdmenu](../../README.md) | [Providers Overzicht](../README.md#providers)
 

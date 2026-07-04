@@ -15,3 +15,24 @@
 
 - [Books](Books/README.md)
 - [Globalization](Globalization/README.md)
+
+## 4. Connecties
+
+### 4.1 Company Lookup and Info
+
+- [Companyweb](CompanyWeb/README.md)
+- [CreditSafe](CreditSafe/README.md)
+- [Vies](Vies/README.md)
+
+### 4.2 Lonen & Sociale Secreteriaten (BelcoFin)
+
+- [Octopus](Octopus/README.md)
+- [SodaBox](SodaBox/README.md)
+
+### 4.3 Overheid
+
+- [Fod](Fod/README.md)
+
+## 5. Gegevens Uitwisseling andere Platformen
+
+- [Providers](Provider/README.md)

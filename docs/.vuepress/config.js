@@ -162,6 +162,10 @@ export default defineUserConfig({
                         text: 'Opruimen Gegevens',
                         link: '/NL/Desktop/UserManuals/BelcoFin/CleanData/',
                       },
+                      {
+                        text: 'SodaBox',
+                        link: '/NL/Desktop/UserManuals/BelcoFin/SodaBox/',
+                      },
                     ]
                   },
                   {
@@ -315,6 +319,39 @@ export default defineUserConfig({
                   {
                     text: 'Globalization',
                     link: '/NL/Cloud/UserManuals/Globalization/',
+                  },
+                  {
+                    text: 'Connecties',
+                    children: [
+                      {
+                        text: 'Companyweb',
+                        link: '/NL/Cloud/UserManuals/Companyweb/',
+                      },
+                      {
+                        text: 'CreditSafe',
+                        link: '/NL/Cloud/UserManuals/CreditSafe/',
+                      },
+                      {
+                        text: 'Vies',
+                        link: '/NL/Cloud/UserManuals/Vies/',
+                      },
+                      {
+                        text: 'Octopus',
+                        link: '/NL/Cloud/UserManuals/Octopus/',
+                      },
+                      {
+                        text: 'SodaBox',
+                        link: '/NL/Cloud/UserManuals/SodaBox/',
+                      },
+                      {
+                        text: 'Fod',
+                        link: '/NL/Cloud/UserManuals/Fod/',
+                      },
+                      {
+                        text: 'Providers',
+                        link: '/NL/Cloud/UserManuals/Providers/',
+                      },
+                    ]
                   },
                 ]
               },

@@ -1,4 +1,4 @@
-# SFTP Integratie - BillToBox
+# Data Uitwisseling - Bill-to-Box
 
 ## Terug naar [Hoofdmenu](../../README.md) | [Providers Overzicht](Providers/README.md)
 
