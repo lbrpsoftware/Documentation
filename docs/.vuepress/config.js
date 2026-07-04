@@ -325,7 +325,7 @@ export default defineUserConfig({
                     children: [
                       {
                         text: 'Companyweb',
-                        link: '/NL/Cloud/UserManuals/Companyweb/',
+                        link: '/NL/Cloud/UserManuals/CompanyWeb/',
                       },
                       {
                         text: 'CreditSafe',
@@ -349,7 +349,7 @@ export default defineUserConfig({
                       },
                       {
                         text: 'Providers',
-                        link: '/NL/Cloud/UserManuals/Providers/',
+                        link: '/NL/Cloud/UserManuals/Provider/',
                       },
                     ]
                   },
