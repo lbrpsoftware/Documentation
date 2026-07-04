@@ -1,0 +1,10 @@
+ARG VERSION_NODE=latest
+FROM node:${VERSION_NODE}
+
+ENV NPM_CONFIG_UPDATE_NOTIFIER=false
+
+COPY . /lbrp
+WORKDIR /lbrp
+RUN npm ci --no-audit --no-fund || { cat npm-debug.log; exit 1; }
+
+ENTRYPOINT ["npm", "run", "docs:dev"]

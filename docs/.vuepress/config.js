@@ -3,23 +3,23 @@ import { defineUserConfig } from 'vuepress/cli'
 import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
-  title: 'LBRP - Manuals, FAQ, Tutorials',
+  title: 'Corporate Software - Manuals, FAQ, Tutorials',
 
   locales: {
-    '/EN/': {
-      lang: 'en-US',
-      title: 'LBRP Manuals',
-      description: 'LBRP Manuals'
-    },
+    // '/EN/': {
+    //   lang: 'en-US',
+    //   title: 'Corporate Software Manuals',
+    //   description: 'Corporate Software Manuals'
+    // },
     '/NL/': {
       lang: 'nl-NL',
-      title: 'LBRP Handleidingen',
-      description: 'LBRP Handleidingen'
+      title: 'Corporate Software Handleidingen',
+      description: 'Corporate Software Handleidingen'
     },
     '/FR/': {
       lang: 'fr-FR',
-      title: 'Manuels LBRP',
-      description: 'Manuels LBRP'
+      title: 'Manuels Corporate Software',
+      description: 'Manuels Corporate Software'
     }
   },
 
@@ -37,7 +37,7 @@ export default defineUserConfig({
     navbar: [
       {
         text: 'Home',
-        link: 'https://www.corpgroup.site'
+        link: 'https://corpgroup.site'
       },
       {
         text: 'Documentation',
@@ -48,17 +48,17 @@ export default defineUserConfig({
           },
           {
             text: 'API - Swagger',
-            link: 'https://abfapi.corpgroup.site/swagger'
+            link: 'https://abfapi.dev.corpgroup.site/swagger'
           },
           {
             text: 'API - Docs',
-            link: 'https://abfapi.corpgroup.site/api-docs'
+            link: 'https://abfapi.dev.corpgroup.site/api-docs'
           },
         ]
       },
       {
         text: 'Login',
-        link: 'https://abfweb.corpgroup.site/identity/login'
+        link: 'https://abfweb.corpgroup.site'
       },
     ],
 
@@ -68,10 +68,10 @@ export default defineUserConfig({
           {      
             text: 'Select your Language',
             children: [
-              {
-                text: 'English',
-                link: '/EN/',
-              },
+              // {
+              //   text: 'English',
+              //   link: '/EN/',
+              // },
               {
                 text: 'Nederlands',
                 link: '/NL/',
@@ -84,17 +84,17 @@ export default defineUserConfig({
           }
         ]
       },
-      '/EN/': {
-        lang: 'en-US',
-        selectLanguageName: 'English',
-        title: 'LBRP Manuals',
-        description: 'LBRP Manuals',
-      },
+      // '/EN/': {
+      //   lang: 'en-US',
+      //   selectLanguageName: 'English',
+      //   title: 'Corporate Software Manuals',
+      //   description: 'Corporate Software Manuals',
+      // },
       '/NL/': {
         lang: 'nl-NL',
         selectLanguageName: 'Nederlands',
-        title: 'LBRP Handleidingen',
-        description: 'LBRP Handleidingen',
+        title: 'Corporate Software Handleidingen',
+        description: 'Corporate Software Handleidingen',
         sidebar: [
           {
             text: '🖥️ Desktop Applications',
@@ -249,7 +249,7 @@ export default defineUserConfig({
             ]
           },
           {
-            text: '🌐 Cloud',
+            text: '🌐 Cloud Platform',
             link: '/NL/Cloud/',
             collapsed: true,
             children: [
@@ -369,7 +369,7 @@ export default defineUserConfig({
                 ]
               },
               {
-                text: '👨‍💻 Dev Manuals',
+                text: '🦄 Developer Handleidingen',
                 link: '/NL/Cloud/DevManuals/',
                 collapsed: true,
                 children: [
@@ -401,8 +401,8 @@ export default defineUserConfig({
       '/FR/': {
         lang: 'fr-FR',
         selectLanguageName: 'Français',
-        title: 'Manuels LBRP',
-        description: 'Manuels LBRP'
+        title: 'Manuels Corporate Software',
+        description: 'Manuels Corporate Software'
       },
     }
   }),

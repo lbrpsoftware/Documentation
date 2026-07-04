@@ -1,0 +1,12 @@
+services:
+  vuepress-local:
+    image: harbor.$TF_VAR_DOMAIN/$TF_WORKSPACE/abfdoc:${TF_VAR_VERSION_DOCKER_LBRP_ABFDOC}
+    build:
+      context: ..
+      dockerfile: ./docker/dockerfile
+      args:
+        VERSION_NODE: ${TF_VAR_VERSION_DOCKER_NODE}
+    container_name: vuepress-local
+    restart: unless-stopped
+    ports:
+      - "${TF_VAR_DOCKER_VUEPRESS_PORT}:8080"

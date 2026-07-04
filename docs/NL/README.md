@@ -1,5 +1,8 @@
 # Kies een omgeving
 
-- [Cloud](Cloud/README.md)
-- [Desktop](Desktop/README.md)
-- [Contracts](Contracts/README.md)
+- [Cloud Platform](Cloud/README.md)
+- [Desktop Applicaties](Desktop/README.md)
+
+# Algemeen
+
+- [Contracten](Contracts/README.md)
