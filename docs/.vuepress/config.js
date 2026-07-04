@@ -402,7 +402,50 @@ export default defineUserConfig({
         lang: 'fr-FR',
         selectLanguageName: 'Français',
         title: 'Manuels Corporate Software',
-        description: 'Manuels Corporate Software'
+        description: 'Manuels Corporate Software',
+        sidebar: [
+          {
+            text: '🌐 Plateforme Cloud',
+            link: '/FR/Cloud/',
+            collapsed: true,
+            children: [
+              {
+                text: '🦄 Manuels Développeur',
+                link: '/FR/Cloud/DevManuals/',
+                collapsed: true,
+                children: [
+                  {
+                    text: 'Identity',
+                    link: '/FR/Cloud/DevManuals/Identity/',
+                  },
+                  {
+                    text: 'Fod',
+                    link: '/FR/Cloud/DevManuals/Fod/',
+                  },
+                  {
+                    text: 'Code',
+                    link: '/FR/Cloud/DevManuals/Code/',
+                    collapsed: true,
+                    children: [
+                      {
+                        text: 'Delphi',
+                        link: '/FR/Cloud/DevManuals/Code/Delphi/',
+                      },
+                      {
+                        text: 'Curl',
+                        link: '/FR/Cloud/DevManuals/Code/Curl/',
+                      },
+                      {
+                        text: 'C#',
+                        link: '/FR/Cloud/DevManuals/Code/CSharp/',
+                      },
+                    ]
+                  },
+                ]
+              },
+            ]
+          },
+        ]
       },
     }
   }),
