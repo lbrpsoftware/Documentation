@@ -1,39 +1,36 @@
-# SFTP en E-mail Inbound Testen
+# SFTP en e-mail inbound testen
 
-# Voorbereiding
+Deze handleiding beschrijft hoe u de verwerking van inkomende documenten via **e-mail** en **SFTP** kunt testen.
 
-Het is makkelijker als je eerst wat test documenten kunt aanmaken
-Zie [Documenten Testen](../Documents/README.md)
+## 1. Voorbereiding
 
-Er hoeven voor de werking in feite geen Applicaties te worden geactiveerd, maar omdat
-het SFTP-Inbound grid op de Peppol Pagina staat is het beter dat de Peppol Applicatie ook aan staat.
+- Het is handig als u eerst enkele testdocumenten aanmaakt. Zie [Documenten testen](../Documents/README.md).
+- Er hoeven voor de werking in feite geen applicaties geactiveerd te worden. Omdat het **SFTP Inbound**-grid echter op de Peppol-pagina staat, is het beter dat de **Peppol-applicatie** ook actief is.
+- Download de **UBL**- of **PDF**-versie van een document, naargelang wat u wilt testen.
 
-Download de UBL of PDF versie van een Document, naargelang wat je wil testen.
+## 2. E-mail versturen
 
-# Mail vertsturen
+1. Verstuur een e-mail naar `test+BE0000000000@corpgroup.site`.
+2. Wijzig het btw-nummer naar hetzelfde nummer als dat van de organisatie (bijvoorbeeld `BE0662348959`).
+3. Vermeld de provider die u wilt testen in het **onderwerp** (bijvoorbeeld `Lbrp`, `OnFact`, `Billit`, ...).
+4. Voeg het bestand toe als **bijlage**.
 
-Verstuur een mail naar test+BE0000000000@corpgroup.site.
-Wijzig het Vat Number naar hetzelfde als van de Organisatie (BE0662348959).
+   <img src="./test_email.png" alt="test_email.png" style="width:400px;" />
 
-Zet de Provider die je wil testen in het onderwerp (Lbrp, OnFact, Billit, ...):
+## 3. Processor starten
 
-Voeg het bestand toe als Attachment
-
-<img src="./test_email.png" alt="test_email.png" style="width:400px;" />
-
-# Processor starten
-
-- Start een EmailInboundService Job
+- Start een **EmailInboundService**-job.
 
    <img src="./email_inbound_service.png" alt="email_inbound_service.png" style="width:400px;" />
 
-- Start een SftpInboundService Job
+- Start een **SftpInboundService**-job.
 
    <img src="./sftp_inbound_service.png" alt="sftp_inbound_service.png" style="width:200px;" />
 
-# Resultaat
+## 4. Resultaat controleren
 
-Je zou nu een record moeten hebben in de SftpInbound Grid:
-Peppol -> Extra -> FTP Inbound
+Als alles correct is verwerkt, vindt u nu een record in het **SFTP Inbound**-grid:
+
+**Peppol → Extra → FTP Inbound**
 
 <img src="./test_result.png" alt="test_result.png" style="width:400px;" />

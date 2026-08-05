@@ -147,6 +147,11 @@ Indien de `Response` een lijst van `entiteiten` is, dan krijg je een `PagedRespo
 - [Identity Flow](Identity/README.md)
 - [FOD](Fod/README.md)
 
-## 6. Code Voorbeelden
+## 6. Testen
+
+- [Documenten testen](Documents/README.md)
+- [SFTP en e-mail inbound testen](Common/README.md)
+
+## 7. Code Voorbeelden
 
 - [Code Voorbeelden](Code/README.md)
