@@ -151,6 +151,7 @@ Indien de `Response` een lijst van `entiteiten` is, dan krijg je een `PagedRespo
 
 - [Documenten testen](Documents/README.md)
 - [SFTP en e-mail inbound testen](Common/README.md)
+- [Scrada inbound testen](Scrada/README.md)
 
 ## 7. Code Voorbeelden
 

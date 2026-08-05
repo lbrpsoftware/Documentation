@@ -10,6 +10,8 @@ Deze handleiding beschrijft hoe u een testorganisatie en testdocumenten kunt aan
 
    <img src="./org.png" alt="org.png" style="width:600px;" />
 
+LET OP 💡: Veel van de Test Scenario's gebruiken de Processor, de Rapport en de Mcp Server. Deze dienen in de DEV-omgeving omhoog te staan.
+
 ## 2. Testdata aanmaken (Seeding)
 
 - Seed Relation Test Data
