@@ -30,4 +30,7 @@ Maak een document (**SalesInvoice**) aan met uzelf als klant en voeg enkele docu
 
 ## 4. Volgende stap
 
-U kunt deze testdocumenten nu gebruiken om de **SFTP- en e-mailinbound**-verwerking te testen. Zie [SFTP en e-mail inbound testen](../Common/README.md).
+U kunt deze testdocumenten nu gebruiken om de volgende zaken te testen
+
+- [SFTP en E-mail Inbound Testen](../Common/README.md)
+- [Scrada Inbound Testen](../Scrada/README.md)

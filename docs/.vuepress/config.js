@@ -382,6 +382,18 @@ export default defineUserConfig({
                     link: '/NL/Cloud/DevManuals/Fod/',
                   },
                   {
+                    text: 'Documenten testen',
+                    link: '/NL/Cloud/DevManuals/Documents/',
+                  },
+                  {
+                    text: 'SFTP en Ee-mail inbound testen',
+                    link: '/NL/Cloud/DevManuals/Common/',
+                  },
+                  {
+                    text: 'Scrada inbound testen',
+                    link: '/NL/Cloud/DevManuals/Scrada/',
+                  },
+                  {
                     text: 'Code',
                     link: '/NL/Cloud/DevManuals/Code/',
                   },
