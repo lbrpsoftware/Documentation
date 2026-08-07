@@ -68,10 +68,10 @@ export default defineUserConfig({
           {      
             text: 'Select your Language',
             children: [
-              // {
-              //   text: 'English',
-              //   link: '/EN/',
-              // },
+              {
+                text: 'English',
+                link: '/EN/',
+              },
               {
                 text: 'Nederlands',
                 link: '/NL/',
