@@ -2,53 +2,66 @@
 
 ## Wat is dit?
 
-Met behulp van onze twee **synchronisatie** mogelijkheden, via E-mail of directe SFTP, automatiseer je de ontvangst van UBL-bestanden, PDF-bestanden en CODA-gegevens van populaire derde-partij boekhoudpakketten zoals **Billit**, **BillToBox**, **CoManage**, **OkiOki** en vele anderen.
+Met behulp van onze **E-mail synchronisatie** automatiseer je de ontvangst van UBL-bestanden, PDF-bestanden en CODA-gegevens van populaire derde-partij boekhoudpakketten zoals **Billit**, **BillToBox**, **CoManage**, **OkiOki** en vele anderen.
 
 Bestanden worden door de diverse providers naar ons cloud platform verzonden om daarna rechtstreeks te kunnen downloaden in een **AccoWin** dossier.
 
 **Voordelen:**
 
 - Geen handmatig downloaden of uploaden meer tussen verschillende pakketten
-- Veilige en geautomatiseerde sync via E-mail of directe SFTP.
+- Veilige en geautomatiseerde sync via E-mail.
 - Geschikt voor boekhoudkantoren en zelfstandigen.
 
 ## Hoe werkt het (in het kort)?
 
-1. AccoWin Setup: Activeer een speciaal E-mail adres of maak de nodige SFTP-gebruiker(s) aan in AccoWin om de bestanden naartoe te sturen.
-2. [Provider Setup](README.md#providers): Deel het E-mail adres of de SFTP-gegevens met uw klant en configureer de koppeling in het boekhoudpakket van de provider.
-3. Het boekhoudpakket stuurt bestanden naar ons cloud plaform dmv de ingestelde koppeling.
-   Dit kan automatisch of handmatig zijn naargelang de mogelijkheden van de provider en de gekozen synchronisatie methode.
-4. De bestanden kunnen in AccoWin worden gedownload via het menu **UBL > Import UBL from Cloud**.
+1. AccoWin Setup: Activeer een speciaal E-mail adres in AccoWin om de bestanden naartoe te sturen.
+
+   <a href="https://youtu.be/7Y2F0i6g_tY" target="_blank">
+     <img src="./yt_mail.png" alt="Enabling E-mail sending via our CLOUD API & Mail Server" style="width:400px; border-radius:12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+   </a>
+
+2. [Provider Setup](README.md#providers): Deel het E-mail adres met uw klant en configureer de koppeling in het boekhoudpakket van de provider.
+
+   <img src="./accowin_mail.png" alt="accowin_mail.png" style="width:400px;"/>
+
+3. Het boekhoudpakket stuurt bestanden naar ons cloud plaform dmv de ingestelde E-mail koppeling.
+   Dit kan automatisch of handmatig zijn naargelang de mogelijkheden van de provider.
+   
+4. De bestanden kunnen in AccoWin worden gedownload via het menu **UBL > Import UBL from Cloud** of **CODA > Import CODA from Cloud**
 
 **💡 Voor boekhoudkantoren**: Deel het speciale E-mail adres, per dossier, met uw klanten.  
-**💡 Voor zelfstandigen**: Gebruik SFTP voor een directe overdracht.
+**💡 Voor zelfstandigen**: Gebruik het E-mail adres van uw dossier om bestanden rechtstreeks te versturen.
 
-## Keuze van de geschikte synchronisatie methode
+### Het speciale E-mail adres
 
-Enkel overwegingen dienen in acht te worden genomen bij de keuze van de synchronisatie methode die het best bij uw situatie past.
+Het E-mail adres waar de synchronisatie op toekomt is dat van de **organisatie van de boekhouder**. Om te weten voor welke klant (dossier) een binnenkomend bestand bestemd is, wordt een **+tag** gevolgd door het **BTW-nummer van de klant** toegevoegd aan het adres.
 
-Indien u meerdere dossiers beheerd raden wij aan om via E-mail te synchroniseren (_bv. boekhouders_):
+**Voorbeeld:**
+
+```
+019fdb17-76f4-7cf3-a147-dcaf7bcff7a4+BE0464083632@dev.corpgroup.site
+```
+
+Hierbij is `019fdb17-76f4-7cf3-a147-dcaf7bcff7a4` het unieke deel van de organisatie en `+BE0464083632` de tag met het BTW-nummer van de klant. Zo worden binnenkomende bestanden automatisch aan het correcte dossier gekoppeld.
+
+
+## Overwegingen bij synchronisatie via E-mail
+
+Enkele overwegingen dienen in acht te worden genomen bij synchronisatie via E-mail:
 
 - Slechts 1 email account moet worden aangemaakt in Accowin.
   _Het toevoegen van het BTW-nummer aan de naam van dit E-mail account is voldoende ter identificatie van het dossier van de verzender._
-- Er moeten geen inlog-gegevens worden gedeeld met uw klant. Dit is iets minder veilig - vergissingen zijn snel gemaakt.
+- Er moeten geen inlog-gegevens worden gedeeld met uw klant.
 - Het versturen via E-mail moet bij sommige providers handmatig gebeuren.
 - Wijzigingen aan de inhoud of structuur van de verzonden E-mail door een provider kan tijdelijke fouten veroorzaken bij het verwerken door ons.
 - Het downloaden van bestanden in Accowin, voor alle dossiers, kan enkel in het eigen dossier gebeuren.
   Het BTW-nummer, dat werd gebruikt als toevoeging aan de naam van het E-mail account, zorgt ervoor dat binnenkomende bestanden naar het correcte dossier
   worden verplaatst.
 
-Indien u slechts 1 (of enkele) dossiers, en tevens de toegang tot de applicatie van een provider, onder eigen beheer hebt, kunt u best via SFTP synchroniseren.
-Is dit niet het geval neem dan de volgende punten in acht:
+## Providers
 
-- Dossiers die geen toegang mogen hebben tot bestanden van andere dossiers moeten expliciet unieke SFTP-gegevens krijgen.
-  Het is altijd mogelijk om via andere tools (zoals FileZilla) een connectie te maken naar de SFTP-server, waardoor alle bestanden, voor die SFTP-gebruiker, kunnen worden bekeken.
-  Indien dezelfde login-gegevens door meerdere partijden werd gebruikt is het dus mogelijk om bestanden van iemand anders te zien mbv tools zoals FileZilla.
-- Per Dossier moet er een SFTP-gebruiker worden aangemaakt en gedeeld met de klant.
-- Het versturen via SFTP, door andere providers, is meestal automatisch.
-- Het downloaden van bestanden in Accowin moet in het dossier gebeuren waar de SFTP-gebruiker werd aangemaakt.
-  
-## Configuratie per Providers
+Hier een korte handleiding over de werkwijze om uw Provider in te stellen met het E-mail adres.
+(*TODO)
 
 - [Billit](Billit/README.md)
 - [Bill-To-Box](BillToBox/README.md)
@@ -56,6 +69,7 @@ Is dit niet het geval neem dan de volgende punten in acht:
 - [Breex](Breex/README.md)
 - [ClearFact](ClearFact/README.md)
 - [CodaBox](CodaBox/README.md)
+- [CodaClean](CodaClean/README.md)
 - [CoManage](CoManage/README.md)
 - [Dexxter](Dexxter/README.md)
 - [Doccle](Doccle/README.md)
