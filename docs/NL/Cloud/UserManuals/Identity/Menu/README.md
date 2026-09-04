@@ -53,9 +53,10 @@ In het **Instellingen**-menu kun je diverse configuraties beheren. Dit scherm is
 
 <img src="./member.png" alt="member.png" style="width:400px;"/>
 
+- E-mail "Opt-Out" Instellingen voor alle mail categorieën.
+- Start pagina instellen
 - Support aanvragen
 - Voeg hier 3rd-party API-keys toe om diensten te gebruiken zoals AI. Deze API-keys zijn enkel toegankelijk voor de gebruiker van de huidige organisatie.
-- Foutmeldingen beheren
 
 ### 1.4 Helpdesk
 
