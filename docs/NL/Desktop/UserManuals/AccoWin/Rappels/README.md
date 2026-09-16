@@ -8,15 +8,13 @@ Het rappelscherm wordt geopend via:
 
 - Menu **Facturatie** > **Afdrukken rappels klanten**
 
-![Image 1]()
+<img src="./rappels.png" alt="rappels.png" style="width:800px;"/>
 
 <ins>Opmerking</ins>: de menuoptie is enkel zichtbaar/actief voor gebruikers met de rechten om facturen af te drukken.
 
 ## 2 Schermoverzicht
 
 Het scherm **Afdrukken / emailen rappels** bestaat uit volgende onderdelen:
-
-![Image 2]()
 
 - <ins>Selectie</ins>: bepalen welke facturen en klanten in aanmerking komen (zie punt 3).
 - <ins>Filter</ins>: beperken op verzendmethode en verkoopdagboek.
@@ -52,15 +50,11 @@ Op de tab <ins>Per Klant</ins> kiest u welke klanten een rappel krijgen:
 - De toetsen <ins>+</ins> en <ins>-</ins> op het numeriek toetsenbord om te selecteren/deselecteren.
 - De knoppen <ins>selectie</ins> en <ins>filter</ins> om alle klanten in één keer te selecteren of te deselecteren.
 
-![Image 3]()
-
 De geselecteerde klanten krijgen een vinkje. In de totalen onderaan ziet u onmiddellijk het totaal Bedrag, Betaald en Openstaand van uw selectie.
 
 ## 5 Rappelniveau en acties
 
 Elke klant heeft een rappelnummer van 0 tot en met 4. Hoe hoger het nummer, hoe strenger de rappel. Via de rechtermuisknop (menu <ins>Actions</ins>) kunt u voor de geselecteerde klanten:
-
-![Image 4]()
 
 - <ins>Rappel verhogen</ins>: het rappelniveau met één verhogen (maximum 4).
 - <ins>Rappel verlagen</ins>: het rappelniveau met één verlagen (minimum 0).
@@ -74,7 +68,7 @@ Per rappelniveau (0 tot 4) kunt u de teksten en kosten onderhouden:
 
 - Menu **Parameters** > **Teksten rappels**
 
-![Image 5]()
+<img src="./teksten.png" alt="teksten.png" style="width:800px;"/>
 
 - <ins>Nr</ins>: het rappelniveau.
 - <ins>Referte</ins>: de referentie die op het document afgedrukt wordt.
@@ -94,13 +88,11 @@ Na het versturen:
 - wordt het rappelnummer van elke afgedrukte/geëmailde klant met één verhoogd;
 - verschijnt er een samenvatting van de emailrun: hoeveel emails gelukt zijn en welke klanten gefaald hebben (met de foutmelding).
 
-![Image 6]()
-
 ## 8 Sessie logs (geëmailde rappels opvolgen)
 
 Via de knop <ins>Sessie Logs</ins> opent u het log van alle per email verzonden rappels:
 
-![Image 7]()
+<img src="./logs.png" alt="logs.png" style="width:800px;"/>
 
 - <ins>Status</ins>: filter op <ins>Alles</ins>, <ins>OK</ins> (geslaagde verzendingen) of <ins>Mislukt</ins> (mislukte verzendingen).
 - <ins>Verzonden vanaf</ins>: enkel verzendingen vanaf een gekozen datum tonen.
@@ -120,6 +112,3 @@ Zo ziet u onmiddellijk welke emails niet aankwamen en waarom. U corrigeert de kl
 ## 9 Rappels voor één klant
 
 Vanuit de klantenfiche kunt u de rappels van die ene klant raadplegen. Het scherm wordt dan automatisch gefilterd op die klant; de selectie- en sorteeropties zijn uitgeschakeld.
-
-![Image 8]()
-
