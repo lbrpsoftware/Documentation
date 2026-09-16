@@ -571,6 +571,10 @@ export default defineUserConfig({
                         text: 'Winst Marge',
                         link: '/NL/Desktop/UserManuals/AccoWin/ProfitMargin/',
                       },
+                      {
+                        text: 'Rappels',
+                        link: '/NL/Desktop/UserManuals/AccoWin/Rappels/',
+                      },
                     ]
                   },
                   {
