@@ -575,6 +575,10 @@ export default defineUserConfig({
                         text: 'Rappels',
                         link: '/NL/Desktop/UserManuals/AccoWin/Rappels/',
                       },
+                      {
+                        text: 'UBL',
+                        link: '/NL/Desktop/UserManuals/AccoWin/UBL/',
+                      },
                     ]
                   },
                   {
