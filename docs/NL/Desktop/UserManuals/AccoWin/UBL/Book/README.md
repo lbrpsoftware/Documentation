@@ -1,5 +1,7 @@
 # Hoe de UBL- bestanden importeren?
 
+> **Let op:** dit is de oudere handleiding voor het scherm <ins>Inlezen UBL</ins> (`ImportUblForm`). De actuele beschrijving vindt u in [Inlezen UBL bestanden](../Import/README.md) en [Instellingen UBL](../Settings/README.md). Terug naar het [UBL-overzicht](../README.md).
+
 Accowin voor het inlezen van UBL te installeren.
 
 Via menu: UBL import - instellingen UBL
