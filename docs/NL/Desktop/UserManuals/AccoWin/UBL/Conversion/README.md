@@ -18,8 +18,9 @@ Op de tab <ins>Converts</ins> volgt u de conversies op:
 - <ins>State</ins>: filter op <ins>Pending</ins> (in behandeling), <ins>Processed</ins> (afgerond) of <ins>Failed</ins> (mislukt).
 - <ins>"Created" older than</ins>: enkel conversies ouder dan een gekozen periode tonen.
 - <ins>Refresh</ins>: de lijst vernieuwen.
-- <ins>Download</ins>: het resultaat van een conversie downloaden naar uw UBL-map.
-- <ins>Delete</ins>: een conversie uit de lijst verwijderen.
+- <ins>View</ins>: het antwoord van de geselecteerde conversie bekijken (hetzelfde als dubbelklikken op een rij). Voor een <ins>Peppol Repair</ins>-conversie opent de Peppol-validatiefiche met de resultaten; bij andere conversies ziet u het antwoord in een leesvenster.
+- <ins>Download</ins>: het resultaat van een conversie downloaden naar uw UBL-map. Zonder aangevinkte rijen wordt de rij gebruikt waarop de cursor staat.
+- <ins>Delete</ins>: een conversie uit de lijst verwijderen. Zonder aangevinkte rijen wordt de rij gebruikt waarop de cursor staat.
 
 Met de knop <ins>Api-Keys</ins> beheert u de API-sleutels van de cloudverbinding.
 

@@ -26,6 +26,7 @@ Met een rechtermuisklik op een bestand opent u het menu:
 
 - <ins>Open</ins>: het bestand openen ter weergave (bijvoorbeeld een PDF).
 - <ins>Move to</ins>: het bestand verplaatsen naar een andere map.
+- <ins>Rename</ins>: het geselecteerde bestand hernoemen. Dit kan enkel wanneer er precies één bestand geselecteerd is; een eventueel gelijknamig <ins>.pdf</ins>-bestand wordt mee hernoemd.
 - <ins>Delete</ins>: het bestand wissen (samen met een eventueel gelijknamig <ins>.pdf</ins>-bestand), na bevestiging.
 
 Met een rechtermuisklik op de mappenlijst maakt u een nieuwe map, of hernoemt of wist u een bestaande map (wissen gebeurt met heel haar inhoud).
@@ -48,7 +49,8 @@ UBL-facturen kunnen bijlagen bevatten, bijvoorbeeld de PDF van de factuur. Deze 
 
 ## Beveiliging
 
-- De <ins>verwerkte</ins> mappen uit de UBL-instellingen (verkoop en aankoop) zijn <ins>read-only</ins>: u kunt er bestanden bekijken en openen, maar niet toevoegen, wissen, verplaatsen of bewerken. Ook de map zelf kan niet hernoemd of verwijderd worden.
+- De <ins>verwerkte</ins> mappen en de mappen <ins>later te verwerken</ins> uit de UBL-instellingen (verkoop en aankoop) zijn <ins>read-only</ins>: u kunt er bestanden bekijken en openen, maar de bestanden erin kunnen niet toegevoegd, gewist, verplaatst, hernoemd of bewerkt worden, en deze mappen zelf kunnen niet hernoemd of verwijderd worden.
+- Naar de map <ins>later te verwerken</ins> kunt u wel bestanden <ins>verplaatsen</ins> (via <ins>Move to</ins>): zo stelt u facturen bewust uit. De verwerkte map is nooit een verplaatsingsbestemming.
 - Het aanpassen van XML-bestanden — factuurgegevens bewerken en opslaan, bijlagen toevoegen of verwijderen — kan enkel door een gebruiker met de rol <ins>Beheerder</ins> of <ins>Superuser</ins>. Voor andere gebruikers zijn de bewerkbare velden en de knop <ins>bewaren</ins> uitgeschakeld.
 
 ---

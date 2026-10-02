@@ -18,7 +18,7 @@ Het venster **Opties inlezen UBL facturen** opent u via menu **UBL** > **Instell
 - <ins>Dagboek verkopen</ins> en <ins>Dagboek kredietnota's verkopen</ins>: de dagboeken waarin de verkoopfacturen geboekt worden.
 - <ins>Directory te verwerken UBL</ins>: de map met verkoopfacturen die wachten op verwerking.
 - <ins>Directory verwerkte UBL facturen</ins>: nadat een factuur verwerkt is, wordt ze naar deze map verplaatst. <ins>Deze map is read-only: er kunnen geen bestanden toegevoegd, gewist of verplaatst worden.</ins>
-- <ins>Directory met later te verwerken facturen</ins>: facturen die u bewust uitstelt, bijvoorbeeld tot een volgende periode.
+- <ins>Directory met later te verwerken facturen</ins>: facturen die u bewust uitstelt, bijvoorbeeld tot een volgende periode. <ins>De bestanden in deze map zijn read-only: ze kunnen niet gewist, verplaatst of hernoemd worden. Vanuit de UBL File Explorer kunt u er wel facturen naartoe verplaatsen.</ins>
 - <ins>Toekennen factuurnummer</ins>: hoe het AccoWin-factuurnummer toegekend wordt.
 - <ins>Stempel met boekingsdocument aanbrengen in PDF</ins>: het boekingsdocument wordt als stempel in de PDF geplaatst.
 - <ins>Controleren op vreemde munt bij inlezen UBL (waarschuwing tonen)</ins>: een waarschuwing als de factuur in een andere munt staat dan de munt van het dossier.
