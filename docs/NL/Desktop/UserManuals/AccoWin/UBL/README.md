@@ -9,6 +9,7 @@ Alle UBL-functies vindt u terug in het menu **UBL** van het hoofdscherm:
 - <ins>Instellingen UBL</ins>: de opties en mappen voor het verwerken van UBL-facturen — zie [Instellingen UBL](Settings/README.md).
 - <ins>UBL File Explorer</ins>: het dashboard om UBL-bestanden te bekijken en te beheren — zie [UBL File Explorer](Explorer/README.md).
 - <ins>Import UBL from Cloud Platform</ins>: UBL- en PDF-documenten downloaden uit de LBRP Cloud (Peppol, FTP, PEP-IT) — zie [Import UBL from Cloud Platform](CloudImport/README.md).
+- <ins>UBL Cloud Import Overview</ins>: het permanente overzicht van de dossiers waarin UBL's uit de cloud geïmporteerd werden, dat u vanuit elk dossier kunt openen — zie [UBL Cloud Import Overview](CloudImportOverview/README.md).
 - <ins>Inlezen UBL Bestanden</ins>: de gedownloade of binnengekomen UBL-facturen inboeken in de dagboeken — zie [Inlezen UBL bestanden](Import/README.md).
 - <ins>Send UBL to Peppol</ins>: UBL-bestanden versturen via Peppol en de verzendingen opvolgen — zie [Send UBL to Peppol](SendToPeppol/README.md).
 - <ins>Conversion (PDF <-> UBL)</ins>: PDF's of afbeeldingen met AI omzetten naar UBL (en omgekeerd) — zie [Conversion (PDF <-> UBL)](Conversion/README.md).
