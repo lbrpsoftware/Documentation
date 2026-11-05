@@ -167,3 +167,37 @@ Vul uw email adres in om antwoord te ontvangen
 U ontvangt een referentie van de verzending en een email van de verwerking.
 
 ![Image 21](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/101015172201/original/9LQf1ppwCrmYdRLr2xUQAhAB_YyY1CGpyQ.png?1654073533)
+
+## 3. Fiches 281.50 doorsturen via de LBRP Cloud (Belcotax-On-Web)
+
+Vanaf inkomstenjaar 2026 gebruikt de FOD Financiën voor de fiscale fiches 281.50 de nieuwe toepassing Belcotax-On-Web (BOW). Het XML-bestand dat Accowin aanmaakt kan hiervoor niet langer manueel worden geüpload via de website, maar wordt via de LBRP Cloud ingediend.
+
+### 3.1 Voorwaarden
+
+- Er is een LBRP Cloud abonnement en u bent ingelogd in de cloud (menu Connect).
+- De toepassing FOD is geactiveerd voor uw organisatie in de LBRP Cloud.
+- Er is een dossier en boekjaar geselecteerd.
+- Er is reeds een XML-bestand aangemaakt (zie hoofdstuk 2: Aanmaken XML). Het XML-bestand dat u wilt doorsturen moet definitief zijn.
+
+### 3.2 Verzenden
+
+Selecteer het menu Intervat - Belcotax Fiches Upload (BOW).
+
+Op het tabblad Send kiest u het inkomstenjaar. Accowin toont alle aangiftes van het geselecteerde inkomstenjaar waarvoor een XML-bestand bestaat (kolom Verzonden = het definitieve XML-bestand werd aangemaakt).
+
+Selecteer de aangifte(s) die u wil doorsturen en voeg ze toe aan de verzendlijst met de pijlknoppen (enkele of alle regels). Klik vervolgens op Send to Belcotax.
+
+Accowin stuurt het XML-bestand door naar de LBRP Cloud. De cloud zet het bestand om naar het nieuwe BOW-formaat en dient het in bij de FOD. Na het versturen wordt de aangifte uit de verzendlijst gehaald; eventuele fouten worden in het statusvenster getoond.
+
+### 3.3 Opvolgen van de verzending (tabblad Outbound)
+
+De indiening bij de FOD gebeurt asynchroon. Op het tabblad Outbound volgt u de status op per document:
+
+- Pending: het bestand werd ontvangen door de cloud en wordt verwerkt.
+- Submitted: het bestand werd ingediend bij de FOD en wacht op de validatie.
+- Accepted: de FOD heeft de verzending goedgekeurd.
+- Error: er is een fout opgetreden; bij de regel staat een toelichting in de kolom Remark. De leden van de organisatie ontvangen hierover ook een e-mail.
+
+Met de vinkjes bovenaan (Created, Accepted, Error) en de datumfilter kunt u bepalen welke statussen en periode worden getoond. Klik op Refresh om de actuele status op te halen.
+
+Opmerking: de manuele manier (het XML-bestand zelf uploaden via de BOW-website, zie hoger in dit hoofdstuk) blijft mogelijk als alternatief, bijvoorbeeld wanneer er geen cloudverbinding beschikbaar is.

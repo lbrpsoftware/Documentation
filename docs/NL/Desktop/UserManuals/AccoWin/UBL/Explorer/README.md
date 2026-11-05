@@ -14,7 +14,7 @@ Selecteer een <ins>.xml</ins>-bestand om het te ontleden. Rechts verschijnen de 
 - <ins>Info</ins>: de belangrijkste velden van de factuur (documentnummer, data, bedragen, leverancier, klant).
 - <ins>Lines</ins>: de factuurlijnen met omschrijving, aantal, prijs, bedrag en BTW.
 - <ins>Extra</ins>: aanvullende gegevens zoals betaalwijze, IBAN, adressen en totalen.
-- <ins>XML</ins>: de ruwe XML-tekst van het bestand (alleen lezen).
+- <ins>XML</ins>: de XML-tekst van het bestand, leesbaar ingesprongen weergegeven (alleen lezen).
 
 ## Zoeken op factuurinfo
 
@@ -39,6 +39,16 @@ UBL-facturen kunnen bijlagen bevatten, bijvoorbeeld de PDF van de factuur. Deze 
 
 - Dubbelklik op een bijlage om ze te bewaren naast het XML-bestand en te openen.
 - Met een rechtermuisklik kunt u een bijlage <ins>openen</ins>, een nieuwe bijlage <ins>toevoegen</ins> of een bestaande <ins>verwijderen</ins> (dit past het XML-bestand aan, zie [Beveiliging](#beveiliging)).
+
+## Betaalwijze aanpassen (Payment Means)
+
+Sommige facturen zijn foutief opgesteld: de betaalwijze is bijvoorbeeld <ins>30</ins> (overboeking / credit transfer), maar het rekeningnummer (<ins>IBAN</ins>) waarop betaald moet worden, ontbreekt. Zulke facturen worden door de tegenpartij geweigerd. Met de knop <ins>Payment Means...</ins> op de tab <ins>Info</ins> past u het betaalblok van het geselecteerde XML-bestand aan:
+
+- Kies de <ins>betaalwijze</ins> (PaymentMeansCode) in de keuzelijst; de huidige waarde uit het bestand staat al aangeduid. Codes die niet in de lijst staan, worden bovenaan toegevoegd zodat u ze kunt behouden of veranderen.
+- Voor de codes <ins>30</ins> (Credit transfer) en <ins>58</ins> (SEPA credit transfer) is een rekeningnummer verplicht: onder <ins>Financial Books (dagboeken)</ins> ziet u dan de actieve dagboeken met een bankrekening uit uw dossier. Klik er een aan; het <ins>IBAN</ins> verschijnt onderaan het venster.
+- Met <ins>OK</ins> past u het blok in het XML-bestand aan (na bevestiging); <ins>Cancel</ins> sluit zonder te bewaren. De bestaande betaalreferentie (<ins>PaymentID</ins>) blijft altijd behouden, en wanneer het IBAN bij een bankrekening van uw dossier hoort, wordt ook de <ins>BIC</ins> toegevoegd of bijgewerkt.
+
+Ook hiervoor geldt: enkel een gebruiker met de rol <ins>Beheerder</ins> of <ins>Superuser</ins> kan XML-bestanden aanpassen, en in de read-only mappen (zie [Beveiliging](#beveiliging)) is de knop uitgeschakeld.
 
 ## Naar Peppol en conversie
 
