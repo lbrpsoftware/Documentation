@@ -42,6 +42,10 @@ De indiening bij de FOD gebeurt asynchroon. Op het tabblad **Outbound** volgt u 
 
 Met de vinkjes bovenaan (Created, Accepted, Error) en de datumfilter kunt u bepalen welke statussen en periode worden getoond. Klik op **Refresh** om de actuele status op te halen.
 
+Selecteer één of meer verzendingen in de lijst en klik op **Download JSON** om de JSON-variant van een doorgestuurd XML-bestand te downloaden. De cloud haalt het bewaarde XML-bestand op, zet het om naar het nieuwe BOW-formaat (JSON Lines) en slaat het resultaat op in de map waar ook de Belcotax-opgaven worden bewaard (in te stellen via menu **Parameters - Algemene opties**). Het bestand krijgt dezelfde naam als het XML-bestand, maar met de extensie `.jsonl`. Bestaat het bestand al, dan wordt er een volgnummer toegevoegd (`_1`, `_2`, ...), zodat niets wordt overschreven. De resultaten per bestand verschijnen in het statusvenster.
+
+Opmerking: dit is enkel een omzetting en download. Er wordt niets ingediend bij de FOD; gebruik hiervoor het tabblad Send.
+
 ## 5. Manuele flow en identificatienummer
 
 De manuele manier (het XML-bestand zelf uploaden via de BOW-website en het identificatienummer daarna registreren via de knop in het venster na het aanmaken van het XML-bestand) blijft mogelijk als alternatief, bijvoorbeeld wanneer er geen cloudverbinding beschikbaar is.

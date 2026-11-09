@@ -1,6 +1,6 @@
 ## Cookie Policy
 
-Effective Date: **01/08/2024**
+Effective Date: **09/11/2026**
 
 ## 1. Introduction
 
@@ -41,6 +41,8 @@ We use cookies to:
 We may also use third-party cookies from service providers such as Google Analytics and advertising partners. These cookies are used to collect information about your activities on our website and other sites to provide you with targeted advertising.
 
 ## 6. Managing Your Cookie Preferences
+
+Non-essential cookies (analytics, functional and advertising) are only placed after we have obtained your free, specific, informed and unambiguous consent. You may withdraw your consent at any time. Essential cookies are placed without consent.
 
 You can manage your cookie preferences through your web browser settings. Most browsers allow you to:
 

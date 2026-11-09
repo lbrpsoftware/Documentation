@@ -1,6 +1,6 @@
 # AI Usage Transparency Policy
 
-Effective Date: **01/08/2024**
+Effective Date: **09/11/2026**
 
 ## 1. Introduction  
 
@@ -20,6 +20,8 @@ When you interact with our helpdesk system, please note that:
 
 - You are interacting with an AI system.  Our AI-driven support agent will handle your queries automatically and provide answers based on the data fed into the system.
 - Human oversight is in place.  If the AI system cannot resolve your issue or if a query requires more complex handling, you will be forwarded to a human support representative for further assistance.
+
+In accordance with Regulation (EU) 2024/1689 (AI Act), we inform you that you are interacting with an artificial intelligence system. You may request human intervention at any time.
      
 
 ## 5. Data Usage and Privacy  
@@ -36,7 +38,7 @@ Your privacy is of utmost importance to us:
 While our AI system is designed to provide accurate information, please consider the following: 
 
 - **Verification**: The outputs provided by the AI are suggestions based on historical data and standard processing rules. Always review the information provided, and consult a human support agent if needed.
-- **Liability**: Please note that LBRP is not liable for any financial losses or other consequences arising from actions taken based on AI-provided information without verification.
+- **Liability**: LBRP is not liable for any financial losses or other consequences arising from actions taken based on AI-provided information without verification. This limitation shall not apply in cases of gross negligence, wilful misconduct, or where prohibited under Belgian law.
      
 
 ## 7. Your Rights and Choices  

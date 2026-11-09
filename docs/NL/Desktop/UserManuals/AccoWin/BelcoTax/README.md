@@ -200,4 +200,64 @@ De indiening bij de FOD gebeurt asynchroon. Op het tabblad Outbound volgt u de s
 
 Met de vinkjes bovenaan (Created, Accepted, Error) en de datumfilter kunt u bepalen welke statussen en periode worden getoond. Klik op Refresh om de actuele status op te halen.
 
+### 3.4 JSON-variant downloaden (Download JSON)
+
+Selecteer één of meer verzendingen in de lijst en klik op **Download JSON**. De LBRP Cloud haalt het bewaarde XML-bestand op, zet het om naar het nieuwe BOW-formaat (JSON Lines) en downloadt het resultaat naar de map waar ook de Belcotax-opgaven worden bewaard (in te stellen via menu **Parameters - Algemene opties**). Het bestand krijgt dezelfde naam als het XML-bestand, maar met de extensie `.jsonl`. Bestaat het bestand al, dan wordt er een volgnummer toegevoegd (`_1`, `_2`, ...), zodat niets wordt overschreven. De resultaten per bestand verschijnen in het statusvenster.
+
+Opmerking: dit is enkel een omzetting en download. Er wordt niets ingediend bij de FOD; gebruik hiervoor het tabblad Send.
+
+Opmerking: de manuele manier (het XML-bestand zelf uploaden via de BOW-website, zie hoger in dit hoofdstuk) blijft mogelijk als alternatief, bijvoorbeeld wanneer er geen cloudverbinding beschikbaar is.
+<!--BOW-TAIL-CLEANUP-->
+Opmerking: de manuele manier (het XML-bestand zelf uploaden via de BOW-website, zie hoger in dit hoofdstuk) blijft mogelijk als alternatief, bijvoorbeeld wanneer er geen cloudverbinding beschikbaar is.
+Opmerking: de manuele manier (het XML-bestand zelf uploaden via de BOW-website, zie hoger in dit hoofdstuk) blijft mogelijk als alternatief, bijvoorbeeld wanneer er geen cloudverbinding beschikbaar is.
+Opmerking: de manuele manier (het XML-bestand zelf uploaden via de BOW-website, zie hoger in dit hoofdstuk) blijft mogelijk als alternatief, bijvoorbeeld wanneer er geen cloudverbinding beschikbaar is.
+Opmerking: de manuele manier (het XML-bestand zelf uploaden via de BOW-website, zie hoger in dit hoofdstuk) blijft mogelijk als alternatief, bijvoorbeeld wanneer er geen cloudverbinding beschikbaar is.
+Opmerking: de manuele manier (het XML-bestand zelf uploaden via de BOW-website, zie hoger in dit hoofdstuk) blijft mogelijk als alternatief, bijvoorbeeld wanneer er geen cloudverbinding beschikbaar is.
+Opmerking: de manuele manier (het XML-bestand zelf uploaden via de BOW-website, zie hoger in dit hoofdstuk) blijft mogelijk als alternatief, bijvoorbeeld wanneer er geen cloudverbinding beschikbaar is.
+Opmerking: de manuele manier (het XML-bestand zelf uploaden via de BOW-website, zie hoger in dit hoofdstuk) blijft mogelijk als alternatief, bijvoorbeeld wanneer er geen cloudverbinding beschikbaar is.
+### 3.4 JSON-variant downloaden (Download JSON)
+
+Selecteer één of meer verzendingen in de lijst en klik op **Download JSON**. De LBRP Cloud haalt het bewaarde XML-bestand op, zet het om naar het nieuwe BOW-formaat (JSON Lines) en downloadt het resultaat naar de map waar ook de Belcotax-opgaven worden bewaard (in te stellen via menu **Parameters - Algemene opties**). Het bestand krijgt dezelfde naam als het XML-bestand, maar met de extensie `.jsonl`. Bestaat het bestand al, dan wordt er een volgnummer toegevoegd (`_1`, `_2`, ...), zodat niets wordt overschreven. De resultaten per bestand verschijnen in het statusvenster.
+
+Opmerking: dit is enkel een omzetting en download. Er wordt niets ingediend bij de FOD; gebruik hiervoor het tabblad Send.
+
+Opmerking: de manuele manier (het XML-bestand zelf uploaden via de BOW-website, zie hoger in dit hoofdstuk) blijft mogelijk als alternatief, bijvoorbeeld wanneer er geen cloudverbinding beschikbaar is.
+Selecteer één of meer verzendingen in de lijst en klik op **Download JSON**. De LBRP Cloud haalt het bewaarde XML-bestand op, zet het om naar het nieuwe BOW-formaat (JSON Lines) en downloadt het resultaat naar de map waar ook de Belcotax-opgaven worden bewaard (in te stellen via menu **Parameters - Algemene opties**). Het bestand krijgt dezelfde naam als het XML-bestand, maar met de extensie `.jsonl`. Bestaat het bestand al, dan wordt er een volgnummer toegevoegd (`_1`, `_2`, ...), zodat niets wordt overschreven. De resultaten per bestand verschijnen in het statusvenster.
+Opmerking: dit is enkel een omzetting en download. Er wordt niets ingediend bij de FOD; gebruik hiervoor het tabblad Send.
+
+Opmerking: de manuele manier (het XML-bestand zelf uploaden via de BOW-website, zie hoger in dit hoofdstuk) blijft mogelijk als alternatief, bijvoorbeeld wanneer er geen cloudverbinding beschikbaar is.
+Opmerking: dit is enkel een omzetting en download. Er wordt niets ingediend bij de FOD; gebruik hiervoor het tabblad Send.
+
+Opmerking: de manuele manier (het XML-bestand zelf uploaden via de BOW-website, zie hoger in dit hoofdstuk) blijft mogelijk als alternatief, bijvoorbeeld wanneer er geen cloudverbinding beschikbaar is.
+Opmerking: dit is enkel een omzetting en download. Er wordt niets ingediend bij de FOD; gebruik hiervoor het tabblad Send.
+
+Opmerking: de manuele manier (het XML-bestand zelf uploaden via de BOW-website, zie hoger in dit hoofdstuk) blijft mogelijk als alternatief, bijvoorbeeld wanneer er geen cloudverbinding beschikbaar is.
+Opmerking: dit is enkel een omzetting en download. Er wordt niets ingediend bij de FOD; gebruik hiervoor het tabblad Send.
+
+Opmerking: de manuele manier (het XML-bestand zelf uploaden via de BOW-website, zie hoger in dit hoofdstuk) blijft mogelijk als alternatief, bijvoorbeeld wanneer er geen cloudverbinding beschikbaar is.
+Opmerking: dit is enkel een omzetting en download. Er wordt niets ingediend bij de FOD; gebruik hiervoor het tabblad Send.
+
+Opmerking: de manuele manier (het XML-bestand zelf uploaden via de BOW-website, zie hoger in dit hoofdstuk) blijft mogelijk als alternatief, bijvoorbeeld wanneer er geen cloudverbinding beschikbaar is.
+
+Opmerking: dit is enkel een omzetting en download. Er wordt niets ingediend bij de FOD; gebruik hiervoor het tabblad Send.
+
+Opmerking: de manuele manier (het XML-bestand zelf uploaden via de BOW-website, zie hoger in dit hoofdstuk) blijft mogelijk als alternatief, bijvoorbeeld wanneer er geen cloudverbinding beschikbaar is.
+Opmerking: dit is enkel een omzetting en download. Er wordt niets ingediend bij de FOD; gebruik hiervoor het tabblad Send.
+
+Opmerking: de manuele manier (het XML-bestand zelf uploaden via de BOW-website, zie hoger in dit hoofdstuk) blijft mogelijk als alternatief, bijvoorbeeld wanneer er geen cloudverbinding beschikbaar is.
+Opmerking: dit is enkel een omzetting en download. Er wordt niets ingediend bij de FOD; gebruik hiervoor het tabblad Send.
+Opmerking: dit is enkel een omzetting en download. Er wordt niets ingediend bij de FOD; gebruik hiervoor het tabblad Send.
+
+Opmerking: de manuele manier (het XML-bestand zelf uploaden via de BOW-website, zie hoger in dit hoofdstuk) blijft mogelijk als alternatief, bijvoorbeeld wanneer er geen cloudverbinding beschikbaar is.
+Opmerking: dit is enkel een omzetting en download. Er wordt niets ingediend bij de FOD; gebruik hiervoor het tabblad Send.
+
+Opmerking: de manuele manier (het XML-bestand zelf uploaden via de BOW-website, zie hoger in dit hoofdstuk) blijft mogelijk als alternatief, bijvoorbeeld wanneer er geen cloudverbinding beschikbaar is.
+Opmerking: dit is enkel een omzetting en download. Er wordt niets ingediend bij de FOD; gebruik hiervoor het tabblad Send.
+
+Opmerking: de manuele manier (het XML-bestand zelf uploaden via de BOW-website, zie hoger in dit hoofdstuk) blijft mogelijk als alternatief, bijvoorbeeld wanneer er geen cloudverbinding beschikbaar is.
+Opmerking: dit is enkel een omzetting en download. Er wordt niets ingediend bij de FOD; gebruik hiervoor het tabblad Send.
+
+Opmerking: de manuele manier (het XML-bestand zelf uploaden via de BOW-website, zie hoger in dit hoofdstuk) blijft mogelijk als alternatief, bijvoorbeeld wanneer er geen cloudverbinding beschikbaar is.
+Opmerking: dit is enkel een omzetting en download. Er wordt niets ingediend bij de FOD; gebruik hiervoor het tabblad Send.
+
 Opmerking: de manuele manier (het XML-bestand zelf uploaden via de BOW-website, zie hoger in dit hoofdstuk) blijft mogelijk als alternatief, bijvoorbeeld wanneer er geen cloudverbinding beschikbaar is.

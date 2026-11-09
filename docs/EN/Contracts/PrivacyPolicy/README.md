@@ -1,18 +1,16 @@
 # Privacy Policy
 
-Effective Date: **01/08/2024**
+Effective Date: **09/11/2026**
 
 ## 1. Introduction
 
 We value your privacy and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website [https://lbrp.be](https://lbrp.be), use our services, or interact with us.
 
+LBRP bv, Molenstraat 7, 2200 Herentals, is the data controller.
+
 ## 2. Data We Collect
 
-- **Personal Identification Information**: Name, email address, phone number, etc.
-
-- **Usage Data**: Information on how you use our website and services.
-
-- **Technical Data**: IP address, browser type, and operating system.
+We process identification and contact data, billing data, accounting and tax-related data entered by the user, and technical data (IP addresses, logs).
 
 ## 3. How We Use Your Data
 
@@ -28,6 +26,8 @@ We value your privacy and are committed to protecting your personal data. This P
 
 - To detect, prevent, and address technical issues.
 
+Personal data is processed on the basis of the performance of the contract (Article 6(1)(b) GDPR), compliance with a legal obligation, or LBRP’s legitimate interests, as applicable.
+
 ## 4. Data Sharing and Disclosure
 
 - We do not sell, trade, or otherwise transfer your personal data to outside parties without your consent, except as required by law.
@@ -36,7 +36,11 @@ We value your privacy and are committed to protecting your personal data. This P
 
 We implement appropriate technical and organizational measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction.
 
-## 6. Your Data Protection Rights
+## 6. Data Retention
+
+Personal data is retained for the duration of the contract and thereafter for the legally required retention periods (notably 7 or 10 years for accounting and tax data), after which it is deleted or anonymised.
+
+## 7. Your Data Protection Rights
 
 - **Right to Access**: You can request copies of your personal data.
 
@@ -50,11 +54,13 @@ We implement appropriate technical and organizational measures to protect your p
 
 - **Right to Object**: You can object to processing your personal data under certain conditions.
 
-## 7. Changes to This Privacy Policy
+You have the right to lodge a complaint with the Belgian Data Protection Authority (www.autoriteprotectiondonnees.be). We will respond to requests within one month.
+
+## 8. Changes to This Privacy Policy
 
 We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.
 
-## 8. Contact Us
+## 9. Contact Us
 
 If you have any questions about this Privacy Policy, please contact us at:
 

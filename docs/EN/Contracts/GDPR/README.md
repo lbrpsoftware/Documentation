@@ -1,5 +1,7 @@
 # User Agreement for Storing and Processing Data
 
+Effective Date: **09/11/2026**
+
 ## 1. Introduction
 
 We value your privacy and are committed to protecting your personal data. This user agreement explains how we collect, use, and store data in compliance with the General Data Protection Regulation (GDPR).
@@ -32,7 +34,7 @@ We process your data to provide and improve our services, including:
 
 ## 5. Consent
 
-By using our system and accepting this agreement, you consent to us processing your data as described herein. You are responsible for obtaining consent from your customers for the data you input into the system.
+Personal data is processed on the basis of the performance of the contract (Article 6(1)(b) GDPR) or other applicable legal bases. The user, acting as data controller, guarantees that it has a valid legal basis for the data of its own customers that it inputs into the system.
 
 ## 6. Data Protection
 
@@ -46,7 +48,7 @@ We implement appropriate technical and organizational measures to protect the da
 
 ## 7. Data Retention
 
-We will retain your data for as long as necessary to fulfill the purposes for which it was collected or as required by law.
+We will retain your data for the duration of the contractual relationship and thereafter for the period required by applicable legal obligations (in particular accounting and tax retention periods). After this period, the data will be securely deleted or anonymised.
 
 ## 8. Your Rights
 
@@ -74,7 +76,11 @@ We require a [Data Processing Agreement (DPA)](../DPA/README.md) with our users,
 
 We may update this agreement from time to time. We will notify you of any changes by posting the new agreement on our website. You are advised to review this agreement periodically for any changes.
 
-## 11. Contact Us
+## 11. Governing Law
+
+This agreement shall be governed by the laws of Belgium.
+
+## 12. Contact Us
 
 If you have any questions about this agreement or our data protection practices, please contact us at:
 
@@ -84,7 +90,7 @@ Molenstraat 7<br/>
 Email: [info\@lbrp.be](mailto:info@lbrp.be?subject=GDPR)<br/>
 Phone Number: +32 14 14 10 64<br/>
 
-## 12. Consent Confirmation
+## 13. Consent Confirmation
 
 By clicking "I Agree," you confirm that you have read, understood, and agree to the terms of this user agreement.
 
