@@ -42,8 +42,16 @@ Structure is mirrored across languages where content exists (FR currently only h
 - Style (from `README.md` contribution guidelines): present tense, active voice, sentence case headers, numerals for numbers, minimal punctuation, always capitalize **LBRP, Accowin, Finasset and Belcofin**, bold for emphasis, italics in parentheses, no underlines, commented code examples.
 - Keep emoji usage in sidebar section names as they currently are (e.g. `🖥️`, `🦄`, `⚖️`, `🌐`) — follow the existing pattern.
 - `node_modules/` and VuePress build/cache output (`.vuepress/dist`, `.vuepress/cache`, `.vuepress/temp`) are generated — never edit or treat as source.
-- The README mentions `yarn run lint`; no lint script exists in `package.json` (npm is used). Verify formatting by eyeballing the rendered `npm run docs:dev` output instead.
+- The README mentions `yarn run lint`; no lint script exists in `package.json` (npm is used). Verify markup correctness statically (see Build Policy) — the developer checks the rendered result.
 - Related repos: see `ABF/AGENTS.md` (Delphi desktop apps) and `LBRP/AGENTS.md` (C# cloud backend) — API links in the navbar (Swagger, api-docs) point to those services.
+
+## Build Policy (HARD RULE - never violate)
+
+- **Never build or run the docs site**: do not run `npm install` / `npm ci`, `npm run docs:build`, `npm run docs:dev`, `npm run docs:clean-dev`, or `npx vuepress ...`. Building is **not needed** to validate changes — the developer builds the site themselves (locally or via the Docker setup in `docker/`), and `node_modules/` may not even be installed.
+- Validate markdown edits **statically** instead:
+  - In raw HTML blocks (`<table>`, `<tr>`, `<td>`, ...), every open tag needs its matching end tag — e.g. a `<sup>` closed as `<sup>` instead of `</sup>` fails the Vue compiler with `Element is missing end tag`.
+  - Escape literal angle brackets in content as `&lt;` / `&gt;` (e.g. `/host:&lt;host name&gt;`); a raw `<host name>` inside a cell is parsed as an HTML element and breaks the build.
+- Build errors reference generated temp files such as `docs/.vuepress/.temp/pages/.../index.html.vue` — never edit those; always fix the source `.md` file (the temp path mirrors the route path under `docs/`).
 
 ## Git Policy (HARD RULE - never violate)
 

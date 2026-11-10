@@ -560,6 +560,10 @@ export default defineUserConfig({
                         link: '/NL/Desktop/UserManuals/AccoWin/Intervat/',
                       },
                       {
+                        text: 'FOD',
+                        link: '/NL/Desktop/UserManuals/AccoWin/Fod/',
+                      },
+                      {
                         text: 'Belco Tax',
                         link: '/NL/Desktop/UserManuals/AccoWin/BelcoTax/',
                       },
@@ -578,6 +582,41 @@ export default defineUserConfig({
                       {
                         text: 'UBL',
                         link: '/NL/Desktop/UserManuals/AccoWin/UBL/',
+                        collapsed: true,
+                        children: [
+                          {
+                            text: 'UBL bestanden importeren',
+                            link: '/NL/Desktop/UserManuals/AccoWin/UBL/Book/',
+                          },
+                          {
+                            text: 'Import uit Cloud Platform',
+                            link: '/NL/Desktop/UserManuals/AccoWin/UBL/CloudImport/',
+                          },
+                          {
+                            text: 'Cloud Import Overzicht',
+                            link: '/NL/Desktop/UserManuals/AccoWin/UBL/CloudImportOverview/',
+                          },
+                          {
+                            text: 'Conversie (PDF naar UBL) met AI',
+                            link: '/NL/Desktop/UserManuals/AccoWin/UBL/Conversion/',
+                          },
+                          {
+                            text: 'UBL File Explorer',
+                            link: '/NL/Desktop/UserManuals/AccoWin/UBL/Explorer/',
+                          },
+                          {
+                            text: 'Inlezen UBL bestanden',
+                            link: '/NL/Desktop/UserManuals/AccoWin/UBL/Import/',
+                          },
+                          {
+                            text: 'Versturen naar Peppol',
+                            link: '/NL/Desktop/UserManuals/AccoWin/UBL/SendToPeppol/',
+                          },
+                          {
+                            text: 'Instellingen',
+                            link: '/NL/Desktop/UserManuals/AccoWin/UBL/Settings/',
+                          },
+                        ],
                       },
                     ]
                   },
@@ -614,6 +653,14 @@ export default defineUserConfig({
                         text: 'SodaBox',
                         link: '/NL/Desktop/UserManuals/BelcoFin/SodaBox/',
                       },
+                      {
+                        text: 'Fod',
+                        link: '/NL/Desktop/UserManuals/BelcoFin/Fod/',
+                      },
+                      {
+                        text: 'Cloud',
+                        link: '/NL/Desktop/UserManuals/BelcoFin/Cloud/',
+                      },
                     ]
                   },
                   {
@@ -640,6 +687,10 @@ export default defineUserConfig({
                       {
                         text: 'Import Data',
                         link: '/NL/Desktop/UserManuals/Finasset/ImportData/',
+                      },
+                      {
+                        text: 'FOD',
+                        link: '/NL/Desktop/UserManuals/Finasset/Fod/',
                       },
                       {
                         text: 'Migreren',
@@ -807,6 +858,97 @@ export default defineUserConfig({
                       {
                         text: 'Providers',
                         link: '/NL/Cloud/UserManuals/Provider/',
+                        collapsed: true,
+                        children: [
+                          {
+                            text: 'Billit',
+                            link: '/NL/Cloud/UserManuals/Provider/Billit/',
+                          },
+                          {
+                            text: 'Bill-to-Box',
+                            link: '/NL/Cloud/UserManuals/Provider/BillToBox/',
+                          },
+                          {
+                            text: 'Blox',
+                            link: '/NL/Cloud/UserManuals/Provider/Blox/',
+                          },
+                          {
+                            text: 'Breex',
+                            link: '/NL/Cloud/UserManuals/Provider/Breex/',
+                          },
+                          {
+                            text: 'ClearFact',
+                            link: '/NL/Cloud/UserManuals/Provider/ClearFact/',
+                          },
+                          {
+                            text: 'CodaBox',
+                            link: '/NL/Cloud/UserManuals/Provider/CodaBox/',
+                          },
+                          {
+                            text: 'CodaClean',
+                            link: '/NL/Cloud/UserManuals/Provider/CodaClean/',
+                          },
+                          {
+                            text: 'CoManage',
+                            link: '/NL/Cloud/UserManuals/Provider/CoManage/',
+                          },
+                          {
+                            text: 'Dexxter',
+                            link: '/NL/Cloud/UserManuals/Provider/Dexxter/',
+                          },
+                          {
+                            text: 'Doccle',
+                            link: '/NL/Cloud/UserManuals/Provider/Doccle/',
+                          },
+                          {
+                            text: 'Eenvoudig Factureren',
+                            link: '/NL/Cloud/UserManuals/Provider/EenvoudigFactureren/',
+                          },
+                          {
+                            text: 'MyFact',
+                            link: '/NL/Cloud/UserManuals/Provider/MyFact/',
+                          },
+                          {
+                            text: 'Odoo',
+                            link: '/NL/Cloud/UserManuals/Provider/Odoo/',
+                          },
+                          {
+                            text: 'OkiOki',
+                            link: '/NL/Cloud/UserManuals/Provider/OkiOki/',
+                          },
+                          {
+                            text: 'Onfact',
+                            link: '/NL/Cloud/UserManuals/Provider/Onfact/',
+                          },
+                          {
+                            text: 'Optedo',
+                            link: '/NL/Cloud/UserManuals/Provider/Optedo/',
+                          },
+                          {
+                            text: 'Qweon',
+                            link: '/NL/Cloud/UserManuals/Provider/Qweon/',
+                          },
+                          {
+                            text: 'Salieri',
+                            link: '/NL/Cloud/UserManuals/Provider/Salieri/',
+                          },
+                          {
+                            text: 'Scrada',
+                            link: '/NL/Cloud/UserManuals/Provider/Scrada/',
+                          },
+                          {
+                            text: 'TeamLeader',
+                            link: '/NL/Cloud/UserManuals/Provider/TeamLeader/',
+                          },
+                          {
+                            text: 'Yuki',
+                            link: '/NL/Cloud/UserManuals/Provider/Yuki/',
+                          },
+                          {
+                            text: 'ZenFactuur',
+                            link: '/NL/Cloud/UserManuals/Provider/ZenFactuur/',
+                          },
+                        ],
                       },
                     ]
                   },
@@ -840,6 +982,21 @@ export default defineUserConfig({
                   {
                     text: 'Code',
                     link: '/NL/Cloud/DevManuals/Code/',
+                    collapsed: true,
+                    children: [
+                      {
+                        text: 'Delphi',
+                        link: '/NL/Cloud/DevManuals/Code/Delphi/',
+                      },
+                      {
+                        text: 'Curl',
+                        link: '/NL/Cloud/DevManuals/Code/Curl/',
+                      },
+                      {
+                        text: 'C#',
+                        link: '/NL/Cloud/DevManuals/Code/CSharp/',
+                      },
+                    ],
                   },
                 ]
               },
@@ -850,6 +1007,30 @@ export default defineUserConfig({
             link: '/NL/Contracts/',
             collapsed: true,
             children: [
+              {
+                text: 'AI Transparency Policy',
+                link: '/NL/Contracts/AITransparancyPolicy/',
+              },
+              {
+                text: 'Cookie Policy',
+                link: '/NL/Contracts/CookiePolicy/',
+              },
+              {
+                text: 'Data Processing Agreement',
+                link: '/NL/Contracts/DPA/',
+              },
+              {
+                text: 'GDPR',
+                link: '/NL/Contracts/GDPR/',
+              },
+              {
+                text: 'Privacy Policy',
+                link: '/NL/Contracts/PrivacyPolicy/',
+              },
+              {
+                text: 'Terms of Service',
+                link: '/NL/Contracts/TermsOfService/',
+              },
             ]
           },
         ]

@@ -55,22 +55,22 @@ Via the program AccowinCmd.exe, which you can find in the Accowin Client directo
   </thead>
   <tbody>
     <tr>
-      <td>/host:<host name></td>
+      <td>/host:&lt;host name&gt;</td>
       <td>The name of the Accowin server</td>
       <td>①</td>
     </tr>
     <tr>
-      <td>/ipaddress:<ip address></td>
+      <td>/ipaddress:&lt;ip address&gt;</td>
       <td>IP address of the Accowin server.</td>
       <td>①</td>
     </tr>
     <tr>
-      <td>/port:<port number></td>
+      <td>/port:&lt;port number&gt;</td>
       <td>Port of the server. If not provided, the default port <br/> number is used</td>
       <td></td>
     </tr>
     <tr>
-      <td>/LocalPath:<path></td>
+      <td>/LocalPath:&lt;path&gt;</td>
       <td>The path where the Accowin configuration file is located if no <br/> server is installed. <br/> <strong><u>Example</u></strong>:
         <ul>
           <li>C:\LBRP\Clients\Accowin</li>
@@ -80,12 +80,12 @@ Via the program AccowinCmd.exe, which you can find in the Accowin Client directo
       <td>②</td>
     </tr>
     <tr>
-      <td>/db:<database name></td>
+      <td>/db:&lt;database name&gt;</td>
       <td>Name of the database. If not provided, the default <br/> Accowin database is used.</td>
       <td></td>
     </tr>
     <tr>
-      <td>/language:<language></td>
+      <td>/language:&lt;language&gt;</td>
       <td>The language of the error messages:
         <ul>
           <li>N: Dutch</li>
@@ -95,7 +95,7 @@ Via the program AccowinCmd.exe, which you can find in the Accowin Client directo
       <td></td>
     </tr>
     <tr>
-      <td>/BackupPath:<path></td>
+      <td>/BackupPath:&lt;path&gt;</td>
       <td>The path where the backup is saved</td>
       <td>X</td>
     </tr>
@@ -105,12 +105,12 @@ Via the program AccowinCmd.exe, which you can find in the Accowin Client directo
       <td>③</td>
     </tr>
     <tr>
-      <td>/BackupDossier:<Dossier code></td>
+      <td>/BackupDossier:&lt;Dossier code&gt;</td>
       <td>If this parameter is used, a backup is made <br/> of the dossier with the specified dossier code; this parameter can <br/> be used multiple times to make a backup of multiple <br/> dossiers</td>
       <td>③</td>
     </tr>
     <tr>
-      <td>/logfile: <file name></td>
+      <td>/logfile: &lt;file name&gt;</td>
       <td>The location and name of the file containing the logging information of the <br/> backup. If this parameter is not used, no <br/> log file is created.</td>
       <td></td>
     </tr>

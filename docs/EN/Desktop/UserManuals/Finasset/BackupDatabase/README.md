@@ -49,27 +49,27 @@ Possible command line parameters are:
   </thead>
   <tbody>
     <tr>
-      <td>/host:<host name></td>
+      <td>/host:&lt;host name&gt;</td>
       <td>The name of the Finasset server</td>
       <td>✅1️⃣</td>
     </tr>
     <tr>
-      <td>/ipaddress:<ip address></td>
+      <td>/ipaddress:&lt;ip address&gt;</td>
       <td>IP address of the Finasset server.</td>
       <td>✅1️⃣</td>
     </tr>
     <tr>
-      <td>/port:<port number></td>
+      <td>/port:&lt;port number&gt;</td>
       <td>Port of the server. If not provided, the default<br/> port number is used.</td>
       <td></td>
     </tr>
     <tr>
-      <td>/db:<database name></td>
+      <td>/db:&lt;database name&gt;</td>
       <td>Name of the database. If not provided, the<br/> default Finasset database is used.</td>
       <td></td>
     </tr>
     <tr>
-      <td>/language:<language></td>
+      <td>/language:&lt;language&gt;</td>
       <td>The language of the error messages:
         <ul>
           <li>N: Dutch</li>
@@ -79,7 +79,7 @@ Possible command line parameters are:
       <td></td>
     </tr>
     <tr>
-      <td>/BackupPath:<path></td>
+      <td>/BackupPath:&lt;path&gt;</td>
       <td>The path where the backup is saved</td>
       <td>✅</td>
     </tr>
@@ -89,7 +89,7 @@ Possible command line parameters are:
       <td></td>
     </tr>
     <tr>
-      <td>/logfile: <file name></td>
+      <td>/logfile: &lt;file name&gt;</td>
       <td>The location and name of the file containing the logging<br/> information of the backup. If this parameter<br/> is not used, no log file is<br/> created.</td>
       <td></td>
     </tr>

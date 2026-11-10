@@ -854,7 +854,7 @@ Hieronder staat per type import beschreven welke velden er kunnen geïmporteerd 
     </tr>
     <tr>
       <td>NumberOfChildren</td>
-      <td>Aantal kinderen (zowel met als <br/> zonder handicap) <sup>(zie</sup> <br/> <sup>NumberOfOtherHandicap voor extra info)<sup></td>
+      <td>Aantal kinderen (zowel met als <br/> zonder handicap) <sup>(zie</sup> <br/> <sup>NumberOfOtherHandicap voor extra info)</sup></td>
       <td>Nummer</td>
       <td></td>
       <td>0</td>
