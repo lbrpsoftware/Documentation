@@ -20,7 +20,7 @@ De grafische import kan worden uitgevoerd via het menu: Menu ▶️ Parameters �
 
    - **CSV-bestand**: Hiermee kunt u een CSV-bestand selecteren en importeren in Finasset.
 
-   - **Popsy**: TODO
+   - **Popsy**: importeert de vaste activa uit een **Popsy-database**. Kies op de tab **Popsy** het Popsy-dossier waaruit u wilt importeren; **Finasset** leest de boekjaren, algemene rekeningen, investeringen en afschrijvingen van dat dossier en voegt ze toe aan of werkt ze bij in het actieve dossier (volgens het type overschrijven).
 
    - Andere importtypes worden momenteel niet ondersteund.
 

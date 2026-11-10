@@ -36,3 +36,29 @@ Select the declarants (dossiers), period(s) and the accounting program for the e
 If you turn on the checkbox “Include already exported bookings”, wage bookings that were already exported are included again in the export; this can be useful if a previous export was not read into the accounting program or if you still want to include the full month in one booking.
 
 You can also turn on the checkbox “Only wages for which the WHT has already been declared”, so that only wage bookings for which the return 274 was made are booked.
+## Export via Codabox (menu : Soda – Export wage bookings via Codabox)
+
+This export prepares the file for sending to the bookkeeper of the dossier **via Codabox**, the accountants' platform. Select the declarants and the periods; the export uses the same folder settings and ledger accounts as above. The bookkeeper reads the file into his accounting program.
+
+## Export wage bookings to Accowin (menu : Soda – Export wage bookings to Accowin)
+
+Creates import files that **Accowin** (the **LBRP** accounting program) can read in directly. Choose the declarants and periods; in Accowin you read the file in via the import function of the journal involved (see the Accowin manual on journals). The bookings appear in the journal you set per dossier.
+
+## Export wage bookings social secretariat format (menu : Soda – Export wage bookings social secretariat format)
+
+Creates the file in the format a **social secretariat** expects, for dossiers where the payroll processing happens externally. Select the declarants and periods and deliver the file to the secretariat involved.
+
+## Maintaining the SODA connection (menu : Soda)
+
+- **Logingegevens verzenden Soda** (Send Soda login data): sends the logon data of the dossier to SODA for the digital declarations.
+- **Mandaten vernieuwen** (Renew mandates): renews the mandates with which you may file for the declarants.
+
+These functions support the SODA declarations; setting up SodaBox itself is described in [SodaBox](../SodaBox/README.md).
+
+## Order of working
+
+1. Set the **general options** (folder, accounts) and check the **SODA ledger accounts**.
+2. Set the **journal and the periods** per dossier.
+3. Export with the wanted menu item (various journals, Accowin, Codabox or social secretariat).
+4. After reading the file into the accounting program, check that all periods came across.
+

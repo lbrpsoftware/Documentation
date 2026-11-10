@@ -110,6 +110,99 @@ export default defineUserConfig({
                         link: '/EN/Desktop/UserManuals/AccoWin/Installation/',
                       },
                       {
+                        text: 'Accounting',
+                        link: '/EN/Desktop/UserManuals/AccoWin/Accounting/',
+                        collapsed: true,
+                        children: [
+                          {
+                            text: 'Master files',
+                            link: '/EN/Desktop/UserManuals/AccoWin/Accounting/MasterFiles/',
+                          },
+                          {
+                            text: 'Journals',
+                            link: '/EN/Desktop/UserManuals/AccoWin/Accounting/Journals/',
+                          },
+                        ],
+                      },
+                      {
+                        text: 'Invoicing',
+                        link: '/EN/Desktop/UserManuals/AccoWin/Invoicing/',
+                        collapsed: true,
+                        children: [
+                          {
+                            text: 'Articles',
+                            link: '/EN/Desktop/UserManuals/AccoWin/Invoicing/Articles/',
+                          },
+                          {
+                            text: 'Sales documents',
+                            link: '/EN/Desktop/UserManuals/AccoWin/Invoicing/SalesDocuments/',
+                          },
+                          {
+                            text: 'Subscriptions',
+                            link: '/EN/Desktop/UserManuals/AccoWin/Invoicing/Subscriptions/',
+                          },
+                        ],
+                      },
+                      {
+                        text: 'Year end',
+                        link: '/EN/Desktop/UserManuals/AccoWin/YearEnd/',
+                      },
+                      {
+                        text: 'Reports',
+                        link: '/EN/Desktop/UserManuals/AccoWin/Reports/',
+                        collapsed: true,
+                        children: [
+                          {
+                            text: 'Lists',
+                            link: '/EN/Desktop/UserManuals/AccoWin/Reports/Lists/',
+                          },
+                          {
+                            text: 'Balance sheets and overviews',
+                            link: '/EN/Desktop/UserManuals/AccoWin/Reports/Balance/',
+                          },
+                        ],
+                      },
+                      {
+                        text: 'VAT',
+                        link: '/EN/Desktop/UserManuals/AccoWin/Vat/',
+                      },
+                      {
+                        text: 'Matching',
+                        link: '/EN/Desktop/UserManuals/AccoWin/Payments/',
+                      },
+                      {
+                        text: 'Assets',
+                        link: '/EN/Desktop/UserManuals/AccoWin/Assets/',
+                      },
+                      {
+                        text: 'Flat rates (Forfaits)',
+                        link: '/EN/Desktop/UserManuals/AccoWin/Forfaits/',
+                      },
+                      {
+                        text: 'E-mail',
+                        link: '/EN/Desktop/UserManuals/AccoWin/Email/',
+                      },
+                      {
+                        text: 'Users and rights',
+                        link: '/EN/Desktop/UserManuals/AccoWin/Users/',
+                      },
+                      {
+                        text: 'SODA',
+                        link: '/EN/Desktop/UserManuals/AccoWin/Soda/',
+                      },
+                      {
+                        text: 'Import (classic)',
+                        link: '/EN/Desktop/UserManuals/AccoWin/Import/',
+                      },
+                      {
+                        text: 'Parameters',
+                        link: '/EN/Desktop/UserManuals/AccoWin/Settings/',
+                      },
+                      {
+                        text: 'Cloud connection',
+                        link: '/EN/Desktop/UserManuals/AccoWin/Cloud/',
+                      },
+                      {
                         text: 'Backup Database',
                         link: '/EN/Desktop/UserManuals/AccoWin/BackupDatabase/',
                       },
@@ -160,6 +253,46 @@ export default defineUserConfig({
                         text: 'Cloud',
                         link: '/EN/Desktop/UserManuals/BelcoFin/Cloud/',
                       },
+                      {
+                        text: 'Benefits in kind (VAA)',
+                        link: '/EN/Desktop/UserManuals/BelcoFin/Vaa/',
+                      },
+                      {
+                        text: 'Meal vouchers (Pluxee)',
+                        link: '/EN/Desktop/UserManuals/BelcoFin/MealVouchers/',
+                      },
+                      {
+                        text: 'Share options',
+                        link: '/EN/Desktop/UserManuals/BelcoFin/ShareOptions/',
+                      },
+                      {
+                        text: 'Rental requalification',
+                        link: '/EN/Desktop/UserManuals/BelcoFin/Requalification/',
+                      },
+                      {
+                        text: 'Vehicle and housing',
+                        link: '/EN/Desktop/UserManuals/BelcoFin/VehicleHousing/',
+                      },
+                      {
+                        text: 'Corporate withholding tax',
+                        link: '/EN/Desktop/UserManuals/BelcoFin/CorporateWithholding/',
+                      },
+                      {
+                        text: 'Finprof',
+                        link: '/EN/Desktop/UserManuals/BelcoFin/Finprof/',
+                      },
+                      {
+                        text: 'Wage records and simulation',
+                        link: '/EN/Desktop/UserManuals/BelcoFin/Wages/',
+                      },
+                      {
+                        text: 'Merging databases',
+                        link: '/EN/Desktop/UserManuals/BelcoFin/MergeDatabases/',
+                      },
+                      {
+                        text: 'Settings and master files',
+                        link: '/EN/Desktop/UserManuals/BelcoFin/Settings/',
+                      },
                     ]
                   },
                   {
@@ -167,6 +300,38 @@ export default defineUserConfig({
                     link: '/EN/Desktop/UserManuals/Finasset/',
                     collapsed: true,
                     children: [
+                      {
+                        text: 'Dossiers and financial years',
+                        link: '/EN/Desktop/UserManuals/Finasset/Dossiers/',
+                      },
+                      {
+                        text: 'General accounts',
+                        link: '/EN/Desktop/UserManuals/Finasset/GeneralAccounts/',
+                      },
+                      {
+                        text: 'Investments',
+                        link: '/EN/Desktop/UserManuals/Finasset/Investments/',
+                      },
+                      {
+                        text: 'Depreciations',
+                        link: '/EN/Desktop/UserManuals/Finasset/Depreciation/',
+                      },
+                      {
+                        text: 'Disposals and transfers',
+                        link: '/EN/Desktop/UserManuals/Finasset/Disposals/',
+                      },
+                      {
+                        text: 'Reports',
+                        link: '/EN/Desktop/UserManuals/Finasset/Reports/',
+                      },
+                      {
+                        text: 'Users and rights',
+                        link: '/EN/Desktop/UserManuals/Finasset/Users/',
+                      },
+                      {
+                        text: 'Cloud connection',
+                        link: '/EN/Desktop/UserManuals/Finasset/Cloud/',
+                      },
                       {
                         text: 'Installation',
                         link: '/EN/Desktop/UserManuals/Finasset/Installation/',
@@ -552,6 +717,99 @@ export default defineUserConfig({
                         link: '/NL/Desktop/UserManuals/AccoWin/Installation/',
                       },
                       {
+                        text: 'Boekhouding',
+                        link: '/NL/Desktop/UserManuals/AccoWin/Accounting/',
+                        collapsed: true,
+                        children: [
+                          {
+                            text: 'Basisbestanden',
+                            link: '/NL/Desktop/UserManuals/AccoWin/Accounting/MasterFiles/',
+                          },
+                          {
+                            text: 'Dagboeken',
+                            link: '/NL/Desktop/UserManuals/AccoWin/Accounting/Journals/',
+                          },
+                        ],
+                      },
+                      {
+                        text: 'Facturatie',
+                        link: '/NL/Desktop/UserManuals/AccoWin/Invoicing/',
+                        collapsed: true,
+                        children: [
+                          {
+                            text: 'Artikels',
+                            link: '/NL/Desktop/UserManuals/AccoWin/Invoicing/Articles/',
+                          },
+                          {
+                            text: 'Verkoopdocumenten',
+                            link: '/NL/Desktop/UserManuals/AccoWin/Invoicing/SalesDocuments/',
+                          },
+                          {
+                            text: 'Abonnementen',
+                            link: '/NL/Desktop/UserManuals/AccoWin/Invoicing/Subscriptions/',
+                          },
+                        ],
+                      },
+                      {
+                        text: 'Boekjaarafsluiting',
+                        link: '/NL/Desktop/UserManuals/AccoWin/YearEnd/',
+                      },
+                      {
+                        text: 'Rapporten',
+                        link: '/NL/Desktop/UserManuals/AccoWin/Reports/',
+                        collapsed: true,
+                        children: [
+                          {
+                            text: 'Lijsten',
+                            link: '/NL/Desktop/UserManuals/AccoWin/Reports/Lists/',
+                          },
+                          {
+                            text: 'Balansen en overzichten',
+                            link: '/NL/Desktop/UserManuals/AccoWin/Reports/Balance/',
+                          },
+                        ],
+                      },
+                      {
+                        text: 'BT&W',
+                        link: '/NL/Desktop/UserManuals/AccoWin/Vat/',
+                      },
+                      {
+                        text: 'Afpunten',
+                        link: '/NL/Desktop/UserManuals/AccoWin/Payments/',
+                      },
+                      {
+                        text: 'Activa',
+                        link: '/NL/Desktop/UserManuals/AccoWin/Assets/',
+                      },
+                      {
+                        text: 'Forfaits',
+                        link: '/NL/Desktop/UserManuals/AccoWin/Forfaits/',
+                      },
+                      {
+                        text: 'E-mail',
+                        link: '/NL/Desktop/UserManuals/AccoWin/Email/',
+                      },
+                      {
+                        text: 'Gebruikers en rechten',
+                        link: '/NL/Desktop/UserManuals/AccoWin/Users/',
+                      },
+                      {
+                        text: 'SODA',
+                        link: '/NL/Desktop/UserManuals/AccoWin/Soda/',
+                      },
+                      {
+                        text: 'Import (klassiek)',
+                        link: '/NL/Desktop/UserManuals/AccoWin/Import/',
+                      },
+                      {
+                        text: 'Parameters',
+                        link: '/NL/Desktop/UserManuals/AccoWin/Settings/',
+                      },
+                      {
+                        text: 'Cloud Connectie',
+                        link: '/NL/Desktop/UserManuals/AccoWin/Cloud/',
+                      },
+                      {
                         text: 'Backup Database',
                         link: '/NL/Desktop/UserManuals/AccoWin/BackupDatabase/',
                       },
@@ -661,6 +919,46 @@ export default defineUserConfig({
                         text: 'Cloud',
                         link: '/NL/Desktop/UserManuals/BelcoFin/Cloud/',
                       },
+                      {
+                        text: 'Voordelen alle aard (VAA)',
+                        link: '/NL/Desktop/UserManuals/BelcoFin/Vaa/',
+                      },
+                      {
+                        text: 'Maaltijdcheques (Pluxee)',
+                        link: '/NL/Desktop/UserManuals/BelcoFin/MealVouchers/',
+                      },
+                      {
+                        text: 'Aandelenopties',
+                        link: '/NL/Desktop/UserManuals/BelcoFin/ShareOptions/',
+                      },
+                      {
+                        text: 'Huurherkwalificatie',
+                        link: '/NL/Desktop/UserManuals/BelcoFin/Requalification/',
+                      },
+                      {
+                        text: 'Voertuig en bewoning',
+                        link: '/NL/Desktop/UserManuals/BelcoFin/VehicleHousing/',
+                      },
+                      {
+                        text: 'Bedrijfsvoorheffing vennootschappen',
+                        link: '/NL/Desktop/UserManuals/BelcoFin/CorporateWithholding/',
+                      },
+                      {
+                        text: 'Finprof',
+                        link: '/NL/Desktop/UserManuals/BelcoFin/Finprof/',
+                      },
+                      {
+                        text: 'Weddefiches en simulatie',
+                        link: '/NL/Desktop/UserManuals/BelcoFin/Wages/',
+                      },
+                      {
+                        text: 'Databases samenvoegen',
+                        link: '/NL/Desktop/UserManuals/BelcoFin/MergeDatabases/',
+                      },
+                      {
+                        text: 'Parameters en basisbestanden',
+                        link: '/NL/Desktop/UserManuals/BelcoFin/Settings/',
+                      },
                     ]
                   },
                   {
@@ -668,6 +966,38 @@ export default defineUserConfig({
                     link: '/NL/Desktop/UserManuals/Finasset/',
                     collapsed: true,
                     children: [
+                      {
+                        text: 'Dossiers en boekjaren',
+                        link: '/NL/Desktop/UserManuals/Finasset/Dossiers/',
+                      },
+                      {
+                        text: 'Algemene rekeningen',
+                        link: '/NL/Desktop/UserManuals/Finasset/GeneralAccounts/',
+                      },
+                      {
+                        text: 'Investeringen',
+                        link: '/NL/Desktop/UserManuals/Finasset/Investments/',
+                      },
+                      {
+                        text: 'Afschrijvingen',
+                        link: '/NL/Desktop/UserManuals/Finasset/Depreciation/',
+                      },
+                      {
+                        text: 'Uitboekingen en overboekingen',
+                        link: '/NL/Desktop/UserManuals/Finasset/Disposals/',
+                      },
+                      {
+                        text: 'Rapporten',
+                        link: '/NL/Desktop/UserManuals/Finasset/Reports/',
+                      },
+                      {
+                        text: 'Gebruikers en rechten',
+                        link: '/NL/Desktop/UserManuals/Finasset/Users/',
+                      },
+                      {
+                        text: 'Cloud Connectie',
+                        link: '/NL/Desktop/UserManuals/Finasset/Cloud/',
+                      },
                       {
                         text: 'Installatie',
                         link: '/NL/Desktop/UserManuals/Finasset/Installation/',
