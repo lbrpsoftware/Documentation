@@ -15,5 +15,9 @@
     "@vuepress/theme-default": "^2.0.0-rc.39",
     "vue": "^3.4.0",
     "vuepress": "^2.0.0-rc.14"
+  },
+  "allowScripts": {
+    "esbuild": false,
+    "vue-demi": false
   }
 }
